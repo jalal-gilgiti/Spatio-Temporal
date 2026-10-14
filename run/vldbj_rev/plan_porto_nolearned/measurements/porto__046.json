@@ -1,0 +1,2445 @@
+{
+  "dataset": "porto",
+  "query_id": "porto:plan-sensitive:046",
+  "predicate": {
+    "min_lon": -8.727624,
+    "max_lon": -8.400132,
+    "min_lat": 40.900041,
+    "max_lat": 41.299983,
+    "start_time": "2013-08-11T15:37:48.199063",
+    "end_time": "2013-10-09T12:12:30.911625",
+    "k": null,
+    "knn_center": null
+  },
+  "profile": "broad",
+  "boundary_position": "above",
+  "boundary": {
+    "low_estimate_join": "Nested Loop",
+    "high_estimate_join": "Hash Join",
+    "transition_lower": 3000,
+    "transition_upper": 10000,
+    "boundary_geomean": 5477.2255750516615,
+    "probes": [
+      {
+        "estimate": 1,
+        "fingerprint": "1d8eede35463ccb45a6336968f756942d8e9b04de51189832617394813e7e270",
+        "source_scan": "Seq Scan",
+        "source_index": null,
+        "source_planned_rows": 14928,
+        "metadata_join": "Nested Loop",
+        "join_outer": "source",
+        "plan_family": "Seq Scan + Nested Loop (source outer)",
+        "total_cost": 17431.29
+      },
+      {
+        "estimate": 3,
+        "fingerprint": "1d8eede35463ccb45a6336968f756942d8e9b04de51189832617394813e7e270",
+        "source_scan": "Seq Scan",
+        "source_index": null,
+        "source_planned_rows": 14928,
+        "metadata_join": "Nested Loop",
+        "join_outer": "source",
+        "plan_family": "Seq Scan + Nested Loop (source outer)",
+        "total_cost": 17432.3
+      },
+      {
+        "estimate": 10,
+        "fingerprint": "1d8eede35463ccb45a6336968f756942d8e9b04de51189832617394813e7e270",
+        "source_scan": "Seq Scan",
+        "source_index": null,
+        "source_planned_rows": 14928,
+        "metadata_join": "Nested Loop",
+        "join_outer": "source",
+        "plan_family": "Seq Scan + Nested Loop (source outer)",
+        "total_cost": 17435.83
+      },
+      {
+        "estimate": 30,
+        "fingerprint": "1d8eede35463ccb45a6336968f756942d8e9b04de51189832617394813e7e270",
+        "source_scan": "Seq Scan",
+        "source_index": null,
+        "source_planned_rows": 14928,
+        "metadata_join": "Nested Loop",
+        "join_outer": "source",
+        "plan_family": "Seq Scan + Nested Loop (source outer)",
+        "total_cost": 17445.91
+      },
+      {
+        "estimate": 100,
+        "fingerprint": "1d8eede35463ccb45a6336968f756942d8e9b04de51189832617394813e7e270",
+        "source_scan": "Seq Scan",
+        "source_index": null,
+        "source_planned_rows": 14928,
+        "metadata_join": "Nested Loop",
+        "join_outer": "source",
+        "plan_family": "Seq Scan + Nested Loop (source outer)",
+        "total_cost": 17481.19
+      },
+      {
+        "estimate": 300,
+        "fingerprint": "1d8eede35463ccb45a6336968f756942d8e9b04de51189832617394813e7e270",
+        "source_scan": "Seq Scan",
+        "source_index": null,
+        "source_planned_rows": 14928,
+        "metadata_join": "Nested Loop",
+        "join_outer": "source",
+        "plan_family": "Seq Scan + Nested Loop (source outer)",
+        "total_cost": 17581.99
+      },
+      {
+        "estimate": 1000,
+        "fingerprint": "1d8eede35463ccb45a6336968f756942d8e9b04de51189832617394813e7e270",
+        "source_scan": "Seq Scan",
+        "source_index": null,
+        "source_planned_rows": 14928,
+        "metadata_join": "Nested Loop",
+        "join_outer": "source",
+        "plan_family": "Seq Scan + Nested Loop (source outer)",
+        "total_cost": 17934.79
+      },
+      {
+        "estimate": 3000,
+        "fingerprint": "1d8eede35463ccb45a6336968f756942d8e9b04de51189832617394813e7e270",
+        "source_scan": "Seq Scan",
+        "source_index": null,
+        "source_planned_rows": 14928,
+        "metadata_join": "Nested Loop",
+        "join_outer": "source",
+        "plan_family": "Seq Scan + Nested Loop (source outer)",
+        "total_cost": 18942.78
+      },
+      {
+        "estimate": 10000,
+        "fingerprint": "98f90e0f0a3427eda16d192b8cff59c7e327a544a517cd019efee3a7dbfb0ffb",
+        "source_scan": "Seq Scan",
+        "source_index": null,
+        "source_planned_rows": 14928,
+        "metadata_join": "Hash Join",
+        "join_outer": "metadata",
+        "plan_family": "Seq Scan + Hash Join (metadata outer)",
+        "total_cost": 19455.32
+      },
+      {
+        "estimate": 30000,
+        "fingerprint": "ebcc639a227314d2666a60f579f2baa12b8bb521ab9172087ebd27b43e0f414c",
+        "source_scan": "Seq Scan",
+        "source_index": null,
+        "source_planned_rows": 14928,
+        "metadata_join": "Hash Join",
+        "join_outer": "metadata",
+        "plan_family": "Seq Scan + Hash Join (metadata outer)",
+        "total_cost": 19556.4
+      },
+      {
+        "estimate": 100000,
+        "fingerprint": "ebcc639a227314d2666a60f579f2baa12b8bb521ab9172087ebd27b43e0f414c",
+        "source_scan": "Seq Scan",
+        "source_index": null,
+        "source_planned_rows": 14928,
+        "metadata_join": "Hash Join",
+        "join_outer": "metadata",
+        "plan_family": "Seq Scan + Hash Join (metadata outer)",
+        "total_cost": 19556.4
+      }
+    ]
+  },
+  "true_cardinality": 15827,
+  "joined_true_cardinality": 15038,
+  "workload_id": "3d191dcf508d0ab23cb5baa8f99c8f0f0990836a5b949c80de48c1f7bc9c423f",
+  "conditions": {
+    "native": {
+      "predicted_cardinality": null,
+      "q_error": null,
+      "inference_ms": 0.0,
+      "database_predicate_ms": null,
+      "clamped": false,
+      "repeats": [
+        {
+          "fingerprint": "ebcc639a227314d2666a60f579f2baa12b8bb521ab9172087ebd27b43e0f414c",
+          "source_scan": "Seq Scan",
+          "source_index": null,
+          "source_planned_rows": 16913,
+          "metadata_join": "Hash Join",
+          "join_outer": "metadata",
+          "plan_family": "Seq Scan + Hash Join (metadata outer)",
+          "total_cost": 19623.11,
+          "planning_ms": 0.376,
+          "execution_ms": 606.972,
+          "buffers": {
+            "Shared Hit Blocks": 53099,
+            "Shared Read Blocks": 5152,
+            "Shared Dirtied Blocks": 0,
+            "Shared Written Blocks": 0,
+            "Local Hit Blocks": 0,
+            "Local Read Blocks": 0,
+            "Temp Read Blocks": 0,
+            "Temp Written Blocks": 0
+          },
+          "normalized_plan": {
+            "Node Type": "Aggregate",
+            "Strategy": "Plain",
+            "Partial Mode": "Simple",
+            "Plans": [
+              {
+                "Node Type": "Nested Loop",
+                "Join Type": "Inner",
+                "Parent Relationship": "Outer",
+                "Plans": [
+                  {
+                    "Node Type": "Subquery Scan",
+                    "Alias": "dummy",
+                    "Parent Relationship": "Outer",
+                    "Plans": [
+                      {
+                        "Node Type": "Result",
+                        "Parent Relationship": "Subquery"
+                      }
+                    ]
+                  },
+                  {
+                    "Node Type": "Hash Join",
+                    "Join Type": "Inner",
+                    "Parent Relationship": "Inner",
+                    "Plans": [
+                      {
+                        "Node Type": "Seq Scan",
+                        "Relation Name": "task4_porto_trip_metadata",
+                        "Alias": "m",
+                        "Parent Relationship": "Outer"
+                      },
+                      {
+                        "Node Type": "Hash",
+                        "Parent Relationship": "Inner",
+                        "Plans": [
+                          {
+                            "Node Type": "Seq Scan",
+                            "Relation Name": "porto_traj",
+                            "Alias": "t",
+                            "Parent Relationship": "Outer"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "jit": null,
+          "jit_enabled": false
+        },
+        {
+          "fingerprint": "ebcc639a227314d2666a60f579f2baa12b8bb521ab9172087ebd27b43e0f414c",
+          "source_scan": "Seq Scan",
+          "source_index": null,
+          "source_planned_rows": 16913,
+          "metadata_join": "Hash Join",
+          "join_outer": "metadata",
+          "plan_family": "Seq Scan + Hash Join (metadata outer)",
+          "total_cost": 19623.11,
+          "planning_ms": 0.367,
+          "execution_ms": 607.149,
+          "buffers": {
+            "Shared Hit Blocks": 53291,
+            "Shared Read Blocks": 4960,
+            "Shared Dirtied Blocks": 0,
+            "Shared Written Blocks": 0,
+            "Local Hit Blocks": 0,
+            "Local Read Blocks": 0,
+            "Temp Read Blocks": 0,
+            "Temp Written Blocks": 0
+          },
+          "normalized_plan": {
+            "Node Type": "Aggregate",
+            "Strategy": "Plain",
+            "Partial Mode": "Simple",
+            "Plans": [
+              {
+                "Node Type": "Nested Loop",
+                "Join Type": "Inner",
+                "Parent Relationship": "Outer",
+                "Plans": [
+                  {
+                    "Node Type": "Subquery Scan",
+                    "Alias": "dummy",
+                    "Parent Relationship": "Outer",
+                    "Plans": [
+                      {
+                        "Node Type": "Result",
+                        "Parent Relationship": "Subquery"
+                      }
+                    ]
+                  },
+                  {
+                    "Node Type": "Hash Join",
+                    "Join Type": "Inner",
+                    "Parent Relationship": "Inner",
+                    "Plans": [
+                      {
+                        "Node Type": "Seq Scan",
+                        "Relation Name": "task4_porto_trip_metadata",
+                        "Alias": "m",
+                        "Parent Relationship": "Outer"
+                      },
+                      {
+                        "Node Type": "Hash",
+                        "Parent Relationship": "Inner",
+                        "Plans": [
+                          {
+                            "Node Type": "Seq Scan",
+                            "Relation Name": "porto_traj",
+                            "Alias": "t",
+                            "Parent Relationship": "Outer"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "jit": null,
+          "jit_enabled": false
+        },
+        {
+          "fingerprint": "ebcc639a227314d2666a60f579f2baa12b8bb521ab9172087ebd27b43e0f414c",
+          "source_scan": "Seq Scan",
+          "source_index": null,
+          "source_planned_rows": 16913,
+          "metadata_join": "Hash Join",
+          "join_outer": "metadata",
+          "plan_family": "Seq Scan + Hash Join (metadata outer)",
+          "total_cost": 19623.11,
+          "planning_ms": 0.378,
+          "execution_ms": 592.073,
+          "buffers": {
+            "Shared Hit Blocks": 53433,
+            "Shared Read Blocks": 4818,
+            "Shared Dirtied Blocks": 0,
+            "Shared Written Blocks": 0,
+            "Local Hit Blocks": 0,
+            "Local Read Blocks": 0,
+            "Temp Read Blocks": 0,
+            "Temp Written Blocks": 0
+          },
+          "normalized_plan": {
+            "Node Type": "Aggregate",
+            "Strategy": "Plain",
+            "Partial Mode": "Simple",
+            "Plans": [
+              {
+                "Node Type": "Nested Loop",
+                "Join Type": "Inner",
+                "Parent Relationship": "Outer",
+                "Plans": [
+                  {
+                    "Node Type": "Subquery Scan",
+                    "Alias": "dummy",
+                    "Parent Relationship": "Outer",
+                    "Plans": [
+                      {
+                        "Node Type": "Result",
+                        "Parent Relationship": "Subquery"
+                      }
+                    ]
+                  },
+                  {
+                    "Node Type": "Hash Join",
+                    "Join Type": "Inner",
+                    "Parent Relationship": "Inner",
+                    "Plans": [
+                      {
+                        "Node Type": "Seq Scan",
+                        "Relation Name": "task4_porto_trip_metadata",
+                        "Alias": "m",
+                        "Parent Relationship": "Outer"
+                      },
+                      {
+                        "Node Type": "Hash",
+                        "Parent Relationship": "Inner",
+                        "Plans": [
+                          {
+                            "Node Type": "Seq Scan",
+                            "Relation Name": "porto_traj",
+                            "Alias": "t",
+                            "Parent Relationship": "Outer"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "jit": null,
+          "jit_enabled": false
+        },
+        {
+          "fingerprint": "ebcc639a227314d2666a60f579f2baa12b8bb521ab9172087ebd27b43e0f414c",
+          "source_scan": "Seq Scan",
+          "source_index": null,
+          "source_planned_rows": 16913,
+          "metadata_join": "Hash Join",
+          "join_outer": "metadata",
+          "plan_family": "Seq Scan + Hash Join (metadata outer)",
+          "total_cost": 19623.11,
+          "planning_ms": 0.482,
+          "execution_ms": 595.73,
+          "buffers": {
+            "Shared Hit Blocks": 53473,
+            "Shared Read Blocks": 4778,
+            "Shared Dirtied Blocks": 0,
+            "Shared Written Blocks": 0,
+            "Local Hit Blocks": 0,
+            "Local Read Blocks": 0,
+            "Temp Read Blocks": 0,
+            "Temp Written Blocks": 0
+          },
+          "normalized_plan": {
+            "Node Type": "Aggregate",
+            "Strategy": "Plain",
+            "Partial Mode": "Simple",
+            "Plans": [
+              {
+                "Node Type": "Nested Loop",
+                "Join Type": "Inner",
+                "Parent Relationship": "Outer",
+                "Plans": [
+                  {
+                    "Node Type": "Subquery Scan",
+                    "Alias": "dummy",
+                    "Parent Relationship": "Outer",
+                    "Plans": [
+                      {
+                        "Node Type": "Result",
+                        "Parent Relationship": "Subquery"
+                      }
+                    ]
+                  },
+                  {
+                    "Node Type": "Hash Join",
+                    "Join Type": "Inner",
+                    "Parent Relationship": "Inner",
+                    "Plans": [
+                      {
+                        "Node Type": "Seq Scan",
+                        "Relation Name": "task4_porto_trip_metadata",
+                        "Alias": "m",
+                        "Parent Relationship": "Outer"
+                      },
+                      {
+                        "Node Type": "Hash",
+                        "Parent Relationship": "Inner",
+                        "Plans": [
+                          {
+                            "Node Type": "Seq Scan",
+                            "Relation Name": "porto_traj",
+                            "Alias": "t",
+                            "Parent Relationship": "Outer"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "jit": null,
+          "jit_enabled": false
+        },
+        {
+          "fingerprint": "ebcc639a227314d2666a60f579f2baa12b8bb521ab9172087ebd27b43e0f414c",
+          "source_scan": "Seq Scan",
+          "source_index": null,
+          "source_planned_rows": 16913,
+          "metadata_join": "Hash Join",
+          "join_outer": "metadata",
+          "plan_family": "Seq Scan + Hash Join (metadata outer)",
+          "total_cost": 19623.11,
+          "planning_ms": 0.39,
+          "execution_ms": 597.581,
+          "buffers": {
+            "Shared Hit Blocks": 53546,
+            "Shared Read Blocks": 4705,
+            "Shared Dirtied Blocks": 0,
+            "Shared Written Blocks": 0,
+            "Local Hit Blocks": 0,
+            "Local Read Blocks": 0,
+            "Temp Read Blocks": 0,
+            "Temp Written Blocks": 0
+          },
+          "normalized_plan": {
+            "Node Type": "Aggregate",
+            "Strategy": "Plain",
+            "Partial Mode": "Simple",
+            "Plans": [
+              {
+                "Node Type": "Nested Loop",
+                "Join Type": "Inner",
+                "Parent Relationship": "Outer",
+                "Plans": [
+                  {
+                    "Node Type": "Subquery Scan",
+                    "Alias": "dummy",
+                    "Parent Relationship": "Outer",
+                    "Plans": [
+                      {
+                        "Node Type": "Result",
+                        "Parent Relationship": "Subquery"
+                      }
+                    ]
+                  },
+                  {
+                    "Node Type": "Hash Join",
+                    "Join Type": "Inner",
+                    "Parent Relationship": "Inner",
+                    "Plans": [
+                      {
+                        "Node Type": "Seq Scan",
+                        "Relation Name": "task4_porto_trip_metadata",
+                        "Alias": "m",
+                        "Parent Relationship": "Outer"
+                      },
+                      {
+                        "Node Type": "Hash",
+                        "Parent Relationship": "Inner",
+                        "Plans": [
+                          {
+                            "Node Type": "Seq Scan",
+                            "Relation Name": "porto_traj",
+                            "Alias": "t",
+                            "Parent Relationship": "Outer"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "jit": null,
+          "jit_enabled": false
+        }
+      ]
+    },
+    "true_cardinality_input": {
+      "predicted_cardinality": 15827.0,
+      "q_error": 1.0,
+      "inference_ms": 0.0,
+      "database_predicate_ms": null,
+      "clamped": false,
+      "repeats": [
+        {
+          "fingerprint": "98f90e0f0a3427eda16d192b8cff59c7e327a544a517cd019efee3a7dbfb0ffb",
+          "source_scan": "Seq Scan",
+          "source_index": null,
+          "source_planned_rows": 16913,
+          "metadata_join": "Hash Join",
+          "join_outer": "metadata",
+          "plan_family": "Seq Scan + Hash Join (metadata outer)",
+          "total_cost": 19607.7,
+          "planning_ms": 0.402,
+          "execution_ms": 609.464,
+          "buffers": {
+            "Shared Hit Blocks": 52907,
+            "Shared Read Blocks": 5344,
+            "Shared Dirtied Blocks": 0,
+            "Shared Written Blocks": 0,
+            "Local Hit Blocks": 0,
+            "Local Read Blocks": 0,
+            "Temp Read Blocks": 0,
+            "Temp Written Blocks": 0
+          },
+          "normalized_plan": {
+            "Node Type": "Aggregate",
+            "Strategy": "Plain",
+            "Partial Mode": "Simple",
+            "Plans": [
+              {
+                "Node Type": "Hash Join",
+                "Join Type": "Inner",
+                "Parent Relationship": "Outer",
+                "Plans": [
+                  {
+                    "Node Type": "Seq Scan",
+                    "Relation Name": "task4_porto_trip_metadata",
+                    "Alias": "m",
+                    "Parent Relationship": "Outer"
+                  },
+                  {
+                    "Node Type": "Hash",
+                    "Parent Relationship": "Inner",
+                    "Plans": [
+                      {
+                        "Node Type": "Nested Loop",
+                        "Join Type": "Inner",
+                        "Parent Relationship": "Outer",
+                        "Plans": [
+                          {
+                            "Node Type": "Subquery Scan",
+                            "Alias": "dummy",
+                            "Parent Relationship": "Outer",
+                            "Plans": [
+                              {
+                                "Node Type": "Result",
+                                "Parent Relationship": "Subquery"
+                              }
+                            ]
+                          },
+                          {
+                            "Node Type": "Seq Scan",
+                            "Relation Name": "porto_traj",
+                            "Alias": "t",
+                            "Parent Relationship": "Inner"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "jit": null,
+          "jit_enabled": false
+        },
+        {
+          "fingerprint": "98f90e0f0a3427eda16d192b8cff59c7e327a544a517cd019efee3a7dbfb0ffb",
+          "source_scan": "Seq Scan",
+          "source_index": null,
+          "source_planned_rows": 16913,
+          "metadata_join": "Hash Join",
+          "join_outer": "metadata",
+          "plan_family": "Seq Scan + Hash Join (metadata outer)",
+          "total_cost": 19607.7,
+          "planning_ms": 0.413,
+          "execution_ms": 609.383,
+          "buffers": {
+            "Shared Hit Blocks": 53323,
+            "Shared Read Blocks": 4928,
+            "Shared Dirtied Blocks": 0,
+            "Shared Written Blocks": 0,
+            "Local Hit Blocks": 0,
+            "Local Read Blocks": 0,
+            "Temp Read Blocks": 0,
+            "Temp Written Blocks": 0
+          },
+          "normalized_plan": {
+            "Node Type": "Aggregate",
+            "Strategy": "Plain",
+            "Partial Mode": "Simple",
+            "Plans": [
+              {
+                "Node Type": "Hash Join",
+                "Join Type": "Inner",
+                "Parent Relationship": "Outer",
+                "Plans": [
+                  {
+                    "Node Type": "Seq Scan",
+                    "Relation Name": "task4_porto_trip_metadata",
+                    "Alias": "m",
+                    "Parent Relationship": "Outer"
+                  },
+                  {
+                    "Node Type": "Hash",
+                    "Parent Relationship": "Inner",
+                    "Plans": [
+                      {
+                        "Node Type": "Nested Loop",
+                        "Join Type": "Inner",
+                        "Parent Relationship": "Outer",
+                        "Plans": [
+                          {
+                            "Node Type": "Subquery Scan",
+                            "Alias": "dummy",
+                            "Parent Relationship": "Outer",
+                            "Plans": [
+                              {
+                                "Node Type": "Result",
+                                "Parent Relationship": "Subquery"
+                              }
+                            ]
+                          },
+                          {
+                            "Node Type": "Seq Scan",
+                            "Relation Name": "porto_traj",
+                            "Alias": "t",
+                            "Parent Relationship": "Inner"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "jit": null,
+          "jit_enabled": false
+        },
+        {
+          "fingerprint": "98f90e0f0a3427eda16d192b8cff59c7e327a544a517cd019efee3a7dbfb0ffb",
+          "source_scan": "Seq Scan",
+          "source_index": null,
+          "source_planned_rows": 16913,
+          "metadata_join": "Hash Join",
+          "join_outer": "metadata",
+          "plan_family": "Seq Scan + Hash Join (metadata outer)",
+          "total_cost": 19607.7,
+          "planning_ms": 0.417,
+          "execution_ms": 609.848,
+          "buffers": {
+            "Shared Hit Blocks": 53387,
+            "Shared Read Blocks": 4864,
+            "Shared Dirtied Blocks": 0,
+            "Shared Written Blocks": 0,
+            "Local Hit Blocks": 0,
+            "Local Read Blocks": 0,
+            "Temp Read Blocks": 0,
+            "Temp Written Blocks": 0
+          },
+          "normalized_plan": {
+            "Node Type": "Aggregate",
+            "Strategy": "Plain",
+            "Partial Mode": "Simple",
+            "Plans": [
+              {
+                "Node Type": "Hash Join",
+                "Join Type": "Inner",
+                "Parent Relationship": "Outer",
+                "Plans": [
+                  {
+                    "Node Type": "Seq Scan",
+                    "Relation Name": "task4_porto_trip_metadata",
+                    "Alias": "m",
+                    "Parent Relationship": "Outer"
+                  },
+                  {
+                    "Node Type": "Hash",
+                    "Parent Relationship": "Inner",
+                    "Plans": [
+                      {
+                        "Node Type": "Nested Loop",
+                        "Join Type": "Inner",
+                        "Parent Relationship": "Outer",
+                        "Plans": [
+                          {
+                            "Node Type": "Subquery Scan",
+                            "Alias": "dummy",
+                            "Parent Relationship": "Outer",
+                            "Plans": [
+                              {
+                                "Node Type": "Result",
+                                "Parent Relationship": "Subquery"
+                              }
+                            ]
+                          },
+                          {
+                            "Node Type": "Seq Scan",
+                            "Relation Name": "porto_traj",
+                            "Alias": "t",
+                            "Parent Relationship": "Inner"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "jit": null,
+          "jit_enabled": false
+        },
+        {
+          "fingerprint": "98f90e0f0a3427eda16d192b8cff59c7e327a544a517cd019efee3a7dbfb0ffb",
+          "source_scan": "Seq Scan",
+          "source_index": null,
+          "source_planned_rows": 16913,
+          "metadata_join": "Hash Join",
+          "join_outer": "metadata",
+          "plan_family": "Seq Scan + Hash Join (metadata outer)",
+          "total_cost": 19607.7,
+          "planning_ms": 0.443,
+          "execution_ms": 644.46,
+          "buffers": {
+            "Shared Hit Blocks": 53542,
+            "Shared Read Blocks": 4709,
+            "Shared Dirtied Blocks": 0,
+            "Shared Written Blocks": 0,
+            "Local Hit Blocks": 0,
+            "Local Read Blocks": 0,
+            "Temp Read Blocks": 0,
+            "Temp Written Blocks": 0
+          },
+          "normalized_plan": {
+            "Node Type": "Aggregate",
+            "Strategy": "Plain",
+            "Partial Mode": "Simple",
+            "Plans": [
+              {
+                "Node Type": "Hash Join",
+                "Join Type": "Inner",
+                "Parent Relationship": "Outer",
+                "Plans": [
+                  {
+                    "Node Type": "Seq Scan",
+                    "Relation Name": "task4_porto_trip_metadata",
+                    "Alias": "m",
+                    "Parent Relationship": "Outer"
+                  },
+                  {
+                    "Node Type": "Hash",
+                    "Parent Relationship": "Inner",
+                    "Plans": [
+                      {
+                        "Node Type": "Nested Loop",
+                        "Join Type": "Inner",
+                        "Parent Relationship": "Outer",
+                        "Plans": [
+                          {
+                            "Node Type": "Subquery Scan",
+                            "Alias": "dummy",
+                            "Parent Relationship": "Outer",
+                            "Plans": [
+                              {
+                                "Node Type": "Result",
+                                "Parent Relationship": "Subquery"
+                              }
+                            ]
+                          },
+                          {
+                            "Node Type": "Seq Scan",
+                            "Relation Name": "porto_traj",
+                            "Alias": "t",
+                            "Parent Relationship": "Inner"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "jit": null,
+          "jit_enabled": false
+        },
+        {
+          "fingerprint": "98f90e0f0a3427eda16d192b8cff59c7e327a544a517cd019efee3a7dbfb0ffb",
+          "source_scan": "Seq Scan",
+          "source_index": null,
+          "source_planned_rows": 16913,
+          "metadata_join": "Hash Join",
+          "join_outer": "metadata",
+          "plan_family": "Seq Scan + Hash Join (metadata outer)",
+          "total_cost": 19607.7,
+          "planning_ms": 0.43,
+          "execution_ms": 654.498,
+          "buffers": {
+            "Shared Hit Blocks": 53580,
+            "Shared Read Blocks": 4671,
+            "Shared Dirtied Blocks": 0,
+            "Shared Written Blocks": 0,
+            "Local Hit Blocks": 0,
+            "Local Read Blocks": 0,
+            "Temp Read Blocks": 0,
+            "Temp Written Blocks": 0
+          },
+          "normalized_plan": {
+            "Node Type": "Aggregate",
+            "Strategy": "Plain",
+            "Partial Mode": "Simple",
+            "Plans": [
+              {
+                "Node Type": "Hash Join",
+                "Join Type": "Inner",
+                "Parent Relationship": "Outer",
+                "Plans": [
+                  {
+                    "Node Type": "Seq Scan",
+                    "Relation Name": "task4_porto_trip_metadata",
+                    "Alias": "m",
+                    "Parent Relationship": "Outer"
+                  },
+                  {
+                    "Node Type": "Hash",
+                    "Parent Relationship": "Inner",
+                    "Plans": [
+                      {
+                        "Node Type": "Nested Loop",
+                        "Join Type": "Inner",
+                        "Parent Relationship": "Outer",
+                        "Plans": [
+                          {
+                            "Node Type": "Subquery Scan",
+                            "Alias": "dummy",
+                            "Parent Relationship": "Outer",
+                            "Plans": [
+                              {
+                                "Node Type": "Result",
+                                "Parent Relationship": "Subquery"
+                              }
+                            ]
+                          },
+                          {
+                            "Node Type": "Seq Scan",
+                            "Relation Name": "porto_traj",
+                            "Alias": "t",
+                            "Parent Relationship": "Inner"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "jit": null,
+          "jit_enabled": false
+        }
+      ]
+    },
+    "trajectory_sampling": {
+      "predicted_cardinality": 16100.0,
+      "q_error": 1.0172479150871874,
+      "inference_ms": 56.045192999590654,
+      "database_predicate_ms": 55.67126000096323,
+      "clamped": false,
+      "repeats": [
+        {
+          "fingerprint": "98f90e0f0a3427eda16d192b8cff59c7e327a544a517cd019efee3a7dbfb0ffb",
+          "source_scan": "Seq Scan",
+          "source_index": null,
+          "source_planned_rows": 16913,
+          "metadata_join": "Hash Join",
+          "join_outer": "metadata",
+          "plan_family": "Seq Scan + Hash Join (metadata outer)",
+          "total_cost": 19613.71,
+          "planning_ms": 0.396,
+          "execution_ms": 610.76,
+          "buffers": {
+            "Shared Hit Blocks": 52875,
+            "Shared Read Blocks": 5376,
+            "Shared Dirtied Blocks": 0,
+            "Shared Written Blocks": 0,
+            "Local Hit Blocks": 0,
+            "Local Read Blocks": 0,
+            "Temp Read Blocks": 0,
+            "Temp Written Blocks": 0
+          },
+          "normalized_plan": {
+            "Node Type": "Aggregate",
+            "Strategy": "Plain",
+            "Partial Mode": "Simple",
+            "Plans": [
+              {
+                "Node Type": "Hash Join",
+                "Join Type": "Inner",
+                "Parent Relationship": "Outer",
+                "Plans": [
+                  {
+                    "Node Type": "Seq Scan",
+                    "Relation Name": "task4_porto_trip_metadata",
+                    "Alias": "m",
+                    "Parent Relationship": "Outer"
+                  },
+                  {
+                    "Node Type": "Hash",
+                    "Parent Relationship": "Inner",
+                    "Plans": [
+                      {
+                        "Node Type": "Nested Loop",
+                        "Join Type": "Inner",
+                        "Parent Relationship": "Outer",
+                        "Plans": [
+                          {
+                            "Node Type": "Subquery Scan",
+                            "Alias": "dummy",
+                            "Parent Relationship": "Outer",
+                            "Plans": [
+                              {
+                                "Node Type": "Result",
+                                "Parent Relationship": "Subquery"
+                              }
+                            ]
+                          },
+                          {
+                            "Node Type": "Seq Scan",
+                            "Relation Name": "porto_traj",
+                            "Alias": "t",
+                            "Parent Relationship": "Inner"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "jit": null,
+          "jit_enabled": false
+        },
+        {
+          "fingerprint": "98f90e0f0a3427eda16d192b8cff59c7e327a544a517cd019efee3a7dbfb0ffb",
+          "source_scan": "Seq Scan",
+          "source_index": null,
+          "source_planned_rows": 16913,
+          "metadata_join": "Hash Join",
+          "join_outer": "metadata",
+          "plan_family": "Seq Scan + Hash Join (metadata outer)",
+          "total_cost": 19613.71,
+          "planning_ms": 0.407,
+          "execution_ms": 609.209,
+          "buffers": {
+            "Shared Hit Blocks": 53355,
+            "Shared Read Blocks": 4896,
+            "Shared Dirtied Blocks": 0,
+            "Shared Written Blocks": 0,
+            "Local Hit Blocks": 0,
+            "Local Read Blocks": 0,
+            "Temp Read Blocks": 0,
+            "Temp Written Blocks": 0
+          },
+          "normalized_plan": {
+            "Node Type": "Aggregate",
+            "Strategy": "Plain",
+            "Partial Mode": "Simple",
+            "Plans": [
+              {
+                "Node Type": "Hash Join",
+                "Join Type": "Inner",
+                "Parent Relationship": "Outer",
+                "Plans": [
+                  {
+                    "Node Type": "Seq Scan",
+                    "Relation Name": "task4_porto_trip_metadata",
+                    "Alias": "m",
+                    "Parent Relationship": "Outer"
+                  },
+                  {
+                    "Node Type": "Hash",
+                    "Parent Relationship": "Inner",
+                    "Plans": [
+                      {
+                        "Node Type": "Nested Loop",
+                        "Join Type": "Inner",
+                        "Parent Relationship": "Outer",
+                        "Plans": [
+                          {
+                            "Node Type": "Subquery Scan",
+                            "Alias": "dummy",
+                            "Parent Relationship": "Outer",
+                            "Plans": [
+                              {
+                                "Node Type": "Result",
+                                "Parent Relationship": "Subquery"
+                              }
+                            ]
+                          },
+                          {
+                            "Node Type": "Seq Scan",
+                            "Relation Name": "porto_traj",
+                            "Alias": "t",
+                            "Parent Relationship": "Inner"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "jit": null,
+          "jit_enabled": false
+        },
+        {
+          "fingerprint": "98f90e0f0a3427eda16d192b8cff59c7e327a544a517cd019efee3a7dbfb0ffb",
+          "source_scan": "Seq Scan",
+          "source_index": null,
+          "source_planned_rows": 16913,
+          "metadata_join": "Hash Join",
+          "join_outer": "metadata",
+          "plan_family": "Seq Scan + Hash Join (metadata outer)",
+          "total_cost": 19613.71,
+          "planning_ms": 0.396,
+          "execution_ms": 612.725,
+          "buffers": {
+            "Shared Hit Blocks": 53419,
+            "Shared Read Blocks": 4832,
+            "Shared Dirtied Blocks": 0,
+            "Shared Written Blocks": 0,
+            "Local Hit Blocks": 0,
+            "Local Read Blocks": 0,
+            "Temp Read Blocks": 0,
+            "Temp Written Blocks": 0
+          },
+          "normalized_plan": {
+            "Node Type": "Aggregate",
+            "Strategy": "Plain",
+            "Partial Mode": "Simple",
+            "Plans": [
+              {
+                "Node Type": "Hash Join",
+                "Join Type": "Inner",
+                "Parent Relationship": "Outer",
+                "Plans": [
+                  {
+                    "Node Type": "Seq Scan",
+                    "Relation Name": "task4_porto_trip_metadata",
+                    "Alias": "m",
+                    "Parent Relationship": "Outer"
+                  },
+                  {
+                    "Node Type": "Hash",
+                    "Parent Relationship": "Inner",
+                    "Plans": [
+                      {
+                        "Node Type": "Nested Loop",
+                        "Join Type": "Inner",
+                        "Parent Relationship": "Outer",
+                        "Plans": [
+                          {
+                            "Node Type": "Subquery Scan",
+                            "Alias": "dummy",
+                            "Parent Relationship": "Outer",
+                            "Plans": [
+                              {
+                                "Node Type": "Result",
+                                "Parent Relationship": "Subquery"
+                              }
+                            ]
+                          },
+                          {
+                            "Node Type": "Seq Scan",
+                            "Relation Name": "porto_traj",
+                            "Alias": "t",
+                            "Parent Relationship": "Inner"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "jit": null,
+          "jit_enabled": false
+        },
+        {
+          "fingerprint": "98f90e0f0a3427eda16d192b8cff59c7e327a544a517cd019efee3a7dbfb0ffb",
+          "source_scan": "Seq Scan",
+          "source_index": null,
+          "source_planned_rows": 16913,
+          "metadata_join": "Hash Join",
+          "join_outer": "metadata",
+          "plan_family": "Seq Scan + Hash Join (metadata outer)",
+          "total_cost": 19613.71,
+          "planning_ms": 0.403,
+          "execution_ms": 597.479,
+          "buffers": {
+            "Shared Hit Blocks": 53505,
+            "Shared Read Blocks": 4746,
+            "Shared Dirtied Blocks": 0,
+            "Shared Written Blocks": 0,
+            "Local Hit Blocks": 0,
+            "Local Read Blocks": 0,
+            "Temp Read Blocks": 0,
+            "Temp Written Blocks": 0
+          },
+          "normalized_plan": {
+            "Node Type": "Aggregate",
+            "Strategy": "Plain",
+            "Partial Mode": "Simple",
+            "Plans": [
+              {
+                "Node Type": "Hash Join",
+                "Join Type": "Inner",
+                "Parent Relationship": "Outer",
+                "Plans": [
+                  {
+                    "Node Type": "Seq Scan",
+                    "Relation Name": "task4_porto_trip_metadata",
+                    "Alias": "m",
+                    "Parent Relationship": "Outer"
+                  },
+                  {
+                    "Node Type": "Hash",
+                    "Parent Relationship": "Inner",
+                    "Plans": [
+                      {
+                        "Node Type": "Nested Loop",
+                        "Join Type": "Inner",
+                        "Parent Relationship": "Outer",
+                        "Plans": [
+                          {
+                            "Node Type": "Subquery Scan",
+                            "Alias": "dummy",
+                            "Parent Relationship": "Outer",
+                            "Plans": [
+                              {
+                                "Node Type": "Result",
+                                "Parent Relationship": "Subquery"
+                              }
+                            ]
+                          },
+                          {
+                            "Node Type": "Seq Scan",
+                            "Relation Name": "porto_traj",
+                            "Alias": "t",
+                            "Parent Relationship": "Inner"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "jit": null,
+          "jit_enabled": false
+        },
+        {
+          "fingerprint": "98f90e0f0a3427eda16d192b8cff59c7e327a544a517cd019efee3a7dbfb0ffb",
+          "source_scan": "Seq Scan",
+          "source_index": null,
+          "source_planned_rows": 16913,
+          "metadata_join": "Hash Join",
+          "join_outer": "metadata",
+          "plan_family": "Seq Scan + Hash Join (metadata outer)",
+          "total_cost": 19613.71,
+          "planning_ms": 0.423,
+          "execution_ms": 638.345,
+          "buffers": {
+            "Shared Hit Blocks": 53523,
+            "Shared Read Blocks": 4728,
+            "Shared Dirtied Blocks": 0,
+            "Shared Written Blocks": 0,
+            "Local Hit Blocks": 0,
+            "Local Read Blocks": 0,
+            "Temp Read Blocks": 0,
+            "Temp Written Blocks": 0
+          },
+          "normalized_plan": {
+            "Node Type": "Aggregate",
+            "Strategy": "Plain",
+            "Partial Mode": "Simple",
+            "Plans": [
+              {
+                "Node Type": "Hash Join",
+                "Join Type": "Inner",
+                "Parent Relationship": "Outer",
+                "Plans": [
+                  {
+                    "Node Type": "Seq Scan",
+                    "Relation Name": "task4_porto_trip_metadata",
+                    "Alias": "m",
+                    "Parent Relationship": "Outer"
+                  },
+                  {
+                    "Node Type": "Hash",
+                    "Parent Relationship": "Inner",
+                    "Plans": [
+                      {
+                        "Node Type": "Nested Loop",
+                        "Join Type": "Inner",
+                        "Parent Relationship": "Outer",
+                        "Plans": [
+                          {
+                            "Node Type": "Subquery Scan",
+                            "Alias": "dummy",
+                            "Parent Relationship": "Outer",
+                            "Plans": [
+                              {
+                                "Node Type": "Result",
+                                "Parent Relationship": "Subquery"
+                              }
+                            ]
+                          },
+                          {
+                            "Node Type": "Seq Scan",
+                            "Relation Name": "porto_traj",
+                            "Alias": "t",
+                            "Parent Relationship": "Inner"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "jit": null,
+          "jit_enabled": false
+        }
+      ]
+    },
+    "oracle_nested": {
+      "predicted_cardinality": 15827.0,
+      "q_error": 1.0,
+      "inference_ms": 0.0,
+      "database_predicate_ms": null,
+      "clamped": false,
+      "repeats": [
+        {
+          "fingerprint": "99b5ea46bd057dfd05d3ea29b4ab0da65cb19bb2f8449c941907fd9180dcb3a8",
+          "source_scan": "Seq Scan",
+          "source_index": null,
+          "source_planned_rows": 7047,
+          "metadata_join": "Nested Loop",
+          "join_outer": "source",
+          "plan_family": "Seq Scan + Nested Loop (source outer)",
+          "total_cost": 22569.57,
+          "planning_ms": 0.384,
+          "execution_ms": 398.935,
+          "buffers": {
+            "Shared Hit Blocks": 100076,
+            "Shared Read Blocks": 5280,
+            "Shared Dirtied Blocks": 0,
+            "Shared Written Blocks": 0,
+            "Local Hit Blocks": 0,
+            "Local Read Blocks": 0,
+            "Temp Read Blocks": 0,
+            "Temp Written Blocks": 0
+          },
+          "normalized_plan": {
+            "Node Type": "Aggregate",
+            "Strategy": "Plain",
+            "Partial Mode": "Simple",
+            "Plans": [
+              {
+                "Node Type": "Nested Loop",
+                "Join Type": "Inner",
+                "Parent Relationship": "Outer",
+                "Plans": [
+                  {
+                    "Node Type": "Subquery Scan",
+                    "Alias": "dummy",
+                    "Parent Relationship": "Outer",
+                    "Plans": [
+                      {
+                        "Node Type": "Result",
+                        "Parent Relationship": "Subquery"
+                      }
+                    ]
+                  },
+                  {
+                    "Node Type": "Gather",
+                    "Parent Relationship": "Inner",
+                    "Plans": [
+                      {
+                        "Node Type": "Nested Loop",
+                        "Join Type": "Inner",
+                        "Parent Relationship": "Outer",
+                        "Plans": [
+                          {
+                            "Node Type": "Seq Scan",
+                            "Relation Name": "porto_traj",
+                            "Alias": "t",
+                            "Parent Relationship": "Outer"
+                          },
+                          {
+                            "Node Type": "Index Scan",
+                            "Relation Name": "task4_porto_trip_metadata",
+                            "Alias": "m",
+                            "Index Name": "task4_porto_trip_metadata_pk",
+                            "Scan Direction": "Forward",
+                            "Parent Relationship": "Inner"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "jit": null,
+          "jit_enabled": false
+        },
+        {
+          "fingerprint": "99b5ea46bd057dfd05d3ea29b4ab0da65cb19bb2f8449c941907fd9180dcb3a8",
+          "source_scan": "Seq Scan",
+          "source_index": null,
+          "source_planned_rows": 7047,
+          "metadata_join": "Nested Loop",
+          "join_outer": "source",
+          "plan_family": "Seq Scan + Nested Loop (source outer)",
+          "total_cost": 22569.57,
+          "planning_ms": 0.381,
+          "execution_ms": 368.702,
+          "buffers": {
+            "Shared Hit Blocks": 100236,
+            "Shared Read Blocks": 5120,
+            "Shared Dirtied Blocks": 0,
+            "Shared Written Blocks": 0,
+            "Local Hit Blocks": 0,
+            "Local Read Blocks": 0,
+            "Temp Read Blocks": 0,
+            "Temp Written Blocks": 0
+          },
+          "normalized_plan": {
+            "Node Type": "Aggregate",
+            "Strategy": "Plain",
+            "Partial Mode": "Simple",
+            "Plans": [
+              {
+                "Node Type": "Nested Loop",
+                "Join Type": "Inner",
+                "Parent Relationship": "Outer",
+                "Plans": [
+                  {
+                    "Node Type": "Subquery Scan",
+                    "Alias": "dummy",
+                    "Parent Relationship": "Outer",
+                    "Plans": [
+                      {
+                        "Node Type": "Result",
+                        "Parent Relationship": "Subquery"
+                      }
+                    ]
+                  },
+                  {
+                    "Node Type": "Gather",
+                    "Parent Relationship": "Inner",
+                    "Plans": [
+                      {
+                        "Node Type": "Nested Loop",
+                        "Join Type": "Inner",
+                        "Parent Relationship": "Outer",
+                        "Plans": [
+                          {
+                            "Node Type": "Seq Scan",
+                            "Relation Name": "porto_traj",
+                            "Alias": "t",
+                            "Parent Relationship": "Outer"
+                          },
+                          {
+                            "Node Type": "Index Scan",
+                            "Relation Name": "task4_porto_trip_metadata",
+                            "Alias": "m",
+                            "Index Name": "task4_porto_trip_metadata_pk",
+                            "Scan Direction": "Forward",
+                            "Parent Relationship": "Inner"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "jit": null,
+          "jit_enabled": false
+        },
+        {
+          "fingerprint": "99b5ea46bd057dfd05d3ea29b4ab0da65cb19bb2f8449c941907fd9180dcb3a8",
+          "source_scan": "Seq Scan",
+          "source_index": null,
+          "source_planned_rows": 7047,
+          "metadata_join": "Nested Loop",
+          "join_outer": "source",
+          "plan_family": "Seq Scan + Nested Loop (source outer)",
+          "total_cost": 22569.57,
+          "planning_ms": 0.387,
+          "execution_ms": 368.876,
+          "buffers": {
+            "Shared Hit Blocks": 100482,
+            "Shared Read Blocks": 4874,
+            "Shared Dirtied Blocks": 0,
+            "Shared Written Blocks": 0,
+            "Local Hit Blocks": 0,
+            "Local Read Blocks": 0,
+            "Temp Read Blocks": 0,
+            "Temp Written Blocks": 0
+          },
+          "normalized_plan": {
+            "Node Type": "Aggregate",
+            "Strategy": "Plain",
+            "Partial Mode": "Simple",
+            "Plans": [
+              {
+                "Node Type": "Nested Loop",
+                "Join Type": "Inner",
+                "Parent Relationship": "Outer",
+                "Plans": [
+                  {
+                    "Node Type": "Subquery Scan",
+                    "Alias": "dummy",
+                    "Parent Relationship": "Outer",
+                    "Plans": [
+                      {
+                        "Node Type": "Result",
+                        "Parent Relationship": "Subquery"
+                      }
+                    ]
+                  },
+                  {
+                    "Node Type": "Gather",
+                    "Parent Relationship": "Inner",
+                    "Plans": [
+                      {
+                        "Node Type": "Nested Loop",
+                        "Join Type": "Inner",
+                        "Parent Relationship": "Outer",
+                        "Plans": [
+                          {
+                            "Node Type": "Seq Scan",
+                            "Relation Name": "porto_traj",
+                            "Alias": "t",
+                            "Parent Relationship": "Outer"
+                          },
+                          {
+                            "Node Type": "Index Scan",
+                            "Relation Name": "task4_porto_trip_metadata",
+                            "Alias": "m",
+                            "Index Name": "task4_porto_trip_metadata_pk",
+                            "Scan Direction": "Forward",
+                            "Parent Relationship": "Inner"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "jit": null,
+          "jit_enabled": false
+        },
+        {
+          "fingerprint": "99b5ea46bd057dfd05d3ea29b4ab0da65cb19bb2f8449c941907fd9180dcb3a8",
+          "source_scan": "Seq Scan",
+          "source_index": null,
+          "source_planned_rows": 7047,
+          "metadata_join": "Nested Loop",
+          "join_outer": "source",
+          "plan_family": "Seq Scan + Nested Loop (source outer)",
+          "total_cost": 22569.57,
+          "planning_ms": 0.387,
+          "execution_ms": 352.019,
+          "buffers": {
+            "Shared Hit Blocks": 100551,
+            "Shared Read Blocks": 4805,
+            "Shared Dirtied Blocks": 0,
+            "Shared Written Blocks": 0,
+            "Local Hit Blocks": 0,
+            "Local Read Blocks": 0,
+            "Temp Read Blocks": 0,
+            "Temp Written Blocks": 0
+          },
+          "normalized_plan": {
+            "Node Type": "Aggregate",
+            "Strategy": "Plain",
+            "Partial Mode": "Simple",
+            "Plans": [
+              {
+                "Node Type": "Nested Loop",
+                "Join Type": "Inner",
+                "Parent Relationship": "Outer",
+                "Plans": [
+                  {
+                    "Node Type": "Subquery Scan",
+                    "Alias": "dummy",
+                    "Parent Relationship": "Outer",
+                    "Plans": [
+                      {
+                        "Node Type": "Result",
+                        "Parent Relationship": "Subquery"
+                      }
+                    ]
+                  },
+                  {
+                    "Node Type": "Gather",
+                    "Parent Relationship": "Inner",
+                    "Plans": [
+                      {
+                        "Node Type": "Nested Loop",
+                        "Join Type": "Inner",
+                        "Parent Relationship": "Outer",
+                        "Plans": [
+                          {
+                            "Node Type": "Seq Scan",
+                            "Relation Name": "porto_traj",
+                            "Alias": "t",
+                            "Parent Relationship": "Outer"
+                          },
+                          {
+                            "Node Type": "Index Scan",
+                            "Relation Name": "task4_porto_trip_metadata",
+                            "Alias": "m",
+                            "Index Name": "task4_porto_trip_metadata_pk",
+                            "Scan Direction": "Forward",
+                            "Parent Relationship": "Inner"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "jit": null,
+          "jit_enabled": false
+        },
+        {
+          "fingerprint": "99b5ea46bd057dfd05d3ea29b4ab0da65cb19bb2f8449c941907fd9180dcb3a8",
+          "source_scan": "Seq Scan",
+          "source_index": null,
+          "source_planned_rows": 7047,
+          "metadata_join": "Nested Loop",
+          "join_outer": "source",
+          "plan_family": "Seq Scan + Nested Loop (source outer)",
+          "total_cost": 22569.57,
+          "planning_ms": 0.387,
+          "execution_ms": 323.397,
+          "buffers": {
+            "Shared Hit Blocks": 100615,
+            "Shared Read Blocks": 4741,
+            "Shared Dirtied Blocks": 0,
+            "Shared Written Blocks": 0,
+            "Local Hit Blocks": 0,
+            "Local Read Blocks": 0,
+            "Temp Read Blocks": 0,
+            "Temp Written Blocks": 0
+          },
+          "normalized_plan": {
+            "Node Type": "Aggregate",
+            "Strategy": "Plain",
+            "Partial Mode": "Simple",
+            "Plans": [
+              {
+                "Node Type": "Nested Loop",
+                "Join Type": "Inner",
+                "Parent Relationship": "Outer",
+                "Plans": [
+                  {
+                    "Node Type": "Subquery Scan",
+                    "Alias": "dummy",
+                    "Parent Relationship": "Outer",
+                    "Plans": [
+                      {
+                        "Node Type": "Result",
+                        "Parent Relationship": "Subquery"
+                      }
+                    ]
+                  },
+                  {
+                    "Node Type": "Gather",
+                    "Parent Relationship": "Inner",
+                    "Plans": [
+                      {
+                        "Node Type": "Nested Loop",
+                        "Join Type": "Inner",
+                        "Parent Relationship": "Outer",
+                        "Plans": [
+                          {
+                            "Node Type": "Seq Scan",
+                            "Relation Name": "porto_traj",
+                            "Alias": "t",
+                            "Parent Relationship": "Outer"
+                          },
+                          {
+                            "Node Type": "Index Scan",
+                            "Relation Name": "task4_porto_trip_metadata",
+                            "Alias": "m",
+                            "Index Name": "task4_porto_trip_metadata_pk",
+                            "Scan Direction": "Forward",
+                            "Parent Relationship": "Inner"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "jit": null,
+          "jit_enabled": false
+        }
+      ]
+    },
+    "oracle_hash": {
+      "predicted_cardinality": 15827.0,
+      "q_error": 1.0,
+      "inference_ms": 0.0,
+      "database_predicate_ms": null,
+      "clamped": false,
+      "repeats": [
+        {
+          "fingerprint": "98f90e0f0a3427eda16d192b8cff59c7e327a544a517cd019efee3a7dbfb0ffb",
+          "source_scan": "Seq Scan",
+          "source_index": null,
+          "source_planned_rows": 16913,
+          "metadata_join": "Hash Join",
+          "join_outer": "metadata",
+          "plan_family": "Seq Scan + Hash Join (metadata outer)",
+          "total_cost": 10000019607.7,
+          "planning_ms": 0.352,
+          "execution_ms": 610.619,
+          "buffers": {
+            "Shared Hit Blocks": 52939,
+            "Shared Read Blocks": 5312,
+            "Shared Dirtied Blocks": 0,
+            "Shared Written Blocks": 0,
+            "Local Hit Blocks": 0,
+            "Local Read Blocks": 0,
+            "Temp Read Blocks": 0,
+            "Temp Written Blocks": 0
+          },
+          "normalized_plan": {
+            "Node Type": "Aggregate",
+            "Strategy": "Plain",
+            "Partial Mode": "Simple",
+            "Plans": [
+              {
+                "Node Type": "Hash Join",
+                "Join Type": "Inner",
+                "Parent Relationship": "Outer",
+                "Plans": [
+                  {
+                    "Node Type": "Seq Scan",
+                    "Relation Name": "task4_porto_trip_metadata",
+                    "Alias": "m",
+                    "Parent Relationship": "Outer"
+                  },
+                  {
+                    "Node Type": "Hash",
+                    "Parent Relationship": "Inner",
+                    "Plans": [
+                      {
+                        "Node Type": "Nested Loop",
+                        "Join Type": "Inner",
+                        "Parent Relationship": "Outer",
+                        "Plans": [
+                          {
+                            "Node Type": "Subquery Scan",
+                            "Alias": "dummy",
+                            "Parent Relationship": "Outer",
+                            "Plans": [
+                              {
+                                "Node Type": "Result",
+                                "Parent Relationship": "Subquery"
+                              }
+                            ]
+                          },
+                          {
+                            "Node Type": "Seq Scan",
+                            "Relation Name": "porto_traj",
+                            "Alias": "t",
+                            "Parent Relationship": "Inner"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "jit": null,
+          "jit_enabled": false
+        },
+        {
+          "fingerprint": "98f90e0f0a3427eda16d192b8cff59c7e327a544a517cd019efee3a7dbfb0ffb",
+          "source_scan": "Seq Scan",
+          "source_index": null,
+          "source_planned_rows": 16913,
+          "metadata_join": "Hash Join",
+          "join_outer": "metadata",
+          "plan_family": "Seq Scan + Hash Join (metadata outer)",
+          "total_cost": 10000019607.7,
+          "planning_ms": 0.457,
+          "execution_ms": 610.326,
+          "buffers": {
+            "Shared Hit Blocks": 53227,
+            "Shared Read Blocks": 5024,
+            "Shared Dirtied Blocks": 0,
+            "Shared Written Blocks": 0,
+            "Local Hit Blocks": 0,
+            "Local Read Blocks": 0,
+            "Temp Read Blocks": 0,
+            "Temp Written Blocks": 0
+          },
+          "normalized_plan": {
+            "Node Type": "Aggregate",
+            "Strategy": "Plain",
+            "Partial Mode": "Simple",
+            "Plans": [
+              {
+                "Node Type": "Hash Join",
+                "Join Type": "Inner",
+                "Parent Relationship": "Outer",
+                "Plans": [
+                  {
+                    "Node Type": "Seq Scan",
+                    "Relation Name": "task4_porto_trip_metadata",
+                    "Alias": "m",
+                    "Parent Relationship": "Outer"
+                  },
+                  {
+                    "Node Type": "Hash",
+                    "Parent Relationship": "Inner",
+                    "Plans": [
+                      {
+                        "Node Type": "Nested Loop",
+                        "Join Type": "Inner",
+                        "Parent Relationship": "Outer",
+                        "Plans": [
+                          {
+                            "Node Type": "Subquery Scan",
+                            "Alias": "dummy",
+                            "Parent Relationship": "Outer",
+                            "Plans": [
+                              {
+                                "Node Type": "Result",
+                                "Parent Relationship": "Subquery"
+                              }
+                            ]
+                          },
+                          {
+                            "Node Type": "Seq Scan",
+                            "Relation Name": "porto_traj",
+                            "Alias": "t",
+                            "Parent Relationship": "Inner"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "jit": null,
+          "jit_enabled": false
+        },
+        {
+          "fingerprint": "98f90e0f0a3427eda16d192b8cff59c7e327a544a517cd019efee3a7dbfb0ffb",
+          "source_scan": "Seq Scan",
+          "source_index": null,
+          "source_planned_rows": 16913,
+          "metadata_join": "Hash Join",
+          "join_outer": "metadata",
+          "plan_family": "Seq Scan + Hash Join (metadata outer)",
+          "total_cost": 10000019607.7,
+          "planning_ms": 0.374,
+          "execution_ms": 620.68,
+          "buffers": {
+            "Shared Hit Blocks": 53433,
+            "Shared Read Blocks": 4818,
+            "Shared Dirtied Blocks": 0,
+            "Shared Written Blocks": 0,
+            "Local Hit Blocks": 0,
+            "Local Read Blocks": 0,
+            "Temp Read Blocks": 0,
+            "Temp Written Blocks": 0
+          },
+          "normalized_plan": {
+            "Node Type": "Aggregate",
+            "Strategy": "Plain",
+            "Partial Mode": "Simple",
+            "Plans": [
+              {
+                "Node Type": "Hash Join",
+                "Join Type": "Inner",
+                "Parent Relationship": "Outer",
+                "Plans": [
+                  {
+                    "Node Type": "Seq Scan",
+                    "Relation Name": "task4_porto_trip_metadata",
+                    "Alias": "m",
+                    "Parent Relationship": "Outer"
+                  },
+                  {
+                    "Node Type": "Hash",
+                    "Parent Relationship": "Inner",
+                    "Plans": [
+                      {
+                        "Node Type": "Nested Loop",
+                        "Join Type": "Inner",
+                        "Parent Relationship": "Outer",
+                        "Plans": [
+                          {
+                            "Node Type": "Subquery Scan",
+                            "Alias": "dummy",
+                            "Parent Relationship": "Outer",
+                            "Plans": [
+                              {
+                                "Node Type": "Result",
+                                "Parent Relationship": "Subquery"
+                              }
+                            ]
+                          },
+                          {
+                            "Node Type": "Seq Scan",
+                            "Relation Name": "porto_traj",
+                            "Alias": "t",
+                            "Parent Relationship": "Inner"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "jit": null,
+          "jit_enabled": false
+        },
+        {
+          "fingerprint": "98f90e0f0a3427eda16d192b8cff59c7e327a544a517cd019efee3a7dbfb0ffb",
+          "source_scan": "Seq Scan",
+          "source_index": null,
+          "source_planned_rows": 16913,
+          "metadata_join": "Hash Join",
+          "join_outer": "metadata",
+          "plan_family": "Seq Scan + Hash Join (metadata outer)",
+          "total_cost": 10000019607.7,
+          "planning_ms": 0.389,
+          "execution_ms": 640.375,
+          "buffers": {
+            "Shared Hit Blocks": 53574,
+            "Shared Read Blocks": 4677,
+            "Shared Dirtied Blocks": 0,
+            "Shared Written Blocks": 0,
+            "Local Hit Blocks": 0,
+            "Local Read Blocks": 0,
+            "Temp Read Blocks": 0,
+            "Temp Written Blocks": 0
+          },
+          "normalized_plan": {
+            "Node Type": "Aggregate",
+            "Strategy": "Plain",
+            "Partial Mode": "Simple",
+            "Plans": [
+              {
+                "Node Type": "Hash Join",
+                "Join Type": "Inner",
+                "Parent Relationship": "Outer",
+                "Plans": [
+                  {
+                    "Node Type": "Seq Scan",
+                    "Relation Name": "task4_porto_trip_metadata",
+                    "Alias": "m",
+                    "Parent Relationship": "Outer"
+                  },
+                  {
+                    "Node Type": "Hash",
+                    "Parent Relationship": "Inner",
+                    "Plans": [
+                      {
+                        "Node Type": "Nested Loop",
+                        "Join Type": "Inner",
+                        "Parent Relationship": "Outer",
+                        "Plans": [
+                          {
+                            "Node Type": "Subquery Scan",
+                            "Alias": "dummy",
+                            "Parent Relationship": "Outer",
+                            "Plans": [
+                              {
+                                "Node Type": "Result",
+                                "Parent Relationship": "Subquery"
+                              }
+                            ]
+                          },
+                          {
+                            "Node Type": "Seq Scan",
+                            "Relation Name": "porto_traj",
+                            "Alias": "t",
+                            "Parent Relationship": "Inner"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "jit": null,
+          "jit_enabled": false
+        },
+        {
+          "fingerprint": "98f90e0f0a3427eda16d192b8cff59c7e327a544a517cd019efee3a7dbfb0ffb",
+          "source_scan": "Seq Scan",
+          "source_index": null,
+          "source_planned_rows": 16913,
+          "metadata_join": "Hash Join",
+          "join_outer": "metadata",
+          "plan_family": "Seq Scan + Hash Join (metadata outer)",
+          "total_cost": 10000019607.7,
+          "planning_ms": 0.39,
+          "execution_ms": 636.189,
+          "buffers": {
+            "Shared Hit Blocks": 53510,
+            "Shared Read Blocks": 4741,
+            "Shared Dirtied Blocks": 0,
+            "Shared Written Blocks": 0,
+            "Local Hit Blocks": 0,
+            "Local Read Blocks": 0,
+            "Temp Read Blocks": 0,
+            "Temp Written Blocks": 0
+          },
+          "normalized_plan": {
+            "Node Type": "Aggregate",
+            "Strategy": "Plain",
+            "Partial Mode": "Simple",
+            "Plans": [
+              {
+                "Node Type": "Hash Join",
+                "Join Type": "Inner",
+                "Parent Relationship": "Outer",
+                "Plans": [
+                  {
+                    "Node Type": "Seq Scan",
+                    "Relation Name": "task4_porto_trip_metadata",
+                    "Alias": "m",
+                    "Parent Relationship": "Outer"
+                  },
+                  {
+                    "Node Type": "Hash",
+                    "Parent Relationship": "Inner",
+                    "Plans": [
+                      {
+                        "Node Type": "Nested Loop",
+                        "Join Type": "Inner",
+                        "Parent Relationship": "Outer",
+                        "Plans": [
+                          {
+                            "Node Type": "Subquery Scan",
+                            "Alias": "dummy",
+                            "Parent Relationship": "Outer",
+                            "Plans": [
+                              {
+                                "Node Type": "Result",
+                                "Parent Relationship": "Subquery"
+                              }
+                            ]
+                          },
+                          {
+                            "Node Type": "Seq Scan",
+                            "Relation Name": "porto_traj",
+                            "Alias": "t",
+                            "Parent Relationship": "Inner"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "jit": null,
+          "jit_enabled": false
+        }
+      ]
+    },
+    "oracle_merge": {
+      "predicted_cardinality": 15827.0,
+      "q_error": 1.0,
+      "inference_ms": 0.0,
+      "database_predicate_ms": null,
+      "clamped": false,
+      "repeats": [
+        {
+          "fingerprint": "f5c90e7a4f139d15eccf32614bdb940875dfd6a0383d55e6ffd1951a40aba806",
+          "source_scan": "Seq Scan",
+          "source_index": null,
+          "source_planned_rows": 16913,
+          "metadata_join": "Merge Join",
+          "join_outer": "metadata",
+          "plan_family": "Seq Scan + Merge Join (metadata outer)",
+          "total_cost": 10000023422.45,
+          "planning_ms": 0.412,
+          "execution_ms": 617.132,
+          "buffers": {
+            "Shared Hit Blocks": 95708,
+            "Shared Read Blocks": 5184,
+            "Shared Dirtied Blocks": 0,
+            "Shared Written Blocks": 0,
+            "Local Hit Blocks": 0,
+            "Local Read Blocks": 0,
+            "Temp Read Blocks": 0,
+            "Temp Written Blocks": 0
+          },
+          "normalized_plan": {
+            "Node Type": "Aggregate",
+            "Strategy": "Plain",
+            "Partial Mode": "Simple",
+            "Plans": [
+              {
+                "Node Type": "Merge Join",
+                "Join Type": "Inner",
+                "Parent Relationship": "Outer",
+                "Plans": [
+                  {
+                    "Node Type": "Index Scan",
+                    "Relation Name": "task4_porto_trip_metadata",
+                    "Alias": "m",
+                    "Index Name": "task4_porto_trip_metadata_pk",
+                    "Scan Direction": "Forward",
+                    "Parent Relationship": "Outer"
+                  },
+                  {
+                    "Node Type": "Sort",
+                    "Parent Relationship": "Inner",
+                    "Plans": [
+                      {
+                        "Node Type": "Nested Loop",
+                        "Join Type": "Inner",
+                        "Parent Relationship": "Outer",
+                        "Plans": [
+                          {
+                            "Node Type": "Subquery Scan",
+                            "Alias": "dummy",
+                            "Parent Relationship": "Outer",
+                            "Plans": [
+                              {
+                                "Node Type": "Result",
+                                "Parent Relationship": "Subquery"
+                              }
+                            ]
+                          },
+                          {
+                            "Node Type": "Seq Scan",
+                            "Relation Name": "porto_traj",
+                            "Alias": "t",
+                            "Parent Relationship": "Inner"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "jit": null,
+          "jit_enabled": false
+        },
+        {
+          "fingerprint": "f5c90e7a4f139d15eccf32614bdb940875dfd6a0383d55e6ffd1951a40aba806",
+          "source_scan": "Seq Scan",
+          "source_index": null,
+          "source_planned_rows": 16913,
+          "metadata_join": "Merge Join",
+          "join_outer": "metadata",
+          "plan_family": "Seq Scan + Merge Join (metadata outer)",
+          "total_cost": 10000023422.45,
+          "planning_ms": 0.415,
+          "execution_ms": 612.146,
+          "buffers": {
+            "Shared Hit Blocks": 95900,
+            "Shared Read Blocks": 4992,
+            "Shared Dirtied Blocks": 0,
+            "Shared Written Blocks": 0,
+            "Local Hit Blocks": 0,
+            "Local Read Blocks": 0,
+            "Temp Read Blocks": 0,
+            "Temp Written Blocks": 0
+          },
+          "normalized_plan": {
+            "Node Type": "Aggregate",
+            "Strategy": "Plain",
+            "Partial Mode": "Simple",
+            "Plans": [
+              {
+                "Node Type": "Merge Join",
+                "Join Type": "Inner",
+                "Parent Relationship": "Outer",
+                "Plans": [
+                  {
+                    "Node Type": "Index Scan",
+                    "Relation Name": "task4_porto_trip_metadata",
+                    "Alias": "m",
+                    "Index Name": "task4_porto_trip_metadata_pk",
+                    "Scan Direction": "Forward",
+                    "Parent Relationship": "Outer"
+                  },
+                  {
+                    "Node Type": "Sort",
+                    "Parent Relationship": "Inner",
+                    "Plans": [
+                      {
+                        "Node Type": "Nested Loop",
+                        "Join Type": "Inner",
+                        "Parent Relationship": "Outer",
+                        "Plans": [
+                          {
+                            "Node Type": "Subquery Scan",
+                            "Alias": "dummy",
+                            "Parent Relationship": "Outer",
+                            "Plans": [
+                              {
+                                "Node Type": "Result",
+                                "Parent Relationship": "Subquery"
+                              }
+                            ]
+                          },
+                          {
+                            "Node Type": "Seq Scan",
+                            "Relation Name": "porto_traj",
+                            "Alias": "t",
+                            "Parent Relationship": "Inner"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "jit": null,
+          "jit_enabled": false
+        },
+        {
+          "fingerprint": "f5c90e7a4f139d15eccf32614bdb940875dfd6a0383d55e6ffd1951a40aba806",
+          "source_scan": "Seq Scan",
+          "source_index": null,
+          "source_planned_rows": 16913,
+          "metadata_join": "Merge Join",
+          "join_outer": "metadata",
+          "plan_family": "Seq Scan + Merge Join (metadata outer)",
+          "total_cost": 10000023422.45,
+          "planning_ms": 0.41,
+          "execution_ms": 618.131,
+          "buffers": {
+            "Shared Hit Blocks": 96074,
+            "Shared Read Blocks": 4818,
+            "Shared Dirtied Blocks": 0,
+            "Shared Written Blocks": 0,
+            "Local Hit Blocks": 0,
+            "Local Read Blocks": 0,
+            "Temp Read Blocks": 0,
+            "Temp Written Blocks": 0
+          },
+          "normalized_plan": {
+            "Node Type": "Aggregate",
+            "Strategy": "Plain",
+            "Partial Mode": "Simple",
+            "Plans": [
+              {
+                "Node Type": "Merge Join",
+                "Join Type": "Inner",
+                "Parent Relationship": "Outer",
+                "Plans": [
+                  {
+                    "Node Type": "Index Scan",
+                    "Relation Name": "task4_porto_trip_metadata",
+                    "Alias": "m",
+                    "Index Name": "task4_porto_trip_metadata_pk",
+                    "Scan Direction": "Forward",
+                    "Parent Relationship": "Outer"
+                  },
+                  {
+                    "Node Type": "Sort",
+                    "Parent Relationship": "Inner",
+                    "Plans": [
+                      {
+                        "Node Type": "Nested Loop",
+                        "Join Type": "Inner",
+                        "Parent Relationship": "Outer",
+                        "Plans": [
+                          {
+                            "Node Type": "Subquery Scan",
+                            "Alias": "dummy",
+                            "Parent Relationship": "Outer",
+                            "Plans": [
+                              {
+                                "Node Type": "Result",
+                                "Parent Relationship": "Subquery"
+                              }
+                            ]
+                          },
+                          {
+                            "Node Type": "Seq Scan",
+                            "Relation Name": "porto_traj",
+                            "Alias": "t",
+                            "Parent Relationship": "Inner"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "jit": null,
+          "jit_enabled": false
+        },
+        {
+          "fingerprint": "f5c90e7a4f139d15eccf32614bdb940875dfd6a0383d55e6ffd1951a40aba806",
+          "source_scan": "Seq Scan",
+          "source_index": null,
+          "source_planned_rows": 16913,
+          "metadata_join": "Merge Join",
+          "join_outer": "metadata",
+          "plan_family": "Seq Scan + Merge Join (metadata outer)",
+          "total_cost": 10000023422.45,
+          "planning_ms": 0.419,
+          "execution_ms": 640.82,
+          "buffers": {
+            "Shared Hit Blocks": 96150,
+            "Shared Read Blocks": 4742,
+            "Shared Dirtied Blocks": 0,
+            "Shared Written Blocks": 0,
+            "Local Hit Blocks": 0,
+            "Local Read Blocks": 0,
+            "Temp Read Blocks": 0,
+            "Temp Written Blocks": 0
+          },
+          "normalized_plan": {
+            "Node Type": "Aggregate",
+            "Strategy": "Plain",
+            "Partial Mode": "Simple",
+            "Plans": [
+              {
+                "Node Type": "Merge Join",
+                "Join Type": "Inner",
+                "Parent Relationship": "Outer",
+                "Plans": [
+                  {
+                    "Node Type": "Index Scan",
+                    "Relation Name": "task4_porto_trip_metadata",
+                    "Alias": "m",
+                    "Index Name": "task4_porto_trip_metadata_pk",
+                    "Scan Direction": "Forward",
+                    "Parent Relationship": "Outer"
+                  },
+                  {
+                    "Node Type": "Sort",
+                    "Parent Relationship": "Inner",
+                    "Plans": [
+                      {
+                        "Node Type": "Nested Loop",
+                        "Join Type": "Inner",
+                        "Parent Relationship": "Outer",
+                        "Plans": [
+                          {
+                            "Node Type": "Subquery Scan",
+                            "Alias": "dummy",
+                            "Parent Relationship": "Outer",
+                            "Plans": [
+                              {
+                                "Node Type": "Result",
+                                "Parent Relationship": "Subquery"
+                              }
+                            ]
+                          },
+                          {
+                            "Node Type": "Seq Scan",
+                            "Relation Name": "porto_traj",
+                            "Alias": "t",
+                            "Parent Relationship": "Inner"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "jit": null,
+          "jit_enabled": false
+        },
+        {
+          "fingerprint": "f5c90e7a4f139d15eccf32614bdb940875dfd6a0383d55e6ffd1951a40aba806",
+          "source_scan": "Seq Scan",
+          "source_index": null,
+          "source_planned_rows": 16913,
+          "metadata_join": "Merge Join",
+          "join_outer": "metadata",
+          "plan_family": "Seq Scan + Merge Join (metadata outer)",
+          "total_cost": 10000023422.45,
+          "planning_ms": 0.424,
+          "execution_ms": 608.057,
+          "buffers": {
+            "Shared Hit Blocks": 96151,
+            "Shared Read Blocks": 4741,
+            "Shared Dirtied Blocks": 0,
+            "Shared Written Blocks": 0,
+            "Local Hit Blocks": 0,
+            "Local Read Blocks": 0,
+            "Temp Read Blocks": 0,
+            "Temp Written Blocks": 0
+          },
+          "normalized_plan": {
+            "Node Type": "Aggregate",
+            "Strategy": "Plain",
+            "Partial Mode": "Simple",
+            "Plans": [
+              {
+                "Node Type": "Merge Join",
+                "Join Type": "Inner",
+                "Parent Relationship": "Outer",
+                "Plans": [
+                  {
+                    "Node Type": "Index Scan",
+                    "Relation Name": "task4_porto_trip_metadata",
+                    "Alias": "m",
+                    "Index Name": "task4_porto_trip_metadata_pk",
+                    "Scan Direction": "Forward",
+                    "Parent Relationship": "Outer"
+                  },
+                  {
+                    "Node Type": "Sort",
+                    "Parent Relationship": "Inner",
+                    "Plans": [
+                      {
+                        "Node Type": "Nested Loop",
+                        "Join Type": "Inner",
+                        "Parent Relationship": "Outer",
+                        "Plans": [
+                          {
+                            "Node Type": "Subquery Scan",
+                            "Alias": "dummy",
+                            "Parent Relationship": "Outer",
+                            "Plans": [
+                              {
+                                "Node Type": "Result",
+                                "Parent Relationship": "Subquery"
+                              }
+                            ]
+                          },
+                          {
+                            "Node Type": "Seq Scan",
+                            "Relation Name": "porto_traj",
+                            "Alias": "t",
+                            "Parent Relationship": "Inner"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "jit": null,
+          "jit_enabled": false
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,13 @@
+dataset,condition,metric,point_estimate,ci_lower,ci_upper,n_queries,n_resamples,bootstrap_seed
+porto,native,regret_median,1.227221691213337,1.155628186930959,1.3634100013199828,100,10000,20260912
+porto,native,oracle_agreement_rate,0.18,0.11,0.26,100,10000,20260912
+porto,native,execution_speedup_median,1.0,1.0,1.0,100,10000,20260912
+porto,native,end_to_end_speedup_median,1.0,1.0,1.0,100,10000,20260912
+porto,trajectory_sampling,regret_median,1.2421732591123167,1.1545741736289208,1.3769449176604203,100,10000,20260912
+porto,trajectory_sampling,oracle_agreement_rate,0.17,0.1,0.25,100,10000,20260912
+porto,trajectory_sampling,execution_speedup_median,1.0001600621106936,0.9984931028661308,1.0019695917702238,100,10000,20260912
+porto,trajectory_sampling,end_to_end_speedup_median,0.8863165023459048,0.8504327451037608,0.9099664043077731,100,10000,20260912
+porto,true_cardinality_input,regret_median,1.234752827050777,1.1545741736289208,1.370839661346373,100,10000,20260912
+porto,true_cardinality_input,oracle_agreement_rate,0.18,0.11,0.26,100,10000,20260912
+porto,true_cardinality_input,execution_speedup_median,1.0002618462712247,0.9990782152037743,1.0015092366090892,100,10000,20260912
+porto,true_cardinality_input,end_to_end_speedup_median,1.0000850143488984,0.9989642910951877,1.0013960427664548,100,10000,20260912

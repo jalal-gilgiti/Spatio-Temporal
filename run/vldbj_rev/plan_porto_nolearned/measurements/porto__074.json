@@ -1,0 +1,2655 @@
+{
+  "dataset": "porto",
+  "query_id": "porto:plan-sensitive:074",
+  "predicate": {
+    "min_lon": -8.727624,
+    "max_lon": -8.400132,
+    "min_lat": 40.900041,
+    "max_lat": 41.299983,
+    "start_time": "2013-10-15T08:18:47.952927",
+    "end_time": "2013-11-23T20:28:53.977540",
+    "k": null,
+    "knn_center": null
+  },
+  "profile": "moderate",
+  "boundary_position": "near",
+  "boundary": {
+    "low_estimate_join": "Nested Loop",
+    "high_estimate_join": "Hash Join",
+    "transition_lower": 3000,
+    "transition_upper": 10000,
+    "boundary_geomean": 5477.2255750516615,
+    "probes": [
+      {
+        "estimate": 1,
+        "fingerprint": "533effa82c7282962ce542492814f7559749d87a4ac801226b260e8424685f3d",
+        "source_scan": "Bitmap Heap Scan",
+        "source_index": null,
+        "source_planned_rows": 10945,
+        "metadata_join": "Nested Loop",
+        "join_outer": "source",
+        "plan_family": "Bitmap Heap Scan + Nested Loop (source outer)",
+        "total_cost": 16510.6
+      },
+      {
+        "estimate": 3,
+        "fingerprint": "533effa82c7282962ce542492814f7559749d87a4ac801226b260e8424685f3d",
+        "source_scan": "Bitmap Heap Scan",
+        "source_index": null,
+        "source_planned_rows": 10945,
+        "metadata_join": "Nested Loop",
+        "join_outer": "source",
+        "plan_family": "Bitmap Heap Scan + Nested Loop (source outer)",
+        "total_cost": 16511.75
+      },
+      {
+        "estimate": 10,
+        "fingerprint": "533effa82c7282962ce542492814f7559749d87a4ac801226b260e8424685f3d",
+        "source_scan": "Bitmap Heap Scan",
+        "source_index": null,
+        "source_planned_rows": 10945,
+        "metadata_join": "Nested Loop",
+        "join_outer": "source",
+        "plan_family": "Bitmap Heap Scan + Nested Loop (source outer)",
+        "total_cost": 16515.77
+      },
+      {
+        "estimate": 30,
+        "fingerprint": "533effa82c7282962ce542492814f7559749d87a4ac801226b260e8424685f3d",
+        "source_scan": "Bitmap Heap Scan",
+        "source_index": null,
+        "source_planned_rows": 10945,
+        "metadata_join": "Nested Loop",
+        "join_outer": "source",
+        "plan_family": "Bitmap Heap Scan + Nested Loop (source outer)",
+        "total_cost": 16527.26
+      },
+      {
+        "estimate": 100,
+        "fingerprint": "533effa82c7282962ce542492814f7559749d87a4ac801226b260e8424685f3d",
+        "source_scan": "Bitmap Heap Scan",
+        "source_index": null,
+        "source_planned_rows": 10945,
+        "metadata_join": "Nested Loop",
+        "join_outer": "source",
+        "plan_family": "Bitmap Heap Scan + Nested Loop (source outer)",
+        "total_cost": 16567.48
+      },
+      {
+        "estimate": 300,
+        "fingerprint": "533effa82c7282962ce542492814f7559749d87a4ac801226b260e8424685f3d",
+        "source_scan": "Bitmap Heap Scan",
+        "source_index": null,
+        "source_planned_rows": 10945,
+        "metadata_join": "Nested Loop",
+        "join_outer": "source",
+        "plan_family": "Bitmap Heap Scan + Nested Loop (source outer)",
+        "total_cost": 16682.4
+      },
+      {
+        "estimate": 1000,
+        "fingerprint": "533effa82c7282962ce542492814f7559749d87a4ac801226b260e8424685f3d",
+        "source_scan": "Bitmap Heap Scan",
+        "source_index": null,
+        "source_planned_rows": 10945,
+        "metadata_join": "Nested Loop",
+        "join_outer": "source",
+        "plan_family": "Bitmap Heap Scan + Nested Loop (source outer)",
+        "total_cost": 17084.62
+      },
+      {
+        "estimate": 3000,
+        "fingerprint": "533effa82c7282962ce542492814f7559749d87a4ac801226b260e8424685f3d",
+        "source_scan": "Bitmap Heap Scan",
+        "source_index": null,
+        "source_planned_rows": 10945,
+        "metadata_join": "Nested Loop",
+        "join_outer": "source",
+        "plan_family": "Bitmap Heap Scan + Nested Loop (source outer)",
+        "total_cost": 18233.81
+      },
+      {
+        "estimate": 10000,
+        "fingerprint": "e56a4d3bcb4e517a9aeb1139d35a7dc348bdc00b968158f6ae034b87442d8807",
+        "source_scan": "Bitmap Heap Scan",
+        "source_index": null,
+        "source_planned_rows": 10945,
+        "metadata_join": "Hash Join",
+        "join_outer": "metadata",
+        "plan_family": "Bitmap Heap Scan + Hash Join (metadata outer)",
+        "total_cost": 18534.56
+      },
+      {
+        "estimate": 30000,
+        "fingerprint": "6bc4e31957bc7b1bc997d02fed4a66744dd72e87e21072de23501a00494170f1",
+        "source_scan": "Bitmap Heap Scan",
+        "source_index": null,
+        "source_planned_rows": 10945,
+        "metadata_join": "Hash Join",
+        "join_outer": "metadata",
+        "plan_family": "Bitmap Heap Scan + Hash Join (metadata outer)",
+        "total_cost": 18549.94
+      },
+      {
+        "estimate": 100000,
+        "fingerprint": "6bc4e31957bc7b1bc997d02fed4a66744dd72e87e21072de23501a00494170f1",
+        "source_scan": "Bitmap Heap Scan",
+        "source_index": null,
+        "source_planned_rows": 10945,
+        "metadata_join": "Hash Join",
+        "join_outer": "metadata",
+        "plan_family": "Bitmap Heap Scan + Hash Join (metadata outer)",
+        "total_cost": 18549.94
+      }
+    ]
+  },
+  "true_cardinality": 10677,
+  "joined_true_cardinality": 10123,
+  "workload_id": "3d191dcf508d0ab23cb5baa8f99c8f0f0990836a5b949c80de48c1f7bc9c423f",
+  "conditions": {
+    "native": {
+      "predicted_cardinality": null,
+      "q_error": null,
+      "inference_ms": 0.0,
+      "database_predicate_ms": null,
+      "clamped": false,
+      "repeats": [
+        {
+          "fingerprint": "6bc4e31957bc7b1bc997d02fed4a66744dd72e87e21072de23501a00494170f1",
+          "source_scan": "Bitmap Heap Scan",
+          "source_index": null,
+          "source_planned_rows": 9952,
+          "metadata_join": "Hash Join",
+          "join_outer": "metadata",
+          "plan_family": "Bitmap Heap Scan + Hash Join (metadata outer)",
+          "total_cost": 17934.09,
+          "planning_ms": 0.385,
+          "execution_ms": 253.488,
+          "buffers": {
+            "Shared Hit Blocks": 11037,
+            "Shared Read Blocks": 0,
+            "Shared Dirtied Blocks": 0,
+            "Shared Written Blocks": 0,
+            "Local Hit Blocks": 0,
+            "Local Read Blocks": 0,
+            "Temp Read Blocks": 0,
+            "Temp Written Blocks": 0
+          },
+          "normalized_plan": {
+            "Node Type": "Aggregate",
+            "Strategy": "Plain",
+            "Partial Mode": "Simple",
+            "Plans": [
+              {
+                "Node Type": "Nested Loop",
+                "Join Type": "Inner",
+                "Parent Relationship": "Outer",
+                "Plans": [
+                  {
+                    "Node Type": "Subquery Scan",
+                    "Alias": "dummy",
+                    "Parent Relationship": "Outer",
+                    "Plans": [
+                      {
+                        "Node Type": "Result",
+                        "Parent Relationship": "Subquery"
+                      }
+                    ]
+                  },
+                  {
+                    "Node Type": "Hash Join",
+                    "Join Type": "Inner",
+                    "Parent Relationship": "Inner",
+                    "Plans": [
+                      {
+                        "Node Type": "Seq Scan",
+                        "Relation Name": "task4_porto_trip_metadata",
+                        "Alias": "m",
+                        "Parent Relationship": "Outer"
+                      },
+                      {
+                        "Node Type": "Hash",
+                        "Parent Relationship": "Inner",
+                        "Plans": [
+                          {
+                            "Node Type": "Bitmap Heap Scan",
+                            "Relation Name": "porto_traj",
+                            "Alias": "t",
+                            "Parent Relationship": "Outer",
+                            "Plans": [
+                              {
+                                "Node Type": "Bitmap Index Scan",
+                                "Index Name": "task4_porto_traj_gist",
+                                "Parent Relationship": "Outer"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "jit": null,
+          "jit_enabled": false
+        },
+        {
+          "fingerprint": "6bc4e31957bc7b1bc997d02fed4a66744dd72e87e21072de23501a00494170f1",
+          "source_scan": "Bitmap Heap Scan",
+          "source_index": null,
+          "source_planned_rows": 9952,
+          "metadata_join": "Hash Join",
+          "join_outer": "metadata",
+          "plan_family": "Bitmap Heap Scan + Hash Join (metadata outer)",
+          "total_cost": 17934.09,
+          "planning_ms": 0.507,
+          "execution_ms": 354.584,
+          "buffers": {
+            "Shared Hit Blocks": 11037,
+            "Shared Read Blocks": 0,
+            "Shared Dirtied Blocks": 0,
+            "Shared Written Blocks": 0,
+            "Local Hit Blocks": 0,
+            "Local Read Blocks": 0,
+            "Temp Read Blocks": 0,
+            "Temp Written Blocks": 0
+          },
+          "normalized_plan": {
+            "Node Type": "Aggregate",
+            "Strategy": "Plain",
+            "Partial Mode": "Simple",
+            "Plans": [
+              {
+                "Node Type": "Nested Loop",
+                "Join Type": "Inner",
+                "Parent Relationship": "Outer",
+                "Plans": [
+                  {
+                    "Node Type": "Subquery Scan",
+                    "Alias": "dummy",
+                    "Parent Relationship": "Outer",
+                    "Plans": [
+                      {
+                        "Node Type": "Result",
+                        "Parent Relationship": "Subquery"
+                      }
+                    ]
+                  },
+                  {
+                    "Node Type": "Hash Join",
+                    "Join Type": "Inner",
+                    "Parent Relationship": "Inner",
+                    "Plans": [
+                      {
+                        "Node Type": "Seq Scan",
+                        "Relation Name": "task4_porto_trip_metadata",
+                        "Alias": "m",
+                        "Parent Relationship": "Outer"
+                      },
+                      {
+                        "Node Type": "Hash",
+                        "Parent Relationship": "Inner",
+                        "Plans": [
+                          {
+                            "Node Type": "Bitmap Heap Scan",
+                            "Relation Name": "porto_traj",
+                            "Alias": "t",
+                            "Parent Relationship": "Outer",
+                            "Plans": [
+                              {
+                                "Node Type": "Bitmap Index Scan",
+                                "Index Name": "task4_porto_traj_gist",
+                                "Parent Relationship": "Outer"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "jit": null,
+          "jit_enabled": false
+        },
+        {
+          "fingerprint": "6bc4e31957bc7b1bc997d02fed4a66744dd72e87e21072de23501a00494170f1",
+          "source_scan": "Bitmap Heap Scan",
+          "source_index": null,
+          "source_planned_rows": 9952,
+          "metadata_join": "Hash Join",
+          "join_outer": "metadata",
+          "plan_family": "Bitmap Heap Scan + Hash Join (metadata outer)",
+          "total_cost": 17934.09,
+          "planning_ms": 0.374,
+          "execution_ms": 252.76,
+          "buffers": {
+            "Shared Hit Blocks": 11037,
+            "Shared Read Blocks": 0,
+            "Shared Dirtied Blocks": 0,
+            "Shared Written Blocks": 0,
+            "Local Hit Blocks": 0,
+            "Local Read Blocks": 0,
+            "Temp Read Blocks": 0,
+            "Temp Written Blocks": 0
+          },
+          "normalized_plan": {
+            "Node Type": "Aggregate",
+            "Strategy": "Plain",
+            "Partial Mode": "Simple",
+            "Plans": [
+              {
+                "Node Type": "Nested Loop",
+                "Join Type": "Inner",
+                "Parent Relationship": "Outer",
+                "Plans": [
+                  {
+                    "Node Type": "Subquery Scan",
+                    "Alias": "dummy",
+                    "Parent Relationship": "Outer",
+                    "Plans": [
+                      {
+                        "Node Type": "Result",
+                        "Parent Relationship": "Subquery"
+                      }
+                    ]
+                  },
+                  {
+                    "Node Type": "Hash Join",
+                    "Join Type": "Inner",
+                    "Parent Relationship": "Inner",
+                    "Plans": [
+                      {
+                        "Node Type": "Seq Scan",
+                        "Relation Name": "task4_porto_trip_metadata",
+                        "Alias": "m",
+                        "Parent Relationship": "Outer"
+                      },
+                      {
+                        "Node Type": "Hash",
+                        "Parent Relationship": "Inner",
+                        "Plans": [
+                          {
+                            "Node Type": "Bitmap Heap Scan",
+                            "Relation Name": "porto_traj",
+                            "Alias": "t",
+                            "Parent Relationship": "Outer",
+                            "Plans": [
+                              {
+                                "Node Type": "Bitmap Index Scan",
+                                "Index Name": "task4_porto_traj_gist",
+                                "Parent Relationship": "Outer"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "jit": null,
+          "jit_enabled": false
+        },
+        {
+          "fingerprint": "6bc4e31957bc7b1bc997d02fed4a66744dd72e87e21072de23501a00494170f1",
+          "source_scan": "Bitmap Heap Scan",
+          "source_index": null,
+          "source_planned_rows": 9952,
+          "metadata_join": "Hash Join",
+          "join_outer": "metadata",
+          "plan_family": "Bitmap Heap Scan + Hash Join (metadata outer)",
+          "total_cost": 17934.09,
+          "planning_ms": 0.331,
+          "execution_ms": 252.146,
+          "buffers": {
+            "Shared Hit Blocks": 11037,
+            "Shared Read Blocks": 0,
+            "Shared Dirtied Blocks": 0,
+            "Shared Written Blocks": 0,
+            "Local Hit Blocks": 0,
+            "Local Read Blocks": 0,
+            "Temp Read Blocks": 0,
+            "Temp Written Blocks": 0
+          },
+          "normalized_plan": {
+            "Node Type": "Aggregate",
+            "Strategy": "Plain",
+            "Partial Mode": "Simple",
+            "Plans": [
+              {
+                "Node Type": "Nested Loop",
+                "Join Type": "Inner",
+                "Parent Relationship": "Outer",
+                "Plans": [
+                  {
+                    "Node Type": "Subquery Scan",
+                    "Alias": "dummy",
+                    "Parent Relationship": "Outer",
+                    "Plans": [
+                      {
+                        "Node Type": "Result",
+                        "Parent Relationship": "Subquery"
+                      }
+                    ]
+                  },
+                  {
+                    "Node Type": "Hash Join",
+                    "Join Type": "Inner",
+                    "Parent Relationship": "Inner",
+                    "Plans": [
+                      {
+                        "Node Type": "Seq Scan",
+                        "Relation Name": "task4_porto_trip_metadata",
+                        "Alias": "m",
+                        "Parent Relationship": "Outer"
+                      },
+                      {
+                        "Node Type": "Hash",
+                        "Parent Relationship": "Inner",
+                        "Plans": [
+                          {
+                            "Node Type": "Bitmap Heap Scan",
+                            "Relation Name": "porto_traj",
+                            "Alias": "t",
+                            "Parent Relationship": "Outer",
+                            "Plans": [
+                              {
+                                "Node Type": "Bitmap Index Scan",
+                                "Index Name": "task4_porto_traj_gist",
+                                "Parent Relationship": "Outer"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "jit": null,
+          "jit_enabled": false
+        },
+        {
+          "fingerprint": "6bc4e31957bc7b1bc997d02fed4a66744dd72e87e21072de23501a00494170f1",
+          "source_scan": "Bitmap Heap Scan",
+          "source_index": null,
+          "source_planned_rows": 9952,
+          "metadata_join": "Hash Join",
+          "join_outer": "metadata",
+          "plan_family": "Bitmap Heap Scan + Hash Join (metadata outer)",
+          "total_cost": 17934.09,
+          "planning_ms": 0.342,
+          "execution_ms": 252.258,
+          "buffers": {
+            "Shared Hit Blocks": 11037,
+            "Shared Read Blocks": 0,
+            "Shared Dirtied Blocks": 0,
+            "Shared Written Blocks": 0,
+            "Local Hit Blocks": 0,
+            "Local Read Blocks": 0,
+            "Temp Read Blocks": 0,
+            "Temp Written Blocks": 0
+          },
+          "normalized_plan": {
+            "Node Type": "Aggregate",
+            "Strategy": "Plain",
+            "Partial Mode": "Simple",
+            "Plans": [
+              {
+                "Node Type": "Nested Loop",
+                "Join Type": "Inner",
+                "Parent Relationship": "Outer",
+                "Plans": [
+                  {
+                    "Node Type": "Subquery Scan",
+                    "Alias": "dummy",
+                    "Parent Relationship": "Outer",
+                    "Plans": [
+                      {
+                        "Node Type": "Result",
+                        "Parent Relationship": "Subquery"
+                      }
+                    ]
+                  },
+                  {
+                    "Node Type": "Hash Join",
+                    "Join Type": "Inner",
+                    "Parent Relationship": "Inner",
+                    "Plans": [
+                      {
+                        "Node Type": "Seq Scan",
+                        "Relation Name": "task4_porto_trip_metadata",
+                        "Alias": "m",
+                        "Parent Relationship": "Outer"
+                      },
+                      {
+                        "Node Type": "Hash",
+                        "Parent Relationship": "Inner",
+                        "Plans": [
+                          {
+                            "Node Type": "Bitmap Heap Scan",
+                            "Relation Name": "porto_traj",
+                            "Alias": "t",
+                            "Parent Relationship": "Outer",
+                            "Plans": [
+                              {
+                                "Node Type": "Bitmap Index Scan",
+                                "Index Name": "task4_porto_traj_gist",
+                                "Parent Relationship": "Outer"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "jit": null,
+          "jit_enabled": false
+        }
+      ]
+    },
+    "true_cardinality_input": {
+      "predicted_cardinality": 10677.0,
+      "q_error": 1.0,
+      "inference_ms": 0.0,
+      "database_predicate_ms": null,
+      "clamped": false,
+      "repeats": [
+        {
+          "fingerprint": "6bc4e31957bc7b1bc997d02fed4a66744dd72e87e21072de23501a00494170f1",
+          "source_scan": "Bitmap Heap Scan",
+          "source_index": null,
+          "source_planned_rows": 9952,
+          "metadata_join": "Hash Join",
+          "join_outer": "metadata",
+          "plan_family": "Bitmap Heap Scan + Hash Join (metadata outer)",
+          "total_cost": 17934.09,
+          "planning_ms": 0.399,
+          "execution_ms": 252.875,
+          "buffers": {
+            "Shared Hit Blocks": 11037,
+            "Shared Read Blocks": 0,
+            "Shared Dirtied Blocks": 0,
+            "Shared Written Blocks": 0,
+            "Local Hit Blocks": 0,
+            "Local Read Blocks": 0,
+            "Temp Read Blocks": 0,
+            "Temp Written Blocks": 0
+          },
+          "normalized_plan": {
+            "Node Type": "Aggregate",
+            "Strategy": "Plain",
+            "Partial Mode": "Simple",
+            "Plans": [
+              {
+                "Node Type": "Nested Loop",
+                "Join Type": "Inner",
+                "Parent Relationship": "Outer",
+                "Plans": [
+                  {
+                    "Node Type": "Subquery Scan",
+                    "Alias": "dummy",
+                    "Parent Relationship": "Outer",
+                    "Plans": [
+                      {
+                        "Node Type": "Result",
+                        "Parent Relationship": "Subquery"
+                      }
+                    ]
+                  },
+                  {
+                    "Node Type": "Hash Join",
+                    "Join Type": "Inner",
+                    "Parent Relationship": "Inner",
+                    "Plans": [
+                      {
+                        "Node Type": "Seq Scan",
+                        "Relation Name": "task4_porto_trip_metadata",
+                        "Alias": "m",
+                        "Parent Relationship": "Outer"
+                      },
+                      {
+                        "Node Type": "Hash",
+                        "Parent Relationship": "Inner",
+                        "Plans": [
+                          {
+                            "Node Type": "Bitmap Heap Scan",
+                            "Relation Name": "porto_traj",
+                            "Alias": "t",
+                            "Parent Relationship": "Outer",
+                            "Plans": [
+                              {
+                                "Node Type": "Bitmap Index Scan",
+                                "Index Name": "task4_porto_traj_gist",
+                                "Parent Relationship": "Outer"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "jit": null,
+          "jit_enabled": false
+        },
+        {
+          "fingerprint": "6bc4e31957bc7b1bc997d02fed4a66744dd72e87e21072de23501a00494170f1",
+          "source_scan": "Bitmap Heap Scan",
+          "source_index": null,
+          "source_planned_rows": 9952,
+          "metadata_join": "Hash Join",
+          "join_outer": "metadata",
+          "plan_family": "Bitmap Heap Scan + Hash Join (metadata outer)",
+          "total_cost": 17934.09,
+          "planning_ms": 0.54,
+          "execution_ms": 354.94,
+          "buffers": {
+            "Shared Hit Blocks": 11037,
+            "Shared Read Blocks": 0,
+            "Shared Dirtied Blocks": 0,
+            "Shared Written Blocks": 0,
+            "Local Hit Blocks": 0,
+            "Local Read Blocks": 0,
+            "Temp Read Blocks": 0,
+            "Temp Written Blocks": 0
+          },
+          "normalized_plan": {
+            "Node Type": "Aggregate",
+            "Strategy": "Plain",
+            "Partial Mode": "Simple",
+            "Plans": [
+              {
+                "Node Type": "Nested Loop",
+                "Join Type": "Inner",
+                "Parent Relationship": "Outer",
+                "Plans": [
+                  {
+                    "Node Type": "Subquery Scan",
+                    "Alias": "dummy",
+                    "Parent Relationship": "Outer",
+                    "Plans": [
+                      {
+                        "Node Type": "Result",
+                        "Parent Relationship": "Subquery"
+                      }
+                    ]
+                  },
+                  {
+                    "Node Type": "Hash Join",
+                    "Join Type": "Inner",
+                    "Parent Relationship": "Inner",
+                    "Plans": [
+                      {
+                        "Node Type": "Seq Scan",
+                        "Relation Name": "task4_porto_trip_metadata",
+                        "Alias": "m",
+                        "Parent Relationship": "Outer"
+                      },
+                      {
+                        "Node Type": "Hash",
+                        "Parent Relationship": "Inner",
+                        "Plans": [
+                          {
+                            "Node Type": "Bitmap Heap Scan",
+                            "Relation Name": "porto_traj",
+                            "Alias": "t",
+                            "Parent Relationship": "Outer",
+                            "Plans": [
+                              {
+                                "Node Type": "Bitmap Index Scan",
+                                "Index Name": "task4_porto_traj_gist",
+                                "Parent Relationship": "Outer"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "jit": null,
+          "jit_enabled": false
+        },
+        {
+          "fingerprint": "6bc4e31957bc7b1bc997d02fed4a66744dd72e87e21072de23501a00494170f1",
+          "source_scan": "Bitmap Heap Scan",
+          "source_index": null,
+          "source_planned_rows": 9952,
+          "metadata_join": "Hash Join",
+          "join_outer": "metadata",
+          "plan_family": "Bitmap Heap Scan + Hash Join (metadata outer)",
+          "total_cost": 17934.09,
+          "planning_ms": 0.527,
+          "execution_ms": 354.652,
+          "buffers": {
+            "Shared Hit Blocks": 11037,
+            "Shared Read Blocks": 0,
+            "Shared Dirtied Blocks": 0,
+            "Shared Written Blocks": 0,
+            "Local Hit Blocks": 0,
+            "Local Read Blocks": 0,
+            "Temp Read Blocks": 0,
+            "Temp Written Blocks": 0
+          },
+          "normalized_plan": {
+            "Node Type": "Aggregate",
+            "Strategy": "Plain",
+            "Partial Mode": "Simple",
+            "Plans": [
+              {
+                "Node Type": "Nested Loop",
+                "Join Type": "Inner",
+                "Parent Relationship": "Outer",
+                "Plans": [
+                  {
+                    "Node Type": "Subquery Scan",
+                    "Alias": "dummy",
+                    "Parent Relationship": "Outer",
+                    "Plans": [
+                      {
+                        "Node Type": "Result",
+                        "Parent Relationship": "Subquery"
+                      }
+                    ]
+                  },
+                  {
+                    "Node Type": "Hash Join",
+                    "Join Type": "Inner",
+                    "Parent Relationship": "Inner",
+                    "Plans": [
+                      {
+                        "Node Type": "Seq Scan",
+                        "Relation Name": "task4_porto_trip_metadata",
+                        "Alias": "m",
+                        "Parent Relationship": "Outer"
+                      },
+                      {
+                        "Node Type": "Hash",
+                        "Parent Relationship": "Inner",
+                        "Plans": [
+                          {
+                            "Node Type": "Bitmap Heap Scan",
+                            "Relation Name": "porto_traj",
+                            "Alias": "t",
+                            "Parent Relationship": "Outer",
+                            "Plans": [
+                              {
+                                "Node Type": "Bitmap Index Scan",
+                                "Index Name": "task4_porto_traj_gist",
+                                "Parent Relationship": "Outer"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "jit": null,
+          "jit_enabled": false
+        },
+        {
+          "fingerprint": "6bc4e31957bc7b1bc997d02fed4a66744dd72e87e21072de23501a00494170f1",
+          "source_scan": "Bitmap Heap Scan",
+          "source_index": null,
+          "source_planned_rows": 9952,
+          "metadata_join": "Hash Join",
+          "join_outer": "metadata",
+          "plan_family": "Bitmap Heap Scan + Hash Join (metadata outer)",
+          "total_cost": 17934.09,
+          "planning_ms": 0.371,
+          "execution_ms": 286.588,
+          "buffers": {
+            "Shared Hit Blocks": 11037,
+            "Shared Read Blocks": 0,
+            "Shared Dirtied Blocks": 0,
+            "Shared Written Blocks": 0,
+            "Local Hit Blocks": 0,
+            "Local Read Blocks": 0,
+            "Temp Read Blocks": 0,
+            "Temp Written Blocks": 0
+          },
+          "normalized_plan": {
+            "Node Type": "Aggregate",
+            "Strategy": "Plain",
+            "Partial Mode": "Simple",
+            "Plans": [
+              {
+                "Node Type": "Nested Loop",
+                "Join Type": "Inner",
+                "Parent Relationship": "Outer",
+                "Plans": [
+                  {
+                    "Node Type": "Subquery Scan",
+                    "Alias": "dummy",
+                    "Parent Relationship": "Outer",
+                    "Plans": [
+                      {
+                        "Node Type": "Result",
+                        "Parent Relationship": "Subquery"
+                      }
+                    ]
+                  },
+                  {
+                    "Node Type": "Hash Join",
+                    "Join Type": "Inner",
+                    "Parent Relationship": "Inner",
+                    "Plans": [
+                      {
+                        "Node Type": "Seq Scan",
+                        "Relation Name": "task4_porto_trip_metadata",
+                        "Alias": "m",
+                        "Parent Relationship": "Outer"
+                      },
+                      {
+                        "Node Type": "Hash",
+                        "Parent Relationship": "Inner",
+                        "Plans": [
+                          {
+                            "Node Type": "Bitmap Heap Scan",
+                            "Relation Name": "porto_traj",
+                            "Alias": "t",
+                            "Parent Relationship": "Outer",
+                            "Plans": [
+                              {
+                                "Node Type": "Bitmap Index Scan",
+                                "Index Name": "task4_porto_traj_gist",
+                                "Parent Relationship": "Outer"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "jit": null,
+          "jit_enabled": false
+        },
+        {
+          "fingerprint": "6bc4e31957bc7b1bc997d02fed4a66744dd72e87e21072de23501a00494170f1",
+          "source_scan": "Bitmap Heap Scan",
+          "source_index": null,
+          "source_planned_rows": 9952,
+          "metadata_join": "Hash Join",
+          "join_outer": "metadata",
+          "plan_family": "Bitmap Heap Scan + Hash Join (metadata outer)",
+          "total_cost": 17934.09,
+          "planning_ms": 0.543,
+          "execution_ms": 290.374,
+          "buffers": {
+            "Shared Hit Blocks": 11037,
+            "Shared Read Blocks": 0,
+            "Shared Dirtied Blocks": 0,
+            "Shared Written Blocks": 0,
+            "Local Hit Blocks": 0,
+            "Local Read Blocks": 0,
+            "Temp Read Blocks": 0,
+            "Temp Written Blocks": 0
+          },
+          "normalized_plan": {
+            "Node Type": "Aggregate",
+            "Strategy": "Plain",
+            "Partial Mode": "Simple",
+            "Plans": [
+              {
+                "Node Type": "Nested Loop",
+                "Join Type": "Inner",
+                "Parent Relationship": "Outer",
+                "Plans": [
+                  {
+                    "Node Type": "Subquery Scan",
+                    "Alias": "dummy",
+                    "Parent Relationship": "Outer",
+                    "Plans": [
+                      {
+                        "Node Type": "Result",
+                        "Parent Relationship": "Subquery"
+                      }
+                    ]
+                  },
+                  {
+                    "Node Type": "Hash Join",
+                    "Join Type": "Inner",
+                    "Parent Relationship": "Inner",
+                    "Plans": [
+                      {
+                        "Node Type": "Seq Scan",
+                        "Relation Name": "task4_porto_trip_metadata",
+                        "Alias": "m",
+                        "Parent Relationship": "Outer"
+                      },
+                      {
+                        "Node Type": "Hash",
+                        "Parent Relationship": "Inner",
+                        "Plans": [
+                          {
+                            "Node Type": "Bitmap Heap Scan",
+                            "Relation Name": "porto_traj",
+                            "Alias": "t",
+                            "Parent Relationship": "Outer",
+                            "Plans": [
+                              {
+                                "Node Type": "Bitmap Index Scan",
+                                "Index Name": "task4_porto_traj_gist",
+                                "Parent Relationship": "Outer"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "jit": null,
+          "jit_enabled": false
+        }
+      ]
+    },
+    "trajectory_sampling": {
+      "predicted_cardinality": 10200.0,
+      "q_error": 1.0467601215567102,
+      "inference_ms": 23.988115000975085,
+      "database_predicate_ms": 23.797811001713853,
+      "clamped": false,
+      "repeats": [
+        {
+          "fingerprint": "6bc4e31957bc7b1bc997d02fed4a66744dd72e87e21072de23501a00494170f1",
+          "source_scan": "Bitmap Heap Scan",
+          "source_index": null,
+          "source_planned_rows": 9952,
+          "metadata_join": "Hash Join",
+          "join_outer": "metadata",
+          "plan_family": "Bitmap Heap Scan + Hash Join (metadata outer)",
+          "total_cost": 17934.09,
+          "planning_ms": 0.393,
+          "execution_ms": 253.549,
+          "buffers": {
+            "Shared Hit Blocks": 11037,
+            "Shared Read Blocks": 0,
+            "Shared Dirtied Blocks": 0,
+            "Shared Written Blocks": 0,
+            "Local Hit Blocks": 0,
+            "Local Read Blocks": 0,
+            "Temp Read Blocks": 0,
+            "Temp Written Blocks": 0
+          },
+          "normalized_plan": {
+            "Node Type": "Aggregate",
+            "Strategy": "Plain",
+            "Partial Mode": "Simple",
+            "Plans": [
+              {
+                "Node Type": "Nested Loop",
+                "Join Type": "Inner",
+                "Parent Relationship": "Outer",
+                "Plans": [
+                  {
+                    "Node Type": "Subquery Scan",
+                    "Alias": "dummy",
+                    "Parent Relationship": "Outer",
+                    "Plans": [
+                      {
+                        "Node Type": "Result",
+                        "Parent Relationship": "Subquery"
+                      }
+                    ]
+                  },
+                  {
+                    "Node Type": "Hash Join",
+                    "Join Type": "Inner",
+                    "Parent Relationship": "Inner",
+                    "Plans": [
+                      {
+                        "Node Type": "Seq Scan",
+                        "Relation Name": "task4_porto_trip_metadata",
+                        "Alias": "m",
+                        "Parent Relationship": "Outer"
+                      },
+                      {
+                        "Node Type": "Hash",
+                        "Parent Relationship": "Inner",
+                        "Plans": [
+                          {
+                            "Node Type": "Bitmap Heap Scan",
+                            "Relation Name": "porto_traj",
+                            "Alias": "t",
+                            "Parent Relationship": "Outer",
+                            "Plans": [
+                              {
+                                "Node Type": "Bitmap Index Scan",
+                                "Index Name": "task4_porto_traj_gist",
+                                "Parent Relationship": "Outer"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "jit": null,
+          "jit_enabled": false
+        },
+        {
+          "fingerprint": "6bc4e31957bc7b1bc997d02fed4a66744dd72e87e21072de23501a00494170f1",
+          "source_scan": "Bitmap Heap Scan",
+          "source_index": null,
+          "source_planned_rows": 9952,
+          "metadata_join": "Hash Join",
+          "join_outer": "metadata",
+          "plan_family": "Bitmap Heap Scan + Hash Join (metadata outer)",
+          "total_cost": 17934.09,
+          "planning_ms": 0.551,
+          "execution_ms": 355.082,
+          "buffers": {
+            "Shared Hit Blocks": 11037,
+            "Shared Read Blocks": 0,
+            "Shared Dirtied Blocks": 0,
+            "Shared Written Blocks": 0,
+            "Local Hit Blocks": 0,
+            "Local Read Blocks": 0,
+            "Temp Read Blocks": 0,
+            "Temp Written Blocks": 0
+          },
+          "normalized_plan": {
+            "Node Type": "Aggregate",
+            "Strategy": "Plain",
+            "Partial Mode": "Simple",
+            "Plans": [
+              {
+                "Node Type": "Nested Loop",
+                "Join Type": "Inner",
+                "Parent Relationship": "Outer",
+                "Plans": [
+                  {
+                    "Node Type": "Subquery Scan",
+                    "Alias": "dummy",
+                    "Parent Relationship": "Outer",
+                    "Plans": [
+                      {
+                        "Node Type": "Result",
+                        "Parent Relationship": "Subquery"
+                      }
+                    ]
+                  },
+                  {
+                    "Node Type": "Hash Join",
+                    "Join Type": "Inner",
+                    "Parent Relationship": "Inner",
+                    "Plans": [
+                      {
+                        "Node Type": "Seq Scan",
+                        "Relation Name": "task4_porto_trip_metadata",
+                        "Alias": "m",
+                        "Parent Relationship": "Outer"
+                      },
+                      {
+                        "Node Type": "Hash",
+                        "Parent Relationship": "Inner",
+                        "Plans": [
+                          {
+                            "Node Type": "Bitmap Heap Scan",
+                            "Relation Name": "porto_traj",
+                            "Alias": "t",
+                            "Parent Relationship": "Outer",
+                            "Plans": [
+                              {
+                                "Node Type": "Bitmap Index Scan",
+                                "Index Name": "task4_porto_traj_gist",
+                                "Parent Relationship": "Outer"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "jit": null,
+          "jit_enabled": false
+        },
+        {
+          "fingerprint": "6bc4e31957bc7b1bc997d02fed4a66744dd72e87e21072de23501a00494170f1",
+          "source_scan": "Bitmap Heap Scan",
+          "source_index": null,
+          "source_planned_rows": 9952,
+          "metadata_join": "Hash Join",
+          "join_outer": "metadata",
+          "plan_family": "Bitmap Heap Scan + Hash Join (metadata outer)",
+          "total_cost": 17934.09,
+          "planning_ms": 0.961,
+          "execution_ms": 277.489,
+          "buffers": {
+            "Shared Hit Blocks": 11037,
+            "Shared Read Blocks": 0,
+            "Shared Dirtied Blocks": 0,
+            "Shared Written Blocks": 0,
+            "Local Hit Blocks": 0,
+            "Local Read Blocks": 0,
+            "Temp Read Blocks": 0,
+            "Temp Written Blocks": 0
+          },
+          "normalized_plan": {
+            "Node Type": "Aggregate",
+            "Strategy": "Plain",
+            "Partial Mode": "Simple",
+            "Plans": [
+              {
+                "Node Type": "Nested Loop",
+                "Join Type": "Inner",
+                "Parent Relationship": "Outer",
+                "Plans": [
+                  {
+                    "Node Type": "Subquery Scan",
+                    "Alias": "dummy",
+                    "Parent Relationship": "Outer",
+                    "Plans": [
+                      {
+                        "Node Type": "Result",
+                        "Parent Relationship": "Subquery"
+                      }
+                    ]
+                  },
+                  {
+                    "Node Type": "Hash Join",
+                    "Join Type": "Inner",
+                    "Parent Relationship": "Inner",
+                    "Plans": [
+                      {
+                        "Node Type": "Seq Scan",
+                        "Relation Name": "task4_porto_trip_metadata",
+                        "Alias": "m",
+                        "Parent Relationship": "Outer"
+                      },
+                      {
+                        "Node Type": "Hash",
+                        "Parent Relationship": "Inner",
+                        "Plans": [
+                          {
+                            "Node Type": "Bitmap Heap Scan",
+                            "Relation Name": "porto_traj",
+                            "Alias": "t",
+                            "Parent Relationship": "Outer",
+                            "Plans": [
+                              {
+                                "Node Type": "Bitmap Index Scan",
+                                "Index Name": "task4_porto_traj_gist",
+                                "Parent Relationship": "Outer"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "jit": null,
+          "jit_enabled": false
+        },
+        {
+          "fingerprint": "6bc4e31957bc7b1bc997d02fed4a66744dd72e87e21072de23501a00494170f1",
+          "source_scan": "Bitmap Heap Scan",
+          "source_index": null,
+          "source_planned_rows": 9952,
+          "metadata_join": "Hash Join",
+          "join_outer": "metadata",
+          "plan_family": "Bitmap Heap Scan + Hash Join (metadata outer)",
+          "total_cost": 17934.09,
+          "planning_ms": 0.397,
+          "execution_ms": 252.427,
+          "buffers": {
+            "Shared Hit Blocks": 11037,
+            "Shared Read Blocks": 0,
+            "Shared Dirtied Blocks": 0,
+            "Shared Written Blocks": 0,
+            "Local Hit Blocks": 0,
+            "Local Read Blocks": 0,
+            "Temp Read Blocks": 0,
+            "Temp Written Blocks": 0
+          },
+          "normalized_plan": {
+            "Node Type": "Aggregate",
+            "Strategy": "Plain",
+            "Partial Mode": "Simple",
+            "Plans": [
+              {
+                "Node Type": "Nested Loop",
+                "Join Type": "Inner",
+                "Parent Relationship": "Outer",
+                "Plans": [
+                  {
+                    "Node Type": "Subquery Scan",
+                    "Alias": "dummy",
+                    "Parent Relationship": "Outer",
+                    "Plans": [
+                      {
+                        "Node Type": "Result",
+                        "Parent Relationship": "Subquery"
+                      }
+                    ]
+                  },
+                  {
+                    "Node Type": "Hash Join",
+                    "Join Type": "Inner",
+                    "Parent Relationship": "Inner",
+                    "Plans": [
+                      {
+                        "Node Type": "Seq Scan",
+                        "Relation Name": "task4_porto_trip_metadata",
+                        "Alias": "m",
+                        "Parent Relationship": "Outer"
+                      },
+                      {
+                        "Node Type": "Hash",
+                        "Parent Relationship": "Inner",
+                        "Plans": [
+                          {
+                            "Node Type": "Bitmap Heap Scan",
+                            "Relation Name": "porto_traj",
+                            "Alias": "t",
+                            "Parent Relationship": "Outer",
+                            "Plans": [
+                              {
+                                "Node Type": "Bitmap Index Scan",
+                                "Index Name": "task4_porto_traj_gist",
+                                "Parent Relationship": "Outer"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "jit": null,
+          "jit_enabled": false
+        },
+        {
+          "fingerprint": "6bc4e31957bc7b1bc997d02fed4a66744dd72e87e21072de23501a00494170f1",
+          "source_scan": "Bitmap Heap Scan",
+          "source_index": null,
+          "source_planned_rows": 9952,
+          "metadata_join": "Hash Join",
+          "join_outer": "metadata",
+          "plan_family": "Bitmap Heap Scan + Hash Join (metadata outer)",
+          "total_cost": 17934.09,
+          "planning_ms": 0.358,
+          "execution_ms": 252.445,
+          "buffers": {
+            "Shared Hit Blocks": 11037,
+            "Shared Read Blocks": 0,
+            "Shared Dirtied Blocks": 0,
+            "Shared Written Blocks": 0,
+            "Local Hit Blocks": 0,
+            "Local Read Blocks": 0,
+            "Temp Read Blocks": 0,
+            "Temp Written Blocks": 0
+          },
+          "normalized_plan": {
+            "Node Type": "Aggregate",
+            "Strategy": "Plain",
+            "Partial Mode": "Simple",
+            "Plans": [
+              {
+                "Node Type": "Nested Loop",
+                "Join Type": "Inner",
+                "Parent Relationship": "Outer",
+                "Plans": [
+                  {
+                    "Node Type": "Subquery Scan",
+                    "Alias": "dummy",
+                    "Parent Relationship": "Outer",
+                    "Plans": [
+                      {
+                        "Node Type": "Result",
+                        "Parent Relationship": "Subquery"
+                      }
+                    ]
+                  },
+                  {
+                    "Node Type": "Hash Join",
+                    "Join Type": "Inner",
+                    "Parent Relationship": "Inner",
+                    "Plans": [
+                      {
+                        "Node Type": "Seq Scan",
+                        "Relation Name": "task4_porto_trip_metadata",
+                        "Alias": "m",
+                        "Parent Relationship": "Outer"
+                      },
+                      {
+                        "Node Type": "Hash",
+                        "Parent Relationship": "Inner",
+                        "Plans": [
+                          {
+                            "Node Type": "Bitmap Heap Scan",
+                            "Relation Name": "porto_traj",
+                            "Alias": "t",
+                            "Parent Relationship": "Outer",
+                            "Plans": [
+                              {
+                                "Node Type": "Bitmap Index Scan",
+                                "Index Name": "task4_porto_traj_gist",
+                                "Parent Relationship": "Outer"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "jit": null,
+          "jit_enabled": false
+        }
+      ]
+    },
+    "oracle_nested": {
+      "predicted_cardinality": 10677.0,
+      "q_error": 1.0,
+      "inference_ms": 0.0,
+      "database_predicate_ms": null,
+      "clamped": false,
+      "repeats": [
+        {
+          "fingerprint": "6b59be964b573601320d21b973f0205729cd7df88e00c957b1c27958f53ad72d",
+          "source_scan": "Bitmap Heap Scan",
+          "source_index": null,
+          "source_planned_rows": 4147,
+          "metadata_join": "Nested Loop",
+          "join_outer": "source",
+          "plan_family": "Bitmap Heap Scan + Nested Loop (source outer)",
+          "total_cost": 20261.08,
+          "planning_ms": 0.384,
+          "execution_ms": 218.841,
+          "buffers": {
+            "Shared Hit Blocks": 42692,
+            "Shared Read Blocks": 0,
+            "Shared Dirtied Blocks": 0,
+            "Shared Written Blocks": 0,
+            "Local Hit Blocks": 0,
+            "Local Read Blocks": 0,
+            "Temp Read Blocks": 0,
+            "Temp Written Blocks": 0
+          },
+          "normalized_plan": {
+            "Node Type": "Aggregate",
+            "Strategy": "Plain",
+            "Partial Mode": "Simple",
+            "Plans": [
+              {
+                "Node Type": "Nested Loop",
+                "Join Type": "Inner",
+                "Parent Relationship": "Outer",
+                "Plans": [
+                  {
+                    "Node Type": "Subquery Scan",
+                    "Alias": "dummy",
+                    "Parent Relationship": "Outer",
+                    "Plans": [
+                      {
+                        "Node Type": "Result",
+                        "Parent Relationship": "Subquery"
+                      }
+                    ]
+                  },
+                  {
+                    "Node Type": "Gather",
+                    "Parent Relationship": "Inner",
+                    "Plans": [
+                      {
+                        "Node Type": "Nested Loop",
+                        "Join Type": "Inner",
+                        "Parent Relationship": "Outer",
+                        "Plans": [
+                          {
+                            "Node Type": "Bitmap Heap Scan",
+                            "Relation Name": "porto_traj",
+                            "Alias": "t",
+                            "Parent Relationship": "Outer",
+                            "Plans": [
+                              {
+                                "Node Type": "Bitmap Index Scan",
+                                "Index Name": "task4_porto_traj_gist",
+                                "Parent Relationship": "Outer"
+                              }
+                            ]
+                          },
+                          {
+                            "Node Type": "Index Scan",
+                            "Relation Name": "task4_porto_trip_metadata",
+                            "Alias": "m",
+                            "Index Name": "task4_porto_trip_metadata_pk",
+                            "Scan Direction": "Forward",
+                            "Parent Relationship": "Inner"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "jit": null,
+          "jit_enabled": false
+        },
+        {
+          "fingerprint": "6b59be964b573601320d21b973f0205729cd7df88e00c957b1c27958f53ad72d",
+          "source_scan": "Bitmap Heap Scan",
+          "source_index": null,
+          "source_planned_rows": 4147,
+          "metadata_join": "Nested Loop",
+          "join_outer": "source",
+          "plan_family": "Bitmap Heap Scan + Nested Loop (source outer)",
+          "total_cost": 20261.08,
+          "planning_ms": 0.488,
+          "execution_ms": 209.568,
+          "buffers": {
+            "Shared Hit Blocks": 42692,
+            "Shared Read Blocks": 0,
+            "Shared Dirtied Blocks": 0,
+            "Shared Written Blocks": 0,
+            "Local Hit Blocks": 0,
+            "Local Read Blocks": 0,
+            "Temp Read Blocks": 0,
+            "Temp Written Blocks": 0
+          },
+          "normalized_plan": {
+            "Node Type": "Aggregate",
+            "Strategy": "Plain",
+            "Partial Mode": "Simple",
+            "Plans": [
+              {
+                "Node Type": "Nested Loop",
+                "Join Type": "Inner",
+                "Parent Relationship": "Outer",
+                "Plans": [
+                  {
+                    "Node Type": "Subquery Scan",
+                    "Alias": "dummy",
+                    "Parent Relationship": "Outer",
+                    "Plans": [
+                      {
+                        "Node Type": "Result",
+                        "Parent Relationship": "Subquery"
+                      }
+                    ]
+                  },
+                  {
+                    "Node Type": "Gather",
+                    "Parent Relationship": "Inner",
+                    "Plans": [
+                      {
+                        "Node Type": "Nested Loop",
+                        "Join Type": "Inner",
+                        "Parent Relationship": "Outer",
+                        "Plans": [
+                          {
+                            "Node Type": "Bitmap Heap Scan",
+                            "Relation Name": "porto_traj",
+                            "Alias": "t",
+                            "Parent Relationship": "Outer",
+                            "Plans": [
+                              {
+                                "Node Type": "Bitmap Index Scan",
+                                "Index Name": "task4_porto_traj_gist",
+                                "Parent Relationship": "Outer"
+                              }
+                            ]
+                          },
+                          {
+                            "Node Type": "Index Scan",
+                            "Relation Name": "task4_porto_trip_metadata",
+                            "Alias": "m",
+                            "Index Name": "task4_porto_trip_metadata_pk",
+                            "Scan Direction": "Forward",
+                            "Parent Relationship": "Inner"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "jit": null,
+          "jit_enabled": false
+        },
+        {
+          "fingerprint": "6b59be964b573601320d21b973f0205729cd7df88e00c957b1c27958f53ad72d",
+          "source_scan": "Bitmap Heap Scan",
+          "source_index": null,
+          "source_planned_rows": 4147,
+          "metadata_join": "Nested Loop",
+          "join_outer": "source",
+          "plan_family": "Bitmap Heap Scan + Nested Loop (source outer)",
+          "total_cost": 20261.08,
+          "planning_ms": 0.485,
+          "execution_ms": 230.411,
+          "buffers": {
+            "Shared Hit Blocks": 42692,
+            "Shared Read Blocks": 0,
+            "Shared Dirtied Blocks": 0,
+            "Shared Written Blocks": 0,
+            "Local Hit Blocks": 0,
+            "Local Read Blocks": 0,
+            "Temp Read Blocks": 0,
+            "Temp Written Blocks": 0
+          },
+          "normalized_plan": {
+            "Node Type": "Aggregate",
+            "Strategy": "Plain",
+            "Partial Mode": "Simple",
+            "Plans": [
+              {
+                "Node Type": "Nested Loop",
+                "Join Type": "Inner",
+                "Parent Relationship": "Outer",
+                "Plans": [
+                  {
+                    "Node Type": "Subquery Scan",
+                    "Alias": "dummy",
+                    "Parent Relationship": "Outer",
+                    "Plans": [
+                      {
+                        "Node Type": "Result",
+                        "Parent Relationship": "Subquery"
+                      }
+                    ]
+                  },
+                  {
+                    "Node Type": "Gather",
+                    "Parent Relationship": "Inner",
+                    "Plans": [
+                      {
+                        "Node Type": "Nested Loop",
+                        "Join Type": "Inner",
+                        "Parent Relationship": "Outer",
+                        "Plans": [
+                          {
+                            "Node Type": "Bitmap Heap Scan",
+                            "Relation Name": "porto_traj",
+                            "Alias": "t",
+                            "Parent Relationship": "Outer",
+                            "Plans": [
+                              {
+                                "Node Type": "Bitmap Index Scan",
+                                "Index Name": "task4_porto_traj_gist",
+                                "Parent Relationship": "Outer"
+                              }
+                            ]
+                          },
+                          {
+                            "Node Type": "Index Scan",
+                            "Relation Name": "task4_porto_trip_metadata",
+                            "Alias": "m",
+                            "Index Name": "task4_porto_trip_metadata_pk",
+                            "Scan Direction": "Forward",
+                            "Parent Relationship": "Inner"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "jit": null,
+          "jit_enabled": false
+        },
+        {
+          "fingerprint": "6b59be964b573601320d21b973f0205729cd7df88e00c957b1c27958f53ad72d",
+          "source_scan": "Bitmap Heap Scan",
+          "source_index": null,
+          "source_planned_rows": 4147,
+          "metadata_join": "Nested Loop",
+          "join_outer": "source",
+          "plan_family": "Bitmap Heap Scan + Nested Loop (source outer)",
+          "total_cost": 20261.08,
+          "planning_ms": 0.33,
+          "execution_ms": 205.742,
+          "buffers": {
+            "Shared Hit Blocks": 42692,
+            "Shared Read Blocks": 0,
+            "Shared Dirtied Blocks": 0,
+            "Shared Written Blocks": 0,
+            "Local Hit Blocks": 0,
+            "Local Read Blocks": 0,
+            "Temp Read Blocks": 0,
+            "Temp Written Blocks": 0
+          },
+          "normalized_plan": {
+            "Node Type": "Aggregate",
+            "Strategy": "Plain",
+            "Partial Mode": "Simple",
+            "Plans": [
+              {
+                "Node Type": "Nested Loop",
+                "Join Type": "Inner",
+                "Parent Relationship": "Outer",
+                "Plans": [
+                  {
+                    "Node Type": "Subquery Scan",
+                    "Alias": "dummy",
+                    "Parent Relationship": "Outer",
+                    "Plans": [
+                      {
+                        "Node Type": "Result",
+                        "Parent Relationship": "Subquery"
+                      }
+                    ]
+                  },
+                  {
+                    "Node Type": "Gather",
+                    "Parent Relationship": "Inner",
+                    "Plans": [
+                      {
+                        "Node Type": "Nested Loop",
+                        "Join Type": "Inner",
+                        "Parent Relationship": "Outer",
+                        "Plans": [
+                          {
+                            "Node Type": "Bitmap Heap Scan",
+                            "Relation Name": "porto_traj",
+                            "Alias": "t",
+                            "Parent Relationship": "Outer",
+                            "Plans": [
+                              {
+                                "Node Type": "Bitmap Index Scan",
+                                "Index Name": "task4_porto_traj_gist",
+                                "Parent Relationship": "Outer"
+                              }
+                            ]
+                          },
+                          {
+                            "Node Type": "Index Scan",
+                            "Relation Name": "task4_porto_trip_metadata",
+                            "Alias": "m",
+                            "Index Name": "task4_porto_trip_metadata_pk",
+                            "Scan Direction": "Forward",
+                            "Parent Relationship": "Inner"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "jit": null,
+          "jit_enabled": false
+        },
+        {
+          "fingerprint": "6b59be964b573601320d21b973f0205729cd7df88e00c957b1c27958f53ad72d",
+          "source_scan": "Bitmap Heap Scan",
+          "source_index": null,
+          "source_planned_rows": 4147,
+          "metadata_join": "Nested Loop",
+          "join_outer": "source",
+          "plan_family": "Bitmap Heap Scan + Nested Loop (source outer)",
+          "total_cost": 20261.08,
+          "planning_ms": 0.349,
+          "execution_ms": 217.306,
+          "buffers": {
+            "Shared Hit Blocks": 42692,
+            "Shared Read Blocks": 0,
+            "Shared Dirtied Blocks": 0,
+            "Shared Written Blocks": 0,
+            "Local Hit Blocks": 0,
+            "Local Read Blocks": 0,
+            "Temp Read Blocks": 0,
+            "Temp Written Blocks": 0
+          },
+          "normalized_plan": {
+            "Node Type": "Aggregate",
+            "Strategy": "Plain",
+            "Partial Mode": "Simple",
+            "Plans": [
+              {
+                "Node Type": "Nested Loop",
+                "Join Type": "Inner",
+                "Parent Relationship": "Outer",
+                "Plans": [
+                  {
+                    "Node Type": "Subquery Scan",
+                    "Alias": "dummy",
+                    "Parent Relationship": "Outer",
+                    "Plans": [
+                      {
+                        "Node Type": "Result",
+                        "Parent Relationship": "Subquery"
+                      }
+                    ]
+                  },
+                  {
+                    "Node Type": "Gather",
+                    "Parent Relationship": "Inner",
+                    "Plans": [
+                      {
+                        "Node Type": "Nested Loop",
+                        "Join Type": "Inner",
+                        "Parent Relationship": "Outer",
+                        "Plans": [
+                          {
+                            "Node Type": "Bitmap Heap Scan",
+                            "Relation Name": "porto_traj",
+                            "Alias": "t",
+                            "Parent Relationship": "Outer",
+                            "Plans": [
+                              {
+                                "Node Type": "Bitmap Index Scan",
+                                "Index Name": "task4_porto_traj_gist",
+                                "Parent Relationship": "Outer"
+                              }
+                            ]
+                          },
+                          {
+                            "Node Type": "Index Scan",
+                            "Relation Name": "task4_porto_trip_metadata",
+                            "Alias": "m",
+                            "Index Name": "task4_porto_trip_metadata_pk",
+                            "Scan Direction": "Forward",
+                            "Parent Relationship": "Inner"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "jit": null,
+          "jit_enabled": false
+        }
+      ]
+    },
+    "oracle_hash": {
+      "predicted_cardinality": 10677.0,
+      "q_error": 1.0,
+      "inference_ms": 0.0,
+      "database_predicate_ms": null,
+      "clamped": false,
+      "repeats": [
+        {
+          "fingerprint": "6bc4e31957bc7b1bc997d02fed4a66744dd72e87e21072de23501a00494170f1",
+          "source_scan": "Bitmap Heap Scan",
+          "source_index": null,
+          "source_planned_rows": 9952,
+          "metadata_join": "Hash Join",
+          "join_outer": "metadata",
+          "plan_family": "Bitmap Heap Scan + Hash Join (metadata outer)",
+          "total_cost": 10000017934.09,
+          "planning_ms": 0.389,
+          "execution_ms": 253.79,
+          "buffers": {
+            "Shared Hit Blocks": 11037,
+            "Shared Read Blocks": 0,
+            "Shared Dirtied Blocks": 0,
+            "Shared Written Blocks": 0,
+            "Local Hit Blocks": 0,
+            "Local Read Blocks": 0,
+            "Temp Read Blocks": 0,
+            "Temp Written Blocks": 0
+          },
+          "normalized_plan": {
+            "Node Type": "Aggregate",
+            "Strategy": "Plain",
+            "Partial Mode": "Simple",
+            "Plans": [
+              {
+                "Node Type": "Nested Loop",
+                "Join Type": "Inner",
+                "Parent Relationship": "Outer",
+                "Plans": [
+                  {
+                    "Node Type": "Subquery Scan",
+                    "Alias": "dummy",
+                    "Parent Relationship": "Outer",
+                    "Plans": [
+                      {
+                        "Node Type": "Result",
+                        "Parent Relationship": "Subquery"
+                      }
+                    ]
+                  },
+                  {
+                    "Node Type": "Hash Join",
+                    "Join Type": "Inner",
+                    "Parent Relationship": "Inner",
+                    "Plans": [
+                      {
+                        "Node Type": "Seq Scan",
+                        "Relation Name": "task4_porto_trip_metadata",
+                        "Alias": "m",
+                        "Parent Relationship": "Outer"
+                      },
+                      {
+                        "Node Type": "Hash",
+                        "Parent Relationship": "Inner",
+                        "Plans": [
+                          {
+                            "Node Type": "Bitmap Heap Scan",
+                            "Relation Name": "porto_traj",
+                            "Alias": "t",
+                            "Parent Relationship": "Outer",
+                            "Plans": [
+                              {
+                                "Node Type": "Bitmap Index Scan",
+                                "Index Name": "task4_porto_traj_gist",
+                                "Parent Relationship": "Outer"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "jit": null,
+          "jit_enabled": false
+        },
+        {
+          "fingerprint": "6bc4e31957bc7b1bc997d02fed4a66744dd72e87e21072de23501a00494170f1",
+          "source_scan": "Bitmap Heap Scan",
+          "source_index": null,
+          "source_planned_rows": 9952,
+          "metadata_join": "Hash Join",
+          "join_outer": "metadata",
+          "plan_family": "Bitmap Heap Scan + Hash Join (metadata outer)",
+          "total_cost": 10000017934.09,
+          "planning_ms": 0.478,
+          "execution_ms": 354.737,
+          "buffers": {
+            "Shared Hit Blocks": 11037,
+            "Shared Read Blocks": 0,
+            "Shared Dirtied Blocks": 0,
+            "Shared Written Blocks": 0,
+            "Local Hit Blocks": 0,
+            "Local Read Blocks": 0,
+            "Temp Read Blocks": 0,
+            "Temp Written Blocks": 0
+          },
+          "normalized_plan": {
+            "Node Type": "Aggregate",
+            "Strategy": "Plain",
+            "Partial Mode": "Simple",
+            "Plans": [
+              {
+                "Node Type": "Nested Loop",
+                "Join Type": "Inner",
+                "Parent Relationship": "Outer",
+                "Plans": [
+                  {
+                    "Node Type": "Subquery Scan",
+                    "Alias": "dummy",
+                    "Parent Relationship": "Outer",
+                    "Plans": [
+                      {
+                        "Node Type": "Result",
+                        "Parent Relationship": "Subquery"
+                      }
+                    ]
+                  },
+                  {
+                    "Node Type": "Hash Join",
+                    "Join Type": "Inner",
+                    "Parent Relationship": "Inner",
+                    "Plans": [
+                      {
+                        "Node Type": "Seq Scan",
+                        "Relation Name": "task4_porto_trip_metadata",
+                        "Alias": "m",
+                        "Parent Relationship": "Outer"
+                      },
+                      {
+                        "Node Type": "Hash",
+                        "Parent Relationship": "Inner",
+                        "Plans": [
+                          {
+                            "Node Type": "Bitmap Heap Scan",
+                            "Relation Name": "porto_traj",
+                            "Alias": "t",
+                            "Parent Relationship": "Outer",
+                            "Plans": [
+                              {
+                                "Node Type": "Bitmap Index Scan",
+                                "Index Name": "task4_porto_traj_gist",
+                                "Parent Relationship": "Outer"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "jit": null,
+          "jit_enabled": false
+        },
+        {
+          "fingerprint": "6bc4e31957bc7b1bc997d02fed4a66744dd72e87e21072de23501a00494170f1",
+          "source_scan": "Bitmap Heap Scan",
+          "source_index": null,
+          "source_planned_rows": 9952,
+          "metadata_join": "Hash Join",
+          "join_outer": "metadata",
+          "plan_family": "Bitmap Heap Scan + Hash Join (metadata outer)",
+          "total_cost": 10000017934.09,
+          "planning_ms": 0.498,
+          "execution_ms": 354.374,
+          "buffers": {
+            "Shared Hit Blocks": 11037,
+            "Shared Read Blocks": 0,
+            "Shared Dirtied Blocks": 0,
+            "Shared Written Blocks": 0,
+            "Local Hit Blocks": 0,
+            "Local Read Blocks": 0,
+            "Temp Read Blocks": 0,
+            "Temp Written Blocks": 0
+          },
+          "normalized_plan": {
+            "Node Type": "Aggregate",
+            "Strategy": "Plain",
+            "Partial Mode": "Simple",
+            "Plans": [
+              {
+                "Node Type": "Nested Loop",
+                "Join Type": "Inner",
+                "Parent Relationship": "Outer",
+                "Plans": [
+                  {
+                    "Node Type": "Subquery Scan",
+                    "Alias": "dummy",
+                    "Parent Relationship": "Outer",
+                    "Plans": [
+                      {
+                        "Node Type": "Result",
+                        "Parent Relationship": "Subquery"
+                      }
+                    ]
+                  },
+                  {
+                    "Node Type": "Hash Join",
+                    "Join Type": "Inner",
+                    "Parent Relationship": "Inner",
+                    "Plans": [
+                      {
+                        "Node Type": "Seq Scan",
+                        "Relation Name": "task4_porto_trip_metadata",
+                        "Alias": "m",
+                        "Parent Relationship": "Outer"
+                      },
+                      {
+                        "Node Type": "Hash",
+                        "Parent Relationship": "Inner",
+                        "Plans": [
+                          {
+                            "Node Type": "Bitmap Heap Scan",
+                            "Relation Name": "porto_traj",
+                            "Alias": "t",
+                            "Parent Relationship": "Outer",
+                            "Plans": [
+                              {
+                                "Node Type": "Bitmap Index Scan",
+                                "Index Name": "task4_porto_traj_gist",
+                                "Parent Relationship": "Outer"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "jit": null,
+          "jit_enabled": false
+        },
+        {
+          "fingerprint": "6bc4e31957bc7b1bc997d02fed4a66744dd72e87e21072de23501a00494170f1",
+          "source_scan": "Bitmap Heap Scan",
+          "source_index": null,
+          "source_planned_rows": 9952,
+          "metadata_join": "Hash Join",
+          "join_outer": "metadata",
+          "plan_family": "Bitmap Heap Scan + Hash Join (metadata outer)",
+          "total_cost": 10000017934.09,
+          "planning_ms": 0.366,
+          "execution_ms": 252.656,
+          "buffers": {
+            "Shared Hit Blocks": 11037,
+            "Shared Read Blocks": 0,
+            "Shared Dirtied Blocks": 0,
+            "Shared Written Blocks": 0,
+            "Local Hit Blocks": 0,
+            "Local Read Blocks": 0,
+            "Temp Read Blocks": 0,
+            "Temp Written Blocks": 0
+          },
+          "normalized_plan": {
+            "Node Type": "Aggregate",
+            "Strategy": "Plain",
+            "Partial Mode": "Simple",
+            "Plans": [
+              {
+                "Node Type": "Nested Loop",
+                "Join Type": "Inner",
+                "Parent Relationship": "Outer",
+                "Plans": [
+                  {
+                    "Node Type": "Subquery Scan",
+                    "Alias": "dummy",
+                    "Parent Relationship": "Outer",
+                    "Plans": [
+                      {
+                        "Node Type": "Result",
+                        "Parent Relationship": "Subquery"
+                      }
+                    ]
+                  },
+                  {
+                    "Node Type": "Hash Join",
+                    "Join Type": "Inner",
+                    "Parent Relationship": "Inner",
+                    "Plans": [
+                      {
+                        "Node Type": "Seq Scan",
+                        "Relation Name": "task4_porto_trip_metadata",
+                        "Alias": "m",
+                        "Parent Relationship": "Outer"
+                      },
+                      {
+                        "Node Type": "Hash",
+                        "Parent Relationship": "Inner",
+                        "Plans": [
+                          {
+                            "Node Type": "Bitmap Heap Scan",
+                            "Relation Name": "porto_traj",
+                            "Alias": "t",
+                            "Parent Relationship": "Outer",
+                            "Plans": [
+                              {
+                                "Node Type": "Bitmap Index Scan",
+                                "Index Name": "task4_porto_traj_gist",
+                                "Parent Relationship": "Outer"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "jit": null,
+          "jit_enabled": false
+        },
+        {
+          "fingerprint": "6bc4e31957bc7b1bc997d02fed4a66744dd72e87e21072de23501a00494170f1",
+          "source_scan": "Bitmap Heap Scan",
+          "source_index": null,
+          "source_planned_rows": 9952,
+          "metadata_join": "Hash Join",
+          "join_outer": "metadata",
+          "plan_family": "Bitmap Heap Scan + Hash Join (metadata outer)",
+          "total_cost": 10000017934.09,
+          "planning_ms": 0.353,
+          "execution_ms": 252.823,
+          "buffers": {
+            "Shared Hit Blocks": 11037,
+            "Shared Read Blocks": 0,
+            "Shared Dirtied Blocks": 0,
+            "Shared Written Blocks": 0,
+            "Local Hit Blocks": 0,
+            "Local Read Blocks": 0,
+            "Temp Read Blocks": 0,
+            "Temp Written Blocks": 0
+          },
+          "normalized_plan": {
+            "Node Type": "Aggregate",
+            "Strategy": "Plain",
+            "Partial Mode": "Simple",
+            "Plans": [
+              {
+                "Node Type": "Nested Loop",
+                "Join Type": "Inner",
+                "Parent Relationship": "Outer",
+                "Plans": [
+                  {
+                    "Node Type": "Subquery Scan",
+                    "Alias": "dummy",
+                    "Parent Relationship": "Outer",
+                    "Plans": [
+                      {
+                        "Node Type": "Result",
+                        "Parent Relationship": "Subquery"
+                      }
+                    ]
+                  },
+                  {
+                    "Node Type": "Hash Join",
+                    "Join Type": "Inner",
+                    "Parent Relationship": "Inner",
+                    "Plans": [
+                      {
+                        "Node Type": "Seq Scan",
+                        "Relation Name": "task4_porto_trip_metadata",
+                        "Alias": "m",
+                        "Parent Relationship": "Outer"
+                      },
+                      {
+                        "Node Type": "Hash",
+                        "Parent Relationship": "Inner",
+                        "Plans": [
+                          {
+                            "Node Type": "Bitmap Heap Scan",
+                            "Relation Name": "porto_traj",
+                            "Alias": "t",
+                            "Parent Relationship": "Outer",
+                            "Plans": [
+                              {
+                                "Node Type": "Bitmap Index Scan",
+                                "Index Name": "task4_porto_traj_gist",
+                                "Parent Relationship": "Outer"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "jit": null,
+          "jit_enabled": false
+        }
+      ]
+    },
+    "oracle_merge": {
+      "predicted_cardinality": 10677.0,
+      "q_error": 1.0,
+      "inference_ms": 0.0,
+      "database_predicate_ms": null,
+      "clamped": false,
+      "repeats": [
+        {
+          "fingerprint": "3d28d77c29084174df6edb6f747076d99dd10f3a973f9f2d27d17463b6efd96c",
+          "source_scan": "Bitmap Heap Scan",
+          "source_index": null,
+          "source_planned_rows": 9952,
+          "metadata_join": "Merge Join",
+          "join_outer": "metadata",
+          "plan_family": "Bitmap Heap Scan + Merge Join (metadata outer)",
+          "total_cost": 10000021349.82,
+          "planning_ms": 0.379,
+          "execution_ms": 258.658,
+          "buffers": {
+            "Shared Hit Blocks": 55142,
+            "Shared Read Blocks": 0,
+            "Shared Dirtied Blocks": 0,
+            "Shared Written Blocks": 0,
+            "Local Hit Blocks": 0,
+            "Local Read Blocks": 0,
+            "Temp Read Blocks": 0,
+            "Temp Written Blocks": 0
+          },
+          "normalized_plan": {
+            "Node Type": "Aggregate",
+            "Strategy": "Plain",
+            "Partial Mode": "Simple",
+            "Plans": [
+              {
+                "Node Type": "Nested Loop",
+                "Join Type": "Inner",
+                "Parent Relationship": "Outer",
+                "Plans": [
+                  {
+                    "Node Type": "Subquery Scan",
+                    "Alias": "dummy",
+                    "Parent Relationship": "Outer",
+                    "Plans": [
+                      {
+                        "Node Type": "Result",
+                        "Parent Relationship": "Subquery"
+                      }
+                    ]
+                  },
+                  {
+                    "Node Type": "Merge Join",
+                    "Join Type": "Inner",
+                    "Parent Relationship": "Inner",
+                    "Plans": [
+                      {
+                        "Node Type": "Index Scan",
+                        "Relation Name": "task4_porto_trip_metadata",
+                        "Alias": "m",
+                        "Index Name": "task4_porto_trip_metadata_pk",
+                        "Scan Direction": "Forward",
+                        "Parent Relationship": "Outer"
+                      },
+                      {
+                        "Node Type": "Sort",
+                        "Parent Relationship": "Inner",
+                        "Plans": [
+                          {
+                            "Node Type": "Bitmap Heap Scan",
+                            "Relation Name": "porto_traj",
+                            "Alias": "t",
+                            "Parent Relationship": "Outer",
+                            "Plans": [
+                              {
+                                "Node Type": "Bitmap Index Scan",
+                                "Index Name": "task4_porto_traj_gist",
+                                "Parent Relationship": "Outer"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "jit": null,
+          "jit_enabled": false
+        },
+        {
+          "fingerprint": "3d28d77c29084174df6edb6f747076d99dd10f3a973f9f2d27d17463b6efd96c",
+          "source_scan": "Bitmap Heap Scan",
+          "source_index": null,
+          "source_planned_rows": 9952,
+          "metadata_join": "Merge Join",
+          "join_outer": "metadata",
+          "plan_family": "Bitmap Heap Scan + Merge Join (metadata outer)",
+          "total_cost": 10000021349.82,
+          "planning_ms": 0.532,
+          "execution_ms": 362.099,
+          "buffers": {
+            "Shared Hit Blocks": 55142,
+            "Shared Read Blocks": 0,
+            "Shared Dirtied Blocks": 0,
+            "Shared Written Blocks": 0,
+            "Local Hit Blocks": 0,
+            "Local Read Blocks": 0,
+            "Temp Read Blocks": 0,
+            "Temp Written Blocks": 0
+          },
+          "normalized_plan": {
+            "Node Type": "Aggregate",
+            "Strategy": "Plain",
+            "Partial Mode": "Simple",
+            "Plans": [
+              {
+                "Node Type": "Nested Loop",
+                "Join Type": "Inner",
+                "Parent Relationship": "Outer",
+                "Plans": [
+                  {
+                    "Node Type": "Subquery Scan",
+                    "Alias": "dummy",
+                    "Parent Relationship": "Outer",
+                    "Plans": [
+                      {
+                        "Node Type": "Result",
+                        "Parent Relationship": "Subquery"
+                      }
+                    ]
+                  },
+                  {
+                    "Node Type": "Merge Join",
+                    "Join Type": "Inner",
+                    "Parent Relationship": "Inner",
+                    "Plans": [
+                      {
+                        "Node Type": "Index Scan",
+                        "Relation Name": "task4_porto_trip_metadata",
+                        "Alias": "m",
+                        "Index Name": "task4_porto_trip_metadata_pk",
+                        "Scan Direction": "Forward",
+                        "Parent Relationship": "Outer"
+                      },
+                      {
+                        "Node Type": "Sort",
+                        "Parent Relationship": "Inner",
+                        "Plans": [
+                          {
+                            "Node Type": "Bitmap Heap Scan",
+                            "Relation Name": "porto_traj",
+                            "Alias": "t",
+                            "Parent Relationship": "Outer",
+                            "Plans": [
+                              {
+                                "Node Type": "Bitmap Index Scan",
+                                "Index Name": "task4_porto_traj_gist",
+                                "Parent Relationship": "Outer"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "jit": null,
+          "jit_enabled": false
+        },
+        {
+          "fingerprint": "3d28d77c29084174df6edb6f747076d99dd10f3a973f9f2d27d17463b6efd96c",
+          "source_scan": "Bitmap Heap Scan",
+          "source_index": null,
+          "source_planned_rows": 9952,
+          "metadata_join": "Merge Join",
+          "join_outer": "metadata",
+          "plan_family": "Bitmap Heap Scan + Merge Join (metadata outer)",
+          "total_cost": 10000021349.82,
+          "planning_ms": 0.407,
+          "execution_ms": 261.496,
+          "buffers": {
+            "Shared Hit Blocks": 55142,
+            "Shared Read Blocks": 0,
+            "Shared Dirtied Blocks": 0,
+            "Shared Written Blocks": 0,
+            "Local Hit Blocks": 0,
+            "Local Read Blocks": 0,
+            "Temp Read Blocks": 0,
+            "Temp Written Blocks": 0
+          },
+          "normalized_plan": {
+            "Node Type": "Aggregate",
+            "Strategy": "Plain",
+            "Partial Mode": "Simple",
+            "Plans": [
+              {
+                "Node Type": "Nested Loop",
+                "Join Type": "Inner",
+                "Parent Relationship": "Outer",
+                "Plans": [
+                  {
+                    "Node Type": "Subquery Scan",
+                    "Alias": "dummy",
+                    "Parent Relationship": "Outer",
+                    "Plans": [
+                      {
+                        "Node Type": "Result",
+                        "Parent Relationship": "Subquery"
+                      }
+                    ]
+                  },
+                  {
+                    "Node Type": "Merge Join",
+                    "Join Type": "Inner",
+                    "Parent Relationship": "Inner",
+                    "Plans": [
+                      {
+                        "Node Type": "Index Scan",
+                        "Relation Name": "task4_porto_trip_metadata",
+                        "Alias": "m",
+                        "Index Name": "task4_porto_trip_metadata_pk",
+                        "Scan Direction": "Forward",
+                        "Parent Relationship": "Outer"
+                      },
+                      {
+                        "Node Type": "Sort",
+                        "Parent Relationship": "Inner",
+                        "Plans": [
+                          {
+                            "Node Type": "Bitmap Heap Scan",
+                            "Relation Name": "porto_traj",
+                            "Alias": "t",
+                            "Parent Relationship": "Outer",
+                            "Plans": [
+                              {
+                                "Node Type": "Bitmap Index Scan",
+                                "Index Name": "task4_porto_traj_gist",
+                                "Parent Relationship": "Outer"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "jit": null,
+          "jit_enabled": false
+        },
+        {
+          "fingerprint": "3d28d77c29084174df6edb6f747076d99dd10f3a973f9f2d27d17463b6efd96c",
+          "source_scan": "Bitmap Heap Scan",
+          "source_index": null,
+          "source_planned_rows": 9952,
+          "metadata_join": "Merge Join",
+          "join_outer": "metadata",
+          "plan_family": "Bitmap Heap Scan + Merge Join (metadata outer)",
+          "total_cost": 10000021349.82,
+          "planning_ms": 0.375,
+          "execution_ms": 258.905,
+          "buffers": {
+            "Shared Hit Blocks": 55142,
+            "Shared Read Blocks": 0,
+            "Shared Dirtied Blocks": 0,
+            "Shared Written Blocks": 0,
+            "Local Hit Blocks": 0,
+            "Local Read Blocks": 0,
+            "Temp Read Blocks": 0,
+            "Temp Written Blocks": 0
+          },
+          "normalized_plan": {
+            "Node Type": "Aggregate",
+            "Strategy": "Plain",
+            "Partial Mode": "Simple",
+            "Plans": [
+              {
+                "Node Type": "Nested Loop",
+                "Join Type": "Inner",
+                "Parent Relationship": "Outer",
+                "Plans": [
+                  {
+                    "Node Type": "Subquery Scan",
+                    "Alias": "dummy",
+                    "Parent Relationship": "Outer",
+                    "Plans": [
+                      {
+                        "Node Type": "Result",
+                        "Parent Relationship": "Subquery"
+                      }
+                    ]
+                  },
+                  {
+                    "Node Type": "Merge Join",
+                    "Join Type": "Inner",
+                    "Parent Relationship": "Inner",
+                    "Plans": [
+                      {
+                        "Node Type": "Index Scan",
+                        "Relation Name": "task4_porto_trip_metadata",
+                        "Alias": "m",
+                        "Index Name": "task4_porto_trip_metadata_pk",
+                        "Scan Direction": "Forward",
+                        "Parent Relationship": "Outer"
+                      },
+                      {
+                        "Node Type": "Sort",
+                        "Parent Relationship": "Inner",
+                        "Plans": [
+                          {
+                            "Node Type": "Bitmap Heap Scan",
+                            "Relation Name": "porto_traj",
+                            "Alias": "t",
+                            "Parent Relationship": "Outer",
+                            "Plans": [
+                              {
+                                "Node Type": "Bitmap Index Scan",
+                                "Index Name": "task4_porto_traj_gist",
+                                "Parent Relationship": "Outer"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "jit": null,
+          "jit_enabled": false
+        },
+        {
+          "fingerprint": "3d28d77c29084174df6edb6f747076d99dd10f3a973f9f2d27d17463b6efd96c",
+          "source_scan": "Bitmap Heap Scan",
+          "source_index": null,
+          "source_planned_rows": 9952,
+          "metadata_join": "Merge Join",
+          "join_outer": "metadata",
+          "plan_family": "Bitmap Heap Scan + Merge Join (metadata outer)",
+          "total_cost": 10000021349.82,
+          "planning_ms": 0.407,
+          "execution_ms": 262.448,
+          "buffers": {
+            "Shared Hit Blocks": 55142,
+            "Shared Read Blocks": 0,
+            "Shared Dirtied Blocks": 0,
+            "Shared Written Blocks": 0,
+            "Local Hit Blocks": 0,
+            "Local Read Blocks": 0,
+            "Temp Read Blocks": 0,
+            "Temp Written Blocks": 0
+          },
+          "normalized_plan": {
+            "Node Type": "Aggregate",
+            "Strategy": "Plain",
+            "Partial Mode": "Simple",
+            "Plans": [
+              {
+                "Node Type": "Nested Loop",
+                "Join Type": "Inner",
+                "Parent Relationship": "Outer",
+                "Plans": [
+                  {
+                    "Node Type": "Subquery Scan",
+                    "Alias": "dummy",
+                    "Parent Relationship": "Outer",
+                    "Plans": [
+                      {
+                        "Node Type": "Result",
+                        "Parent Relationship": "Subquery"
+                      }
+                    ]
+                  },
+                  {
+                    "Node Type": "Merge Join",
+                    "Join Type": "Inner",
+                    "Parent Relationship": "Inner",
+                    "Plans": [
+                      {
+                        "Node Type": "Index Scan",
+                        "Relation Name": "task4_porto_trip_metadata",
+                        "Alias": "m",
+                        "Index Name": "task4_porto_trip_metadata_pk",
+                        "Scan Direction": "Forward",
+                        "Parent Relationship": "Outer"
+                      },
+                      {
+                        "Node Type": "Sort",
+                        "Parent Relationship": "Inner",
+                        "Plans": [
+                          {
+                            "Node Type": "Bitmap Heap Scan",
+                            "Relation Name": "porto_traj",
+                            "Alias": "t",
+                            "Parent Relationship": "Outer",
+                            "Plans": [
+                              {
+                                "Node Type": "Bitmap Index Scan",
+                                "Index Name": "task4_porto_traj_gist",
+                                "Parent Relationship": "Outer"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "jit": null,
+          "jit_enabled": false
+        }
+      ]
+    }
+  }
+}

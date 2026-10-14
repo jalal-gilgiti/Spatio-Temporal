@@ -1,0 +1,7 @@
+{
+  "join": "SELECT count(*) FROM <table> a JOIN <table> b ON a.traj && b.traj AND a.trajectory_id < b.trajectory_id WHERE a.traj && %(box)s::stbox AND b.traj && %(box)s::stbox ",
+  "windows": "first N frozen fixed-extent eval windows",
+  "sampling": "hash sample 1/100, seeds (17, 23, 47, 59, 71), median of 5",
+  "q_error": "clamped to [1, N(N-1)/2]",
+  "n_windows": 50
+}

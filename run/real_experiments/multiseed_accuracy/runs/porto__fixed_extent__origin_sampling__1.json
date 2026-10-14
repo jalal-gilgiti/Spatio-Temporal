@@ -1,0 +1,2120 @@
+{
+  "dataset": "porto",
+  "table": "porto_traj",
+  "workload": "fixed_extent",
+  "workload_id": "8a3635d9ac90718ba2debb52f0c489aafef09d3701308fed44202190fe299bdf",
+  "training_workload_id": "6c68be30dde82a639c6383a4f122163f3070c52f8dad0b339a3f2f94c7063827",
+  "estimator": "origin_sampling",
+  "display_name": "Origin Sampling",
+  "estimator_seed": 1,
+  "fit_seconds": 0.9781436128541827,
+  "summary": {
+    "median": 2.639366568235771,
+    "p90": 33.0,
+    "p95": 61.10000000000002,
+    "max": 241.0,
+    "mean_tail_sensitive": 12.802520819766869
+  },
+  "predictions": [
+    {
+      "query_id": "porto:fixed_extent:000",
+      "query_index": 0,
+      "true_cardinality": 5,
+      "predicted_cardinality": 0.0,
+      "q_error": 6.0
+    },
+    {
+      "query_id": "porto:fixed_extent:001",
+      "query_index": 1,
+      "true_cardinality": 391,
+      "predicted_cardinality": 80.0,
+      "q_error": 4.839506172839506
+    },
+    {
+      "query_id": "porto:fixed_extent:002",
+      "query_index": 2,
+      "true_cardinality": 29,
+      "predicted_cardinality": 0.0,
+      "q_error": 30.0
+    },
+    {
+      "query_id": "porto:fixed_extent:003",
+      "query_index": 3,
+      "true_cardinality": 3858,
+      "predicted_cardinality": 3400.0000000000005,
+      "q_error": 1.1346662746251102
+    },
+    {
+      "query_id": "porto:fixed_extent:004",
+      "query_index": 4,
+      "true_cardinality": 97,
+      "predicted_cardinality": 0.0,
+      "q_error": 98.0
+    },
+    {
+      "query_id": "porto:fixed_extent:005",
+      "query_index": 5,
+      "true_cardinality": 158,
+      "predicted_cardinality": 10.0,
+      "q_error": 14.454545454545455
+    },
+    {
+      "query_id": "porto:fixed_extent:006",
+      "query_index": 6,
+      "true_cardinality": 416,
+      "predicted_cardinality": 100.0,
+      "q_error": 4.128712871287129
+    },
+    {
+      "query_id": "porto:fixed_extent:007",
+      "query_index": 7,
+      "true_cardinality": 120,
+      "predicted_cardinality": 29.999999999999996,
+      "q_error": 3.9032258064516134
+    },
+    {
+      "query_id": "porto:fixed_extent:008",
+      "query_index": 8,
+      "true_cardinality": 3,
+      "predicted_cardinality": 0.0,
+      "q_error": 4.0
+    },
+    {
+      "query_id": "porto:fixed_extent:009",
+      "query_index": 9,
+      "true_cardinality": 5,
+      "predicted_cardinality": 0.0,
+      "q_error": 6.0
+    },
+    {
+      "query_id": "porto:fixed_extent:010",
+      "query_index": 10,
+      "true_cardinality": 3647,
+      "predicted_cardinality": 3520.0,
+      "q_error": 1.0360692984947457
+    },
+    {
+      "query_id": "porto:fixed_extent:011",
+      "query_index": 11,
+      "true_cardinality": 3052,
+      "predicted_cardinality": 2830.0,
+      "q_error": 1.0784175203108441
+    },
+    {
+      "query_id": "porto:fixed_extent:012",
+      "query_index": 12,
+      "true_cardinality": 3777,
+      "predicted_cardinality": 3350.0,
+      "q_error": 1.1274246493584006
+    },
+    {
+      "query_id": "porto:fixed_extent:013",
+      "query_index": 13,
+      "true_cardinality": 2431,
+      "predicted_cardinality": 1900.0,
+      "q_error": 1.2793266701735928
+    },
+    {
+      "query_id": "porto:fixed_extent:014",
+      "query_index": 14,
+      "true_cardinality": 11,
+      "predicted_cardinality": 0.0,
+      "q_error": 12.0
+    },
+    {
+      "query_id": "porto:fixed_extent:015",
+      "query_index": 15,
+      "true_cardinality": 4271,
+      "predicted_cardinality": 4040.0,
+      "q_error": 1.0571640682999257
+    },
+    {
+      "query_id": "porto:fixed_extent:016",
+      "query_index": 16,
+      "true_cardinality": 17,
+      "predicted_cardinality": 0.0,
+      "q_error": 18.0
+    },
+    {
+      "query_id": "porto:fixed_extent:017",
+      "query_index": 17,
+      "true_cardinality": 3178,
+      "predicted_cardinality": 3110.0,
+      "q_error": 1.0218579234972678
+    },
+    {
+      "query_id": "porto:fixed_extent:018",
+      "query_index": 18,
+      "true_cardinality": 4080,
+      "predicted_cardinality": 4050.0,
+      "q_error": 1.007405578869415
+    },
+    {
+      "query_id": "porto:fixed_extent:019",
+      "query_index": 19,
+      "true_cardinality": 3232,
+      "predicted_cardinality": 2710.0,
+      "q_error": 1.1925488749538915
+    },
+    {
+      "query_id": "porto:fixed_extent:020",
+      "query_index": 20,
+      "true_cardinality": 24,
+      "predicted_cardinality": 0.0,
+      "q_error": 25.0
+    },
+    {
+      "query_id": "porto:fixed_extent:021",
+      "query_index": 21,
+      "true_cardinality": 1900,
+      "predicted_cardinality": 959.9999999999999,
+      "q_error": 1.9781477627471387
+    },
+    {
+      "query_id": "porto:fixed_extent:022",
+      "query_index": 22,
+      "true_cardinality": 3156,
+      "predicted_cardinality": 2530.0,
+      "q_error": 1.2473330699328329
+    },
+    {
+      "query_id": "porto:fixed_extent:023",
+      "query_index": 23,
+      "true_cardinality": 17,
+      "predicted_cardinality": 0.0,
+      "q_error": 18.0
+    },
+    {
+      "query_id": "porto:fixed_extent:024",
+      "query_index": 24,
+      "true_cardinality": 162,
+      "predicted_cardinality": 29.999999999999996,
+      "q_error": 5.258064516129033
+    },
+    {
+      "query_id": "porto:fixed_extent:025",
+      "query_index": 25,
+      "true_cardinality": 2523,
+      "predicted_cardinality": 1569.9999999999998,
+      "q_error": 1.6066199872692555
+    },
+    {
+      "query_id": "porto:fixed_extent:026",
+      "query_index": 26,
+      "true_cardinality": 1864,
+      "predicted_cardinality": 1170.0,
+      "q_error": 1.59265584970111
+    },
+    {
+      "query_id": "porto:fixed_extent:027",
+      "query_index": 27,
+      "true_cardinality": 3590,
+      "predicted_cardinality": 3280.0000000000005,
+      "q_error": 1.0944833892106063
+    },
+    {
+      "query_id": "porto:fixed_extent:028",
+      "query_index": 28,
+      "true_cardinality": 411,
+      "predicted_cardinality": 110.0,
+      "q_error": 3.7117117117117115
+    },
+    {
+      "query_id": "porto:fixed_extent:029",
+      "query_index": 29,
+      "true_cardinality": 1814,
+      "predicted_cardinality": 980.0,
+      "q_error": 1.8501529051987768
+    },
+    {
+      "query_id": "porto:fixed_extent:030",
+      "query_index": 30,
+      "true_cardinality": 3,
+      "predicted_cardinality": 0.0,
+      "q_error": 4.0
+    },
+    {
+      "query_id": "porto:fixed_extent:031",
+      "query_index": 31,
+      "true_cardinality": 111,
+      "predicted_cardinality": 0.0,
+      "q_error": 112.0
+    },
+    {
+      "query_id": "porto:fixed_extent:032",
+      "query_index": 32,
+      "true_cardinality": 38,
+      "predicted_cardinality": 0.0,
+      "q_error": 39.0
+    },
+    {
+      "query_id": "porto:fixed_extent:033",
+      "query_index": 33,
+      "true_cardinality": 146,
+      "predicted_cardinality": 10.0,
+      "q_error": 13.363636363636363
+    },
+    {
+      "query_id": "porto:fixed_extent:034",
+      "query_index": 34,
+      "true_cardinality": 2,
+      "predicted_cardinality": 0.0,
+      "q_error": 3.0
+    },
+    {
+      "query_id": "porto:fixed_extent:035",
+      "query_index": 35,
+      "true_cardinality": 34,
+      "predicted_cardinality": 0.0,
+      "q_error": 35.0
+    },
+    {
+      "query_id": "porto:fixed_extent:036",
+      "query_index": 36,
+      "true_cardinality": 79,
+      "predicted_cardinality": 10.0,
+      "q_error": 7.2727272727272725
+    },
+    {
+      "query_id": "porto:fixed_extent:037",
+      "query_index": 37,
+      "true_cardinality": 3399,
+      "predicted_cardinality": 2820.0,
+      "q_error": 1.205246366536689
+    },
+    {
+      "query_id": "porto:fixed_extent:038",
+      "query_index": 38,
+      "true_cardinality": 179,
+      "predicted_cardinality": 29.999999999999996,
+      "q_error": 5.806451612903227
+    },
+    {
+      "query_id": "porto:fixed_extent:039",
+      "query_index": 39,
+      "true_cardinality": 635,
+      "predicted_cardinality": 330.0,
+      "q_error": 1.9214501510574018
+    },
+    {
+      "query_id": "porto:fixed_extent:040",
+      "query_index": 40,
+      "true_cardinality": 2784,
+      "predicted_cardinality": 1980.0000000000002,
+      "q_error": 1.4058556284704693
+    },
+    {
+      "query_id": "porto:fixed_extent:041",
+      "query_index": 41,
+      "true_cardinality": 1140,
+      "predicted_cardinality": 620.0,
+      "q_error": 1.8373590982286634
+    },
+    {
+      "query_id": "porto:fixed_extent:042",
+      "query_index": 42,
+      "true_cardinality": 120,
+      "predicted_cardinality": 29.999999999999996,
+      "q_error": 3.9032258064516134
+    },
+    {
+      "query_id": "porto:fixed_extent:043",
+      "query_index": 43,
+      "true_cardinality": 140,
+      "predicted_cardinality": 20.0,
+      "q_error": 6.714285714285714
+    },
+    {
+      "query_id": "porto:fixed_extent:044",
+      "query_index": 44,
+      "true_cardinality": 22,
+      "predicted_cardinality": 0.0,
+      "q_error": 23.0
+    },
+    {
+      "query_id": "porto:fixed_extent:045",
+      "query_index": 45,
+      "true_cardinality": 12,
+      "predicted_cardinality": 0.0,
+      "q_error": 13.0
+    },
+    {
+      "query_id": "porto:fixed_extent:046",
+      "query_index": 46,
+      "true_cardinality": 20,
+      "predicted_cardinality": 0.0,
+      "q_error": 21.0
+    },
+    {
+      "query_id": "porto:fixed_extent:047",
+      "query_index": 47,
+      "true_cardinality": 3,
+      "predicted_cardinality": 0.0,
+      "q_error": 4.0
+    },
+    {
+      "query_id": "porto:fixed_extent:048",
+      "query_index": 48,
+      "true_cardinality": 118,
+      "predicted_cardinality": 29.999999999999996,
+      "q_error": 3.8387096774193554
+    },
+    {
+      "query_id": "porto:fixed_extent:049",
+      "query_index": 49,
+      "true_cardinality": 3226,
+      "predicted_cardinality": 3340.0,
+      "q_error": 1.0353269290362566
+    },
+    {
+      "query_id": "porto:fixed_extent:050",
+      "query_index": 50,
+      "true_cardinality": 2793,
+      "predicted_cardinality": 2110.0,
+      "q_error": 1.3235433443865467
+    },
+    {
+      "query_id": "porto:fixed_extent:051",
+      "query_index": 51,
+      "true_cardinality": 3826,
+      "predicted_cardinality": 3820.0,
+      "q_error": 1.0015702695629416
+    },
+    {
+      "query_id": "porto:fixed_extent:052",
+      "query_index": 52,
+      "true_cardinality": 3780,
+      "predicted_cardinality": 3170.0,
+      "q_error": 1.1923683380637022
+    },
+    {
+      "query_id": "porto:fixed_extent:053",
+      "query_index": 53,
+      "true_cardinality": 3049,
+      "predicted_cardinality": 2520.0,
+      "q_error": 1.2098373661245538
+    },
+    {
+      "query_id": "porto:fixed_extent:054",
+      "query_index": 54,
+      "true_cardinality": 36,
+      "predicted_cardinality": 0.0,
+      "q_error": 37.0
+    },
+    {
+      "query_id": "porto:fixed_extent:055",
+      "query_index": 55,
+      "true_cardinality": 22,
+      "predicted_cardinality": 0.0,
+      "q_error": 23.0
+    },
+    {
+      "query_id": "porto:fixed_extent:056",
+      "query_index": 56,
+      "true_cardinality": 33,
+      "predicted_cardinality": 0.0,
+      "q_error": 34.0
+    },
+    {
+      "query_id": "porto:fixed_extent:057",
+      "query_index": 57,
+      "true_cardinality": 23,
+      "predicted_cardinality": 0.0,
+      "q_error": 24.0
+    },
+    {
+      "query_id": "porto:fixed_extent:058",
+      "query_index": 58,
+      "true_cardinality": 15,
+      "predicted_cardinality": 0.0,
+      "q_error": 16.0
+    },
+    {
+      "query_id": "porto:fixed_extent:059",
+      "query_index": 59,
+      "true_cardinality": 3804,
+      "predicted_cardinality": 3880.0,
+      "q_error": 1.0199737187910645
+    },
+    {
+      "query_id": "porto:fixed_extent:060",
+      "query_index": 60,
+      "true_cardinality": 1158,
+      "predicted_cardinality": 510.00000000000006,
+      "q_error": 2.268101761252446
+    },
+    {
+      "query_id": "porto:fixed_extent:061",
+      "query_index": 61,
+      "true_cardinality": 11,
+      "predicted_cardinality": 0.0,
+      "q_error": 12.0
+    },
+    {
+      "query_id": "porto:fixed_extent:062",
+      "query_index": 62,
+      "true_cardinality": 6,
+      "predicted_cardinality": 0.0,
+      "q_error": 7.0
+    },
+    {
+      "query_id": "porto:fixed_extent:063",
+      "query_index": 63,
+      "true_cardinality": 156,
+      "predicted_cardinality": 10.0,
+      "q_error": 14.272727272727273
+    },
+    {
+      "query_id": "porto:fixed_extent:064",
+      "query_index": 64,
+      "true_cardinality": 94,
+      "predicted_cardinality": 0.0,
+      "q_error": 95.0
+    },
+    {
+      "query_id": "porto:fixed_extent:065",
+      "query_index": 65,
+      "true_cardinality": 61,
+      "predicted_cardinality": 10.0,
+      "q_error": 5.636363636363637
+    },
+    {
+      "query_id": "porto:fixed_extent:066",
+      "query_index": 66,
+      "true_cardinality": 3819,
+      "predicted_cardinality": 3660.0,
+      "q_error": 1.0434307566238732
+    },
+    {
+      "query_id": "porto:fixed_extent:067",
+      "query_index": 67,
+      "true_cardinality": 3694,
+      "predicted_cardinality": 3230.0000000000005,
+      "q_error": 1.143608789848344
+    },
+    {
+      "query_id": "porto:fixed_extent:068",
+      "query_index": 68,
+      "true_cardinality": 321,
+      "predicted_cardinality": 100.0,
+      "q_error": 3.1881188118811883
+    },
+    {
+      "query_id": "porto:fixed_extent:069",
+      "query_index": 69,
+      "true_cardinality": 2084,
+      "predicted_cardinality": 1170.0,
+      "q_error": 1.780529461998292
+    },
+    {
+      "query_id": "porto:fixed_extent:070",
+      "query_index": 70,
+      "true_cardinality": 10,
+      "predicted_cardinality": 0.0,
+      "q_error": 11.0
+    },
+    {
+      "query_id": "porto:fixed_extent:071",
+      "query_index": 71,
+      "true_cardinality": 29,
+      "predicted_cardinality": 0.0,
+      "q_error": 30.0
+    },
+    {
+      "query_id": "porto:fixed_extent:072",
+      "query_index": 72,
+      "true_cardinality": 2176,
+      "predicted_cardinality": 1210.0,
+      "q_error": 1.7976878612716762
+    },
+    {
+      "query_id": "porto:fixed_extent:073",
+      "query_index": 73,
+      "true_cardinality": 16,
+      "predicted_cardinality": 0.0,
+      "q_error": 17.0
+    },
+    {
+      "query_id": "porto:fixed_extent:074",
+      "query_index": 74,
+      "true_cardinality": 3025,
+      "predicted_cardinality": 2810.0,
+      "q_error": 1.0764852365706155
+    },
+    {
+      "query_id": "porto:fixed_extent:075",
+      "query_index": 75,
+      "true_cardinality": 3870,
+      "predicted_cardinality": 3800.0,
+      "q_error": 1.01841620626151
+    },
+    {
+      "query_id": "porto:fixed_extent:076",
+      "query_index": 76,
+      "true_cardinality": 13,
+      "predicted_cardinality": 0.0,
+      "q_error": 14.0
+    },
+    {
+      "query_id": "porto:fixed_extent:077",
+      "query_index": 77,
+      "true_cardinality": 4,
+      "predicted_cardinality": 0.0,
+      "q_error": 5.0
+    },
+    {
+      "query_id": "porto:fixed_extent:078",
+      "query_index": 78,
+      "true_cardinality": 135,
+      "predicted_cardinality": 0.0,
+      "q_error": 136.0
+    },
+    {
+      "query_id": "porto:fixed_extent:079",
+      "query_index": 79,
+      "true_cardinality": 7,
+      "predicted_cardinality": 0.0,
+      "q_error": 8.0
+    },
+    {
+      "query_id": "porto:fixed_extent:080",
+      "query_index": 80,
+      "true_cardinality": 3778,
+      "predicted_cardinality": 2880.0,
+      "q_error": 1.311697327316904
+    },
+    {
+      "query_id": "porto:fixed_extent:081",
+      "query_index": 81,
+      "true_cardinality": 3682,
+      "predicted_cardinality": 3290.0,
+      "q_error": 1.1191127316924947
+    },
+    {
+      "query_id": "porto:fixed_extent:082",
+      "query_index": 82,
+      "true_cardinality": 37,
+      "predicted_cardinality": 0.0,
+      "q_error": 38.0
+    },
+    {
+      "query_id": "porto:fixed_extent:083",
+      "query_index": 83,
+      "true_cardinality": 3863,
+      "predicted_cardinality": 3800.0,
+      "q_error": 1.0165745856353592
+    },
+    {
+      "query_id": "porto:fixed_extent:084",
+      "query_index": 84,
+      "true_cardinality": 3844,
+      "predicted_cardinality": 3050.0,
+      "q_error": 1.2602425434283842
+    },
+    {
+      "query_id": "porto:fixed_extent:085",
+      "query_index": 85,
+      "true_cardinality": 139,
+      "predicted_cardinality": 59.99999999999999,
+      "q_error": 2.295081967213115
+    },
+    {
+      "query_id": "porto:fixed_extent:086",
+      "query_index": 86,
+      "true_cardinality": 3213,
+      "predicted_cardinality": 2660.0,
+      "q_error": 1.2078166102968808
+    },
+    {
+      "query_id": "porto:fixed_extent:087",
+      "query_index": 87,
+      "true_cardinality": 817,
+      "predicted_cardinality": 340.0,
+      "q_error": 2.398826979472141
+    },
+    {
+      "query_id": "porto:fixed_extent:088",
+      "query_index": 88,
+      "true_cardinality": 100,
+      "predicted_cardinality": 10.0,
+      "q_error": 9.181818181818182
+    },
+    {
+      "query_id": "porto:fixed_extent:089",
+      "query_index": 89,
+      "true_cardinality": 2192,
+      "predicted_cardinality": 1140.0,
+      "q_error": 1.9219982471516215
+    },
+    {
+      "query_id": "porto:fixed_extent:090",
+      "query_index": 90,
+      "true_cardinality": 2,
+      "predicted_cardinality": 0.0,
+      "q_error": 3.0
+    },
+    {
+      "query_id": "porto:fixed_extent:091",
+      "query_index": 91,
+      "true_cardinality": 32,
+      "predicted_cardinality": 0.0,
+      "q_error": 33.0
+    },
+    {
+      "query_id": "porto:fixed_extent:092",
+      "query_index": 92,
+      "true_cardinality": 2938,
+      "predicted_cardinality": 2190.0,
+      "q_error": 1.3413966225467824
+    },
+    {
+      "query_id": "porto:fixed_extent:093",
+      "query_index": 93,
+      "true_cardinality": 89,
+      "predicted_cardinality": 0.0,
+      "q_error": 90.0
+    },
+    {
+      "query_id": "porto:fixed_extent:094",
+      "query_index": 94,
+      "true_cardinality": 3074,
+      "predicted_cardinality": 2500.0,
+      "q_error": 1.2295081967213115
+    },
+    {
+      "query_id": "porto:fixed_extent:095",
+      "query_index": 95,
+      "true_cardinality": 196,
+      "predicted_cardinality": 29.999999999999996,
+      "q_error": 6.35483870967742
+    },
+    {
+      "query_id": "porto:fixed_extent:096",
+      "query_index": 96,
+      "true_cardinality": 1602,
+      "predicted_cardinality": 880.0,
+      "q_error": 1.8195232690124858
+    },
+    {
+      "query_id": "porto:fixed_extent:097",
+      "query_index": 97,
+      "true_cardinality": 13,
+      "predicted_cardinality": 0.0,
+      "q_error": 14.0
+    },
+    {
+      "query_id": "porto:fixed_extent:098",
+      "query_index": 98,
+      "true_cardinality": 3755,
+      "predicted_cardinality": 3360.0,
+      "q_error": 1.1175245462659922
+    },
+    {
+      "query_id": "porto:fixed_extent:099",
+      "query_index": 99,
+      "true_cardinality": 4051,
+      "predicted_cardinality": 4000.0,
+      "q_error": 1.012746813296676
+    },
+    {
+      "query_id": "porto:fixed_extent:100",
+      "query_index": 100,
+      "true_cardinality": 66,
+      "predicted_cardinality": 0.0,
+      "q_error": 67.0
+    },
+    {
+      "query_id": "porto:fixed_extent:101",
+      "query_index": 101,
+      "true_cardinality": 846,
+      "predicted_cardinality": 490.0,
+      "q_error": 1.725050916496945
+    },
+    {
+      "query_id": "porto:fixed_extent:102",
+      "query_index": 102,
+      "true_cardinality": 3351,
+      "predicted_cardinality": 2960.0,
+      "q_error": 1.1320499831138129
+    },
+    {
+      "query_id": "porto:fixed_extent:103",
+      "query_index": 103,
+      "true_cardinality": 1735,
+      "predicted_cardinality": 990.0000000000001,
+      "q_error": 1.7517658930373359
+    },
+    {
+      "query_id": "porto:fixed_extent:104",
+      "query_index": 104,
+      "true_cardinality": 13,
+      "predicted_cardinality": 0.0,
+      "q_error": 14.0
+    },
+    {
+      "query_id": "porto:fixed_extent:105",
+      "query_index": 105,
+      "true_cardinality": 2675,
+      "predicted_cardinality": 1990.0,
+      "q_error": 1.3440482169763939
+    },
+    {
+      "query_id": "porto:fixed_extent:106",
+      "query_index": 106,
+      "true_cardinality": 5,
+      "predicted_cardinality": 0.0,
+      "q_error": 6.0
+    },
+    {
+      "query_id": "porto:fixed_extent:107",
+      "query_index": 107,
+      "true_cardinality": 18,
+      "predicted_cardinality": 0.0,
+      "q_error": 19.0
+    },
+    {
+      "query_id": "porto:fixed_extent:108",
+      "query_index": 108,
+      "true_cardinality": 48,
+      "predicted_cardinality": 0.0,
+      "q_error": 49.0
+    },
+    {
+      "query_id": "porto:fixed_extent:109",
+      "query_index": 109,
+      "true_cardinality": 1283,
+      "predicted_cardinality": 680.0,
+      "q_error": 1.8854625550660793
+    },
+    {
+      "query_id": "porto:fixed_extent:110",
+      "query_index": 110,
+      "true_cardinality": 3097,
+      "predicted_cardinality": 2390.0,
+      "q_error": 1.2956921790046005
+    },
+    {
+      "query_id": "porto:fixed_extent:111",
+      "query_index": 111,
+      "true_cardinality": 3200,
+      "predicted_cardinality": 2550.0,
+      "q_error": 1.2548020384163074
+    },
+    {
+      "query_id": "porto:fixed_extent:112",
+      "query_index": 112,
+      "true_cardinality": 10,
+      "predicted_cardinality": 0.0,
+      "q_error": 11.0
+    },
+    {
+      "query_id": "porto:fixed_extent:113",
+      "query_index": 113,
+      "true_cardinality": 2762,
+      "predicted_cardinality": 2160.0,
+      "q_error": 1.2785747339194817
+    },
+    {
+      "query_id": "porto:fixed_extent:114",
+      "query_index": 114,
+      "true_cardinality": 12,
+      "predicted_cardinality": 0.0,
+      "q_error": 13.0
+    },
+    {
+      "query_id": "porto:fixed_extent:115",
+      "query_index": 115,
+      "true_cardinality": 2838,
+      "predicted_cardinality": 1859.9999999999998,
+      "q_error": 1.525523911875336
+    },
+    {
+      "query_id": "porto:fixed_extent:116",
+      "query_index": 116,
+      "true_cardinality": 4,
+      "predicted_cardinality": 0.0,
+      "q_error": 5.0
+    },
+    {
+      "query_id": "porto:fixed_extent:117",
+      "query_index": 117,
+      "true_cardinality": 52,
+      "predicted_cardinality": 10.0,
+      "q_error": 4.818181818181818
+    },
+    {
+      "query_id": "porto:fixed_extent:118",
+      "query_index": 118,
+      "true_cardinality": 1094,
+      "predicted_cardinality": 590.0,
+      "q_error": 1.8527918781725887
+    },
+    {
+      "query_id": "porto:fixed_extent:119",
+      "query_index": 119,
+      "true_cardinality": 1229,
+      "predicted_cardinality": 770.0,
+      "q_error": 1.595330739299611
+    },
+    {
+      "query_id": "porto:fixed_extent:120",
+      "query_index": 120,
+      "true_cardinality": 4246,
+      "predicted_cardinality": 3950.0,
+      "q_error": 1.0749177423437104
+    },
+    {
+      "query_id": "porto:fixed_extent:121",
+      "query_index": 121,
+      "true_cardinality": 3656,
+      "predicted_cardinality": 3530.0,
+      "q_error": 1.0356839422259982
+    },
+    {
+      "query_id": "porto:fixed_extent:122",
+      "query_index": 122,
+      "true_cardinality": 3698,
+      "predicted_cardinality": 3549.9999999999995,
+      "q_error": 1.0416784004505775
+    },
+    {
+      "query_id": "porto:fixed_extent:123",
+      "query_index": 123,
+      "true_cardinality": 3015,
+      "predicted_cardinality": 2510.0,
+      "q_error": 1.2011150935882118
+    },
+    {
+      "query_id": "porto:fixed_extent:124",
+      "query_index": 124,
+      "true_cardinality": 86,
+      "predicted_cardinality": 0.0,
+      "q_error": 87.0
+    },
+    {
+      "query_id": "porto:fixed_extent:125",
+      "query_index": 125,
+      "true_cardinality": 3664,
+      "predicted_cardinality": 3649.9999999999995,
+      "q_error": 1.003834565872364
+    },
+    {
+      "query_id": "porto:fixed_extent:126",
+      "query_index": 126,
+      "true_cardinality": 147,
+      "predicted_cardinality": 0.0,
+      "q_error": 148.0
+    },
+    {
+      "query_id": "porto:fixed_extent:127",
+      "query_index": 127,
+      "true_cardinality": 198,
+      "predicted_cardinality": 10.0,
+      "q_error": 18.09090909090909
+    },
+    {
+      "query_id": "porto:fixed_extent:128",
+      "query_index": 128,
+      "true_cardinality": 793,
+      "predicted_cardinality": 460.0,
+      "q_error": 1.7223427331887202
+    },
+    {
+      "query_id": "porto:fixed_extent:129",
+      "query_index": 129,
+      "true_cardinality": 3486,
+      "predicted_cardinality": 3510.0,
+      "q_error": 1.0068827071981645
+    },
+    {
+      "query_id": "porto:fixed_extent:130",
+      "query_index": 130,
+      "true_cardinality": 36,
+      "predicted_cardinality": 0.0,
+      "q_error": 37.0
+    },
+    {
+      "query_id": "porto:fixed_extent:131",
+      "query_index": 131,
+      "true_cardinality": 154,
+      "predicted_cardinality": 20.0,
+      "q_error": 7.380952380952381
+    },
+    {
+      "query_id": "porto:fixed_extent:132",
+      "query_index": 132,
+      "true_cardinality": 3861,
+      "predicted_cardinality": 4000.0,
+      "q_error": 1.0359917141377524
+    },
+    {
+      "query_id": "porto:fixed_extent:133",
+      "query_index": 133,
+      "true_cardinality": 97,
+      "predicted_cardinality": 0.0,
+      "q_error": 98.0
+    },
+    {
+      "query_id": "porto:fixed_extent:134",
+      "query_index": 134,
+      "true_cardinality": 558,
+      "predicted_cardinality": 100.0,
+      "q_error": 5.534653465346534
+    },
+    {
+      "query_id": "porto:fixed_extent:135",
+      "query_index": 135,
+      "true_cardinality": 18,
+      "predicted_cardinality": 0.0,
+      "q_error": 19.0
+    },
+    {
+      "query_id": "porto:fixed_extent:136",
+      "query_index": 136,
+      "true_cardinality": 54,
+      "predicted_cardinality": 0.0,
+      "q_error": 55.0
+    },
+    {
+      "query_id": "porto:fixed_extent:137",
+      "query_index": 137,
+      "true_cardinality": 4360,
+      "predicted_cardinality": 3490.0,
+      "q_error": 1.2492122600973934
+    },
+    {
+      "query_id": "porto:fixed_extent:138",
+      "query_index": 138,
+      "true_cardinality": 2,
+      "predicted_cardinality": 0.0,
+      "q_error": 3.0
+    },
+    {
+      "query_id": "porto:fixed_extent:139",
+      "query_index": 139,
+      "true_cardinality": 240,
+      "predicted_cardinality": 0.0,
+      "q_error": 241.0
+    },
+    {
+      "query_id": "porto:fixed_extent:140",
+      "query_index": 140,
+      "true_cardinality": 4015,
+      "predicted_cardinality": 3930.0,
+      "q_error": 1.0216229966929535
+    },
+    {
+      "query_id": "porto:fixed_extent:141",
+      "query_index": 141,
+      "true_cardinality": 4107,
+      "predicted_cardinality": 4080.0000000000005,
+      "q_error": 1.0066160254839498
+    },
+    {
+      "query_id": "porto:fixed_extent:142",
+      "query_index": 142,
+      "true_cardinality": 24,
+      "predicted_cardinality": 0.0,
+      "q_error": 25.0
+    },
+    {
+      "query_id": "porto:fixed_extent:143",
+      "query_index": 143,
+      "true_cardinality": 81,
+      "predicted_cardinality": 10.0,
+      "q_error": 7.454545454545454
+    },
+    {
+      "query_id": "porto:fixed_extent:144",
+      "query_index": 144,
+      "true_cardinality": 3857,
+      "predicted_cardinality": 3370.0,
+      "q_error": 1.1444675170572531
+    },
+    {
+      "query_id": "porto:fixed_extent:145",
+      "query_index": 145,
+      "true_cardinality": 7,
+      "predicted_cardinality": 0.0,
+      "q_error": 8.0
+    },
+    {
+      "query_id": "porto:fixed_extent:146",
+      "query_index": 146,
+      "true_cardinality": 1009,
+      "predicted_cardinality": 360.0,
+      "q_error": 2.7977839335180055
+    },
+    {
+      "query_id": "porto:fixed_extent:147",
+      "query_index": 147,
+      "true_cardinality": 3694,
+      "predicted_cardinality": 3100.0,
+      "q_error": 1.1915511125443405
+    },
+    {
+      "query_id": "porto:fixed_extent:148",
+      "query_index": 148,
+      "true_cardinality": 93,
+      "predicted_cardinality": 20.0,
+      "q_error": 4.476190476190476
+    },
+    {
+      "query_id": "porto:fixed_extent:149",
+      "query_index": 149,
+      "true_cardinality": 3359,
+      "predicted_cardinality": 3470.0,
+      "q_error": 1.0330357142857143
+    },
+    {
+      "query_id": "porto:fixed_extent:150",
+      "query_index": 150,
+      "true_cardinality": 4562,
+      "predicted_cardinality": 4350.0,
+      "q_error": 1.0487244311652493
+    },
+    {
+      "query_id": "porto:fixed_extent:151",
+      "query_index": 151,
+      "true_cardinality": 66,
+      "predicted_cardinality": 10.0,
+      "q_error": 6.090909090909091
+    },
+    {
+      "query_id": "porto:fixed_extent:152",
+      "query_index": 152,
+      "true_cardinality": 6,
+      "predicted_cardinality": 0.0,
+      "q_error": 7.0
+    },
+    {
+      "query_id": "porto:fixed_extent:153",
+      "query_index": 153,
+      "true_cardinality": 3502,
+      "predicted_cardinality": 3270.0,
+      "q_error": 1.0709263222256191
+    },
+    {
+      "query_id": "porto:fixed_extent:154",
+      "query_index": 154,
+      "true_cardinality": 3091,
+      "predicted_cardinality": 3010.0,
+      "q_error": 1.0269013616738625
+    },
+    {
+      "query_id": "porto:fixed_extent:155",
+      "query_index": 155,
+      "true_cardinality": 3622,
+      "predicted_cardinality": 3379.9999999999995,
+      "q_error": 1.0715764566696244
+    },
+    {
+      "query_id": "porto:fixed_extent:156",
+      "query_index": 156,
+      "true_cardinality": 4329,
+      "predicted_cardinality": 3760.0,
+      "q_error": 1.1512895506514225
+    },
+    {
+      "query_id": "porto:fixed_extent:157",
+      "query_index": 157,
+      "true_cardinality": 3176,
+      "predicted_cardinality": 3150.0,
+      "q_error": 1.0082513487781657
+    },
+    {
+      "query_id": "porto:fixed_extent:158",
+      "query_index": 158,
+      "true_cardinality": 62,
+      "predicted_cardinality": 0.0,
+      "q_error": 63.0
+    },
+    {
+      "query_id": "porto:fixed_extent:159",
+      "query_index": 159,
+      "true_cardinality": 5,
+      "predicted_cardinality": 0.0,
+      "q_error": 6.0
+    },
+    {
+      "query_id": "porto:fixed_extent:160",
+      "query_index": 160,
+      "true_cardinality": 17,
+      "predicted_cardinality": 0.0,
+      "q_error": 18.0
+    },
+    {
+      "query_id": "porto:fixed_extent:161",
+      "query_index": 161,
+      "true_cardinality": 3845,
+      "predicted_cardinality": 3750.0,
+      "q_error": 1.025326579578779
+    },
+    {
+      "query_id": "porto:fixed_extent:162",
+      "query_index": 162,
+      "true_cardinality": 3806,
+      "predicted_cardinality": 3429.9999999999995,
+      "q_error": 1.1095890410958906
+    },
+    {
+      "query_id": "porto:fixed_extent:163",
+      "query_index": 163,
+      "true_cardinality": 7,
+      "predicted_cardinality": 0.0,
+      "q_error": 8.0
+    },
+    {
+      "query_id": "porto:fixed_extent:164",
+      "query_index": 164,
+      "true_cardinality": 2564,
+      "predicted_cardinality": 1790.0,
+      "q_error": 1.4321608040201006
+    },
+    {
+      "query_id": "porto:fixed_extent:165",
+      "query_index": 165,
+      "true_cardinality": 3852,
+      "predicted_cardinality": 3839.9999999999995,
+      "q_error": 1.0031241864097893
+    },
+    {
+      "query_id": "porto:fixed_extent:166",
+      "query_index": 166,
+      "true_cardinality": 18,
+      "predicted_cardinality": 0.0,
+      "q_error": 19.0
+    },
+    {
+      "query_id": "porto:fixed_extent:167",
+      "query_index": 167,
+      "true_cardinality": 3310,
+      "predicted_cardinality": 3200.0,
+      "q_error": 1.034364261168385
+    },
+    {
+      "query_id": "porto:fixed_extent:168",
+      "query_index": 168,
+      "true_cardinality": 3531,
+      "predicted_cardinality": 2900.0,
+      "q_error": 1.2175112030334367
+    },
+    {
+      "query_id": "porto:fixed_extent:169",
+      "query_index": 169,
+      "true_cardinality": 453,
+      "predicted_cardinality": 170.0,
+      "q_error": 2.654970760233918
+    },
+    {
+      "query_id": "porto:fixed_extent:170",
+      "query_index": 170,
+      "true_cardinality": 21,
+      "predicted_cardinality": 0.0,
+      "q_error": 22.0
+    },
+    {
+      "query_id": "porto:fixed_extent:171",
+      "query_index": 171,
+      "true_cardinality": 4069,
+      "predicted_cardinality": 4000.0,
+      "q_error": 1.0172456885778556
+    },
+    {
+      "query_id": "porto:fixed_extent:172",
+      "query_index": 172,
+      "true_cardinality": 2307,
+      "predicted_cardinality": 1250.0,
+      "q_error": 1.8449240607513988
+    },
+    {
+      "query_id": "porto:fixed_extent:173",
+      "query_index": 173,
+      "true_cardinality": 6,
+      "predicted_cardinality": 0.0,
+      "q_error": 7.0
+    },
+    {
+      "query_id": "porto:fixed_extent:174",
+      "query_index": 174,
+      "true_cardinality": 15,
+      "predicted_cardinality": 0.0,
+      "q_error": 16.0
+    },
+    {
+      "query_id": "porto:fixed_extent:175",
+      "query_index": 175,
+      "true_cardinality": 151,
+      "predicted_cardinality": 29.999999999999996,
+      "q_error": 4.903225806451614
+    },
+    {
+      "query_id": "porto:fixed_extent:176",
+      "query_index": 176,
+      "true_cardinality": 139,
+      "predicted_cardinality": 10.0,
+      "q_error": 12.727272727272727
+    },
+    {
+      "query_id": "porto:fixed_extent:177",
+      "query_index": 177,
+      "true_cardinality": 4117,
+      "predicted_cardinality": 3970.0,
+      "q_error": 1.0370183832787712
+    },
+    {
+      "query_id": "porto:fixed_extent:178",
+      "query_index": 178,
+      "true_cardinality": 79,
+      "predicted_cardinality": 10.0,
+      "q_error": 7.2727272727272725
+    },
+    {
+      "query_id": "porto:fixed_extent:179",
+      "query_index": 179,
+      "true_cardinality": 1754,
+      "predicted_cardinality": 790.0000000000001,
+      "q_error": 2.218710493046776
+    },
+    {
+      "query_id": "porto:fixed_extent:180",
+      "query_index": 180,
+      "true_cardinality": 106,
+      "predicted_cardinality": 10.0,
+      "q_error": 9.727272727272727
+    },
+    {
+      "query_id": "porto:fixed_extent:181",
+      "query_index": 181,
+      "true_cardinality": 1105,
+      "predicted_cardinality": 449.99999999999994,
+      "q_error": 2.452328159645233
+    },
+    {
+      "query_id": "porto:fixed_extent:182",
+      "query_index": 182,
+      "true_cardinality": 860,
+      "predicted_cardinality": 620.0,
+      "q_error": 1.3864734299516908
+    },
+    {
+      "query_id": "porto:fixed_extent:183",
+      "query_index": 183,
+      "true_cardinality": 3904,
+      "predicted_cardinality": 3780.0,
+      "q_error": 1.0327955567310236
+    },
+    {
+      "query_id": "porto:fixed_extent:184",
+      "query_index": 184,
+      "true_cardinality": 307,
+      "predicted_cardinality": 130.0,
+      "q_error": 2.351145038167939
+    },
+    {
+      "query_id": "porto:fixed_extent:185",
+      "query_index": 185,
+      "true_cardinality": 3490,
+      "predicted_cardinality": 3120.0,
+      "q_error": 1.118551746235181
+    },
+    {
+      "query_id": "porto:fixed_extent:186",
+      "query_index": 186,
+      "true_cardinality": 154,
+      "predicted_cardinality": 0.0,
+      "q_error": 155.0
+    },
+    {
+      "query_id": "porto:fixed_extent:187",
+      "query_index": 187,
+      "true_cardinality": 3001,
+      "predicted_cardinality": 2700.0,
+      "q_error": 1.1114402073306182
+    },
+    {
+      "query_id": "porto:fixed_extent:188",
+      "query_index": 188,
+      "true_cardinality": 3298,
+      "predicted_cardinality": 2850.0,
+      "q_error": 1.1571378463696949
+    },
+    {
+      "query_id": "porto:fixed_extent:189",
+      "query_index": 189,
+      "true_cardinality": 4028,
+      "predicted_cardinality": 4080.0000000000005,
+      "q_error": 1.0129064283941427
+    },
+    {
+      "query_id": "porto:fixed_extent:190",
+      "query_index": 190,
+      "true_cardinality": 96,
+      "predicted_cardinality": 0.0,
+      "q_error": 97.0
+    },
+    {
+      "query_id": "porto:fixed_extent:191",
+      "query_index": 191,
+      "true_cardinality": 2811,
+      "predicted_cardinality": 2230.0,
+      "q_error": 1.2604213357238907
+    },
+    {
+      "query_id": "porto:fixed_extent:192",
+      "query_index": 192,
+      "true_cardinality": 8,
+      "predicted_cardinality": 0.0,
+      "q_error": 9.0
+    },
+    {
+      "query_id": "porto:fixed_extent:193",
+      "query_index": 193,
+      "true_cardinality": 212,
+      "predicted_cardinality": 50.0,
+      "q_error": 4.176470588235294
+    },
+    {
+      "query_id": "porto:fixed_extent:194",
+      "query_index": 194,
+      "true_cardinality": 95,
+      "predicted_cardinality": 0.0,
+      "q_error": 96.0
+    },
+    {
+      "query_id": "porto:fixed_extent:195",
+      "query_index": 195,
+      "true_cardinality": 116,
+      "predicted_cardinality": 10.0,
+      "q_error": 10.636363636363637
+    },
+    {
+      "query_id": "porto:fixed_extent:196",
+      "query_index": 196,
+      "true_cardinality": 3405,
+      "predicted_cardinality": 2920.0,
+      "q_error": 1.1660390277302293
+    },
+    {
+      "query_id": "porto:fixed_extent:197",
+      "query_index": 197,
+      "true_cardinality": 3423,
+      "predicted_cardinality": 3320.0,
+      "q_error": 1.0310147545919903
+    },
+    {
+      "query_id": "porto:fixed_extent:198",
+      "query_index": 198,
+      "true_cardinality": 17,
+      "predicted_cardinality": 0.0,
+      "q_error": 18.0
+    },
+    {
+      "query_id": "porto:fixed_extent:199",
+      "query_index": 199,
+      "true_cardinality": 9,
+      "predicted_cardinality": 0.0,
+      "q_error": 10.0
+    },
+    {
+      "query_id": "porto:fixed_extent:200",
+      "query_index": 200,
+      "true_cardinality": 3621,
+      "predicted_cardinality": 3030.0,
+      "q_error": 1.1949851534147147
+    },
+    {
+      "query_id": "porto:fixed_extent:201",
+      "query_index": 201,
+      "true_cardinality": 142,
+      "predicted_cardinality": 10.0,
+      "q_error": 13.0
+    },
+    {
+      "query_id": "porto:fixed_extent:202",
+      "query_index": 202,
+      "true_cardinality": 26,
+      "predicted_cardinality": 0.0,
+      "q_error": 27.0
+    },
+    {
+      "query_id": "porto:fixed_extent:203",
+      "query_index": 203,
+      "true_cardinality": 154,
+      "predicted_cardinality": 20.0,
+      "q_error": 7.380952380952381
+    },
+    {
+      "query_id": "porto:fixed_extent:204",
+      "query_index": 204,
+      "true_cardinality": 9,
+      "predicted_cardinality": 0.0,
+      "q_error": 10.0
+    },
+    {
+      "query_id": "porto:fixed_extent:205",
+      "query_index": 205,
+      "true_cardinality": 33,
+      "predicted_cardinality": 0.0,
+      "q_error": 34.0
+    },
+    {
+      "query_id": "porto:fixed_extent:206",
+      "query_index": 206,
+      "true_cardinality": 3580,
+      "predicted_cardinality": 3420.0,
+      "q_error": 1.0467699503069279
+    },
+    {
+      "query_id": "porto:fixed_extent:207",
+      "query_index": 207,
+      "true_cardinality": 937,
+      "predicted_cardinality": 500.0,
+      "q_error": 1.872255489021956
+    },
+    {
+      "query_id": "porto:fixed_extent:208",
+      "query_index": 208,
+      "true_cardinality": 9,
+      "predicted_cardinality": 0.0,
+      "q_error": 10.0
+    },
+    {
+      "query_id": "porto:fixed_extent:209",
+      "query_index": 209,
+      "true_cardinality": 3,
+      "predicted_cardinality": 0.0,
+      "q_error": 4.0
+    },
+    {
+      "query_id": "porto:fixed_extent:210",
+      "query_index": 210,
+      "true_cardinality": 2368,
+      "predicted_cardinality": 1590.0,
+      "q_error": 1.4890006285355122
+    },
+    {
+      "query_id": "porto:fixed_extent:211",
+      "query_index": 211,
+      "true_cardinality": 2388,
+      "predicted_cardinality": 1460.0,
+      "q_error": 1.6351813826146475
+    },
+    {
+      "query_id": "porto:fixed_extent:212",
+      "query_index": 212,
+      "true_cardinality": 3558,
+      "predicted_cardinality": 3250.0,
+      "q_error": 1.0947400799753921
+    },
+    {
+      "query_id": "porto:fixed_extent:213",
+      "query_index": 213,
+      "true_cardinality": 10,
+      "predicted_cardinality": 0.0,
+      "q_error": 11.0
+    },
+    {
+      "query_id": "porto:fixed_extent:214",
+      "query_index": 214,
+      "true_cardinality": 1816,
+      "predicted_cardinality": 1230.0,
+      "q_error": 1.4760357432981317
+    },
+    {
+      "query_id": "porto:fixed_extent:215",
+      "query_index": 215,
+      "true_cardinality": 2595,
+      "predicted_cardinality": 1650.0,
+      "q_error": 1.5723803755299819
+    },
+    {
+      "query_id": "porto:fixed_extent:216",
+      "query_index": 216,
+      "true_cardinality": 3969,
+      "predicted_cardinality": 3860.0000000000005,
+      "q_error": 1.028231028231028
+    },
+    {
+      "query_id": "porto:fixed_extent:217",
+      "query_index": 217,
+      "true_cardinality": 3537,
+      "predicted_cardinality": 3490.0,
+      "q_error": 1.0134631910627327
+    },
+    {
+      "query_id": "porto:fixed_extent:218",
+      "query_index": 218,
+      "true_cardinality": 11,
+      "predicted_cardinality": 0.0,
+      "q_error": 12.0
+    },
+    {
+      "query_id": "porto:fixed_extent:219",
+      "query_index": 219,
+      "true_cardinality": 4,
+      "predicted_cardinality": 0.0,
+      "q_error": 5.0
+    },
+    {
+      "query_id": "porto:fixed_extent:220",
+      "query_index": 220,
+      "true_cardinality": 3373,
+      "predicted_cardinality": 2750.0,
+      "q_error": 1.2264631043256997
+    },
+    {
+      "query_id": "porto:fixed_extent:221",
+      "query_index": 221,
+      "true_cardinality": 32,
+      "predicted_cardinality": 0.0,
+      "q_error": 33.0
+    },
+    {
+      "query_id": "porto:fixed_extent:222",
+      "query_index": 222,
+      "true_cardinality": 2232,
+      "predicted_cardinality": 1480.0,
+      "q_error": 1.5077650236326807
+    },
+    {
+      "query_id": "porto:fixed_extent:223",
+      "query_index": 223,
+      "true_cardinality": 3536,
+      "predicted_cardinality": 3259.9999999999995,
+      "q_error": 1.0846366145354187
+    },
+    {
+      "query_id": "porto:fixed_extent:224",
+      "query_index": 224,
+      "true_cardinality": 12,
+      "predicted_cardinality": 0.0,
+      "q_error": 13.0
+    },
+    {
+      "query_id": "porto:fixed_extent:225",
+      "query_index": 225,
+      "true_cardinality": 308,
+      "predicted_cardinality": 119.99999999999999,
+      "q_error": 2.553719008264463
+    },
+    {
+      "query_id": "porto:fixed_extent:226",
+      "query_index": 226,
+      "true_cardinality": 38,
+      "predicted_cardinality": 0.0,
+      "q_error": 39.0
+    },
+    {
+      "query_id": "porto:fixed_extent:227",
+      "query_index": 227,
+      "true_cardinality": 3676,
+      "predicted_cardinality": 3139.9999999999995,
+      "q_error": 1.1706462909901307
+    },
+    {
+      "query_id": "porto:fixed_extent:228",
+      "query_index": 228,
+      "true_cardinality": 3389,
+      "predicted_cardinality": 3160.0000000000005,
+      "q_error": 1.0724454286618157
+    },
+    {
+      "query_id": "porto:fixed_extent:229",
+      "query_index": 229,
+      "true_cardinality": 3864,
+      "predicted_cardinality": 3830.0,
+      "q_error": 1.0088749673714434
+    },
+    {
+      "query_id": "porto:fixed_extent:230",
+      "query_index": 230,
+      "true_cardinality": 163,
+      "predicted_cardinality": 10.0,
+      "q_error": 14.909090909090908
+    },
+    {
+      "query_id": "porto:fixed_extent:231",
+      "query_index": 231,
+      "true_cardinality": 3942,
+      "predicted_cardinality": 3930.0,
+      "q_error": 1.0030526583566524
+    },
+    {
+      "query_id": "porto:fixed_extent:232",
+      "query_index": 232,
+      "true_cardinality": 10,
+      "predicted_cardinality": 0.0,
+      "q_error": 11.0
+    },
+    {
+      "query_id": "porto:fixed_extent:233",
+      "query_index": 233,
+      "true_cardinality": 10,
+      "predicted_cardinality": 0.0,
+      "q_error": 11.0
+    },
+    {
+      "query_id": "porto:fixed_extent:234",
+      "query_index": 234,
+      "true_cardinality": 29,
+      "predicted_cardinality": 0.0,
+      "q_error": 30.0
+    },
+    {
+      "query_id": "porto:fixed_extent:235",
+      "query_index": 235,
+      "true_cardinality": 3302,
+      "predicted_cardinality": 2780.0,
+      "q_error": 1.1877022653721683
+    },
+    {
+      "query_id": "porto:fixed_extent:236",
+      "query_index": 236,
+      "true_cardinality": 49,
+      "predicted_cardinality": 0.0,
+      "q_error": 50.0
+    },
+    {
+      "query_id": "porto:fixed_extent:237",
+      "query_index": 237,
+      "true_cardinality": 20,
+      "predicted_cardinality": 0.0,
+      "q_error": 21.0
+    },
+    {
+      "query_id": "porto:fixed_extent:238",
+      "query_index": 238,
+      "true_cardinality": 19,
+      "predicted_cardinality": 0.0,
+      "q_error": 20.0
+    },
+    {
+      "query_id": "porto:fixed_extent:239",
+      "query_index": 239,
+      "true_cardinality": 3196,
+      "predicted_cardinality": 2640.0,
+      "q_error": 1.2105263157894737
+    },
+    {
+      "query_id": "porto:fixed_extent:240",
+      "query_index": 240,
+      "true_cardinality": 4032,
+      "predicted_cardinality": 4080.0000000000005,
+      "q_error": 1.011901810066948
+    },
+    {
+      "query_id": "porto:fixed_extent:241",
+      "query_index": 241,
+      "true_cardinality": 284,
+      "predicted_cardinality": 10.0,
+      "q_error": 25.90909090909091
+    },
+    {
+      "query_id": "porto:fixed_extent:242",
+      "query_index": 242,
+      "true_cardinality": 883,
+      "predicted_cardinality": 449.99999999999994,
+      "q_error": 1.9600886917960092
+    },
+    {
+      "query_id": "porto:fixed_extent:243",
+      "query_index": 243,
+      "true_cardinality": 1776,
+      "predicted_cardinality": 869.9999999999999,
+      "q_error": 2.0401836969001153
+    },
+    {
+      "query_id": "porto:fixed_extent:244",
+      "query_index": 244,
+      "true_cardinality": 584,
+      "predicted_cardinality": 170.0,
+      "q_error": 3.4210526315789473
+    },
+    {
+      "query_id": "porto:fixed_extent:245",
+      "query_index": 245,
+      "true_cardinality": 8,
+      "predicted_cardinality": 0.0,
+      "q_error": 9.0
+    },
+    {
+      "query_id": "porto:fixed_extent:246",
+      "query_index": 246,
+      "true_cardinality": 3388,
+      "predicted_cardinality": 2780.0,
+      "q_error": 1.218626393383675
+    },
+    {
+      "query_id": "porto:fixed_extent:247",
+      "query_index": 247,
+      "true_cardinality": 3783,
+      "predicted_cardinality": 3209.9999999999995,
+      "q_error": 1.1784490812830895
+    },
+    {
+      "query_id": "porto:fixed_extent:248",
+      "query_index": 248,
+      "true_cardinality": 217,
+      "predicted_cardinality": 29.999999999999996,
+      "q_error": 7.03225806451613
+    },
+    {
+      "query_id": "porto:fixed_extent:249",
+      "query_index": 249,
+      "true_cardinality": 66,
+      "predicted_cardinality": 0.0,
+      "q_error": 67.0
+    },
+    {
+      "query_id": "porto:fixed_extent:250",
+      "query_index": 250,
+      "true_cardinality": 619,
+      "predicted_cardinality": 220.0,
+      "q_error": 2.8054298642533935
+    },
+    {
+      "query_id": "porto:fixed_extent:251",
+      "query_index": 251,
+      "true_cardinality": 143,
+      "predicted_cardinality": 20.0,
+      "q_error": 6.857142857142857
+    },
+    {
+      "query_id": "porto:fixed_extent:252",
+      "query_index": 252,
+      "true_cardinality": 4372,
+      "predicted_cardinality": 3950.0,
+      "q_error": 1.1068084029359655
+    },
+    {
+      "query_id": "porto:fixed_extent:253",
+      "query_index": 253,
+      "true_cardinality": 3921,
+      "predicted_cardinality": 3920.0,
+      "q_error": 1.0002550369803622
+    },
+    {
+      "query_id": "porto:fixed_extent:254",
+      "query_index": 254,
+      "true_cardinality": 3753,
+      "predicted_cardinality": 3700.0,
+      "q_error": 1.01432045393137
+    },
+    {
+      "query_id": "porto:fixed_extent:255",
+      "query_index": 255,
+      "true_cardinality": 3082,
+      "predicted_cardinality": 2840.0,
+      "q_error": 1.0851812741992257
+    },
+    {
+      "query_id": "porto:fixed_extent:256",
+      "query_index": 256,
+      "true_cardinality": 694,
+      "predicted_cardinality": 200.0,
+      "q_error": 3.45771144278607
+    },
+    {
+      "query_id": "porto:fixed_extent:257",
+      "query_index": 257,
+      "true_cardinality": 935,
+      "predicted_cardinality": 390.0,
+      "q_error": 2.39386189258312
+    },
+    {
+      "query_id": "porto:fixed_extent:258",
+      "query_index": 258,
+      "true_cardinality": 8,
+      "predicted_cardinality": 0.0,
+      "q_error": 9.0
+    },
+    {
+      "query_id": "porto:fixed_extent:259",
+      "query_index": 259,
+      "true_cardinality": 189,
+      "predicted_cardinality": 10.0,
+      "q_error": 17.272727272727273
+    },
+    {
+      "query_id": "porto:fixed_extent:260",
+      "query_index": 260,
+      "true_cardinality": 22,
+      "predicted_cardinality": 0.0,
+      "q_error": 23.0
+    },
+    {
+      "query_id": "porto:fixed_extent:261",
+      "query_index": 261,
+      "true_cardinality": 3885,
+      "predicted_cardinality": 4070.0,
+      "q_error": 1.0476067936181164
+    },
+    {
+      "query_id": "porto:fixed_extent:262",
+      "query_index": 262,
+      "true_cardinality": 4328,
+      "predicted_cardinality": 4360.0,
+      "q_error": 1.0073920073920073
+    },
+    {
+      "query_id": "porto:fixed_extent:263",
+      "query_index": 263,
+      "true_cardinality": 39,
+      "predicted_cardinality": 0.0,
+      "q_error": 40.0
+    },
+    {
+      "query_id": "porto:fixed_extent:264",
+      "query_index": 264,
+      "true_cardinality": 6,
+      "predicted_cardinality": 0.0,
+      "q_error": 7.0
+    },
+    {
+      "query_id": "porto:fixed_extent:265",
+      "query_index": 265,
+      "true_cardinality": 3670,
+      "predicted_cardinality": 3730.0,
+      "q_error": 1.0163443203486788
+    },
+    {
+      "query_id": "porto:fixed_extent:266",
+      "query_index": 266,
+      "true_cardinality": 124,
+      "predicted_cardinality": 10.0,
+      "q_error": 11.363636363636363
+    },
+    {
+      "query_id": "porto:fixed_extent:267",
+      "query_index": 267,
+      "true_cardinality": 3910,
+      "predicted_cardinality": 3910.0000000000005,
+      "q_error": 1.0000000000000002
+    },
+    {
+      "query_id": "porto:fixed_extent:268",
+      "query_index": 268,
+      "true_cardinality": 60,
+      "predicted_cardinality": 20.0,
+      "q_error": 2.9047619047619047
+    },
+    {
+      "query_id": "porto:fixed_extent:269",
+      "query_index": 269,
+      "true_cardinality": 254,
+      "predicted_cardinality": 50.0,
+      "q_error": 5.0
+    },
+    {
+      "query_id": "porto:fixed_extent:270",
+      "query_index": 270,
+      "true_cardinality": 3071,
+      "predicted_cardinality": 2650.0,
+      "q_error": 1.1588079969822709
+    },
+    {
+      "query_id": "porto:fixed_extent:271",
+      "query_index": 271,
+      "true_cardinality": 3611,
+      "predicted_cardinality": 3360.0,
+      "q_error": 1.0746801547158584
+    },
+    {
+      "query_id": "porto:fixed_extent:272",
+      "query_index": 272,
+      "true_cardinality": 3646,
+      "predicted_cardinality": 3220.0,
+      "q_error": 1.1322570630239057
+    },
+    {
+      "query_id": "porto:fixed_extent:273",
+      "query_index": 273,
+      "true_cardinality": 4100,
+      "predicted_cardinality": 4059.9999999999995,
+      "q_error": 1.009849790691948
+    },
+    {
+      "query_id": "porto:fixed_extent:274",
+      "query_index": 274,
+      "true_cardinality": 3996,
+      "predicted_cardinality": 3900.0,
+      "q_error": 1.0246090745962573
+    },
+    {
+      "query_id": "porto:fixed_extent:275",
+      "query_index": 275,
+      "true_cardinality": 4012,
+      "predicted_cardinality": 3939.9999999999995,
+      "q_error": 1.0182694747526009
+    },
+    {
+      "query_id": "porto:fixed_extent:276",
+      "query_index": 276,
+      "true_cardinality": 126,
+      "predicted_cardinality": 10.0,
+      "q_error": 11.545454545454545
+    },
+    {
+      "query_id": "porto:fixed_extent:277",
+      "query_index": 277,
+      "true_cardinality": 3117,
+      "predicted_cardinality": 2400.0,
+      "q_error": 1.298625572678051
+    },
+    {
+      "query_id": "porto:fixed_extent:278",
+      "query_index": 278,
+      "true_cardinality": 239,
+      "predicted_cardinality": 40.0,
+      "q_error": 5.853658536585366
+    },
+    {
+      "query_id": "porto:fixed_extent:279",
+      "query_index": 279,
+      "true_cardinality": 4174,
+      "predicted_cardinality": 4070.0,
+      "q_error": 1.0255465487595186
+    },
+    {
+      "query_id": "porto:fixed_extent:280",
+      "query_index": 280,
+      "true_cardinality": 3296,
+      "predicted_cardinality": 3010.0,
+      "q_error": 1.09498505479907
+    },
+    {
+      "query_id": "porto:fixed_extent:281",
+      "query_index": 281,
+      "true_cardinality": 2157,
+      "predicted_cardinality": 1460.0,
+      "q_error": 1.4770704996577686
+    },
+    {
+      "query_id": "porto:fixed_extent:282",
+      "query_index": 282,
+      "true_cardinality": 264,
+      "predicted_cardinality": 100.0,
+      "q_error": 2.623762376237624
+    },
+    {
+      "query_id": "porto:fixed_extent:283",
+      "query_index": 283,
+      "true_cardinality": 3848,
+      "predicted_cardinality": 3750.0,
+      "q_error": 1.0261263663023195
+    },
+    {
+      "query_id": "porto:fixed_extent:284",
+      "query_index": 284,
+      "true_cardinality": 48,
+      "predicted_cardinality": 0.0,
+      "q_error": 49.0
+    },
+    {
+      "query_id": "porto:fixed_extent:285",
+      "query_index": 285,
+      "true_cardinality": 60,
+      "predicted_cardinality": 0.0,
+      "q_error": 61.0
+    },
+    {
+      "query_id": "porto:fixed_extent:286",
+      "query_index": 286,
+      "true_cardinality": 131,
+      "predicted_cardinality": 10.0,
+      "q_error": 12.0
+    },
+    {
+      "query_id": "porto:fixed_extent:287",
+      "query_index": 287,
+      "true_cardinality": 25,
+      "predicted_cardinality": 0.0,
+      "q_error": 26.0
+    },
+    {
+      "query_id": "porto:fixed_extent:288",
+      "query_index": 288,
+      "true_cardinality": 14,
+      "predicted_cardinality": 0.0,
+      "q_error": 15.0
+    },
+    {
+      "query_id": "porto:fixed_extent:289",
+      "query_index": 289,
+      "true_cardinality": 2772,
+      "predicted_cardinality": 2180.0,
+      "q_error": 1.2714351215038973
+    },
+    {
+      "query_id": "porto:fixed_extent:290",
+      "query_index": 290,
+      "true_cardinality": 2,
+      "predicted_cardinality": 0.0,
+      "q_error": 3.0
+    },
+    {
+      "query_id": "porto:fixed_extent:291",
+      "query_index": 291,
+      "true_cardinality": 3934,
+      "predicted_cardinality": 3649.9999999999995,
+      "q_error": 1.0777869076965216
+    },
+    {
+      "query_id": "porto:fixed_extent:292",
+      "query_index": 292,
+      "true_cardinality": 2021,
+      "predicted_cardinality": 1280.0,
+      "q_error": 1.5784543325526932
+    },
+    {
+      "query_id": "porto:fixed_extent:293",
+      "query_index": 293,
+      "true_cardinality": 11,
+      "predicted_cardinality": 0.0,
+      "q_error": 12.0
+    },
+    {
+      "query_id": "porto:fixed_extent:294",
+      "query_index": 294,
+      "true_cardinality": 24,
+      "predicted_cardinality": 0.0,
+      "q_error": 25.0
+    },
+    {
+      "query_id": "porto:fixed_extent:295",
+      "query_index": 295,
+      "true_cardinality": 1832,
+      "predicted_cardinality": 880.0,
+      "q_error": 2.080590238365494
+    },
+    {
+      "query_id": "porto:fixed_extent:296",
+      "query_index": 296,
+      "true_cardinality": 1495,
+      "predicted_cardinality": 980.0,
+      "q_error": 1.524974515800204
+    },
+    {
+      "query_id": "porto:fixed_extent:297",
+      "query_index": 297,
+      "true_cardinality": 129,
+      "predicted_cardinality": 20.0,
+      "q_error": 6.190476190476191
+    },
+    {
+      "query_id": "porto:fixed_extent:298",
+      "query_index": 298,
+      "true_cardinality": 3150,
+      "predicted_cardinality": 3220.0,
+      "q_error": 1.0222151697873691
+    },
+    {
+      "query_id": "porto:fixed_extent:299",
+      "query_index": 299,
+      "true_cardinality": 644,
+      "predicted_cardinality": 360.0,
+      "q_error": 1.7867036011080333
+    }
+  ]
+}

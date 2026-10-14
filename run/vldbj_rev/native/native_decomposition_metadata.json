@@ -1,0 +1,7 @@
+{
+  "estimate": "Native-BBox planner row estimate (explain_estimates.csv, column native_bbox)",
+  "box_count": "exact SELECT count(*) WHERE traj && B, read-only",
+  "decomposition": "log10((e+1)/(p+1)) = log10((e+1)/(b+1)) + log10((b+1)/(p+1))",
+  "sign": "positive = overestimate",
+  "native_source": "explain_estimates_primary.csv"
+}

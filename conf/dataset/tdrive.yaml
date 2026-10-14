@@ -1,0 +1,12 @@
+name: tdrive
+table: tdrive_traj
+# T-Drive's raw release is one headerless per-taxi text file per taxi (not a
+# single CSV) -- see `read_raw_csv_glob` / `scripts/download_real_datasets.sh`.
+raw_path: data/raw/tdrive/extracted/*.txt
+# Verified against the downloaded files: no header row,
+# columns in this exact order.
+raw_column_names: [trajectory_id, timestamp, lon, lat]
+column_map: {}
+# Multi-day-per-taxi logs, NOT trip-scale -- MUST run through
+# `segment_into_trips` before loading, unlike porto/nyc_tlc.
+needs_segmentation: true

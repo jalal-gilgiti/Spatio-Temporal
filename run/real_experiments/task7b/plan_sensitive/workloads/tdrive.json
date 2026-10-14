@@ -1,0 +1,1411 @@
+{
+ "dataset": "tdrive",
+ "seed": 40404,
+ "selection_rule": "up to 20 unique predicates per predefined geometry/time scale profile, balancing lowest, closest, and highest true-cardinality/boundary ratios, then filling scarce profiles with the closest unused candidates; estimator predictions unused",
+ "n_candidates_requested": 400,
+ "n_plan_sensitive_candidates": 178,
+ "n_queries": 100,
+ "workload_id": "ef7fdd946b95e95333af77d8a4ee013fb4a2ca1501d1d04433bfbee6a988e104",
+ "queries": [
+  {
+   "profile": "selective",
+   "predicate": {
+    "min_lon": 116.099501938046,
+    "max_lon": 116.38418471436086,
+    "min_lat": 39.91738349869067,
+    "max_lat": 40.20206627500553,
+    "start_time": "2008-02-07T02:51:21.816367",
+    "end_time": "2008-02-07T12:25:14.790914",
+    "k": null,
+    "knn_center": null
+   },
+   "query_id": "tdrive:plan-sensitive:000"
+  },
+  {
+   "profile": "selective",
+   "predicate": {
+    "min_lon": 116.43550160046053,
+    "max_lon": 116.60565722245983,
+    "min_lat": 39.877000120156886,
+    "max_lat": 40.04715574215619,
+    "start_time": "2008-02-05T06:46:04.993032",
+    "end_time": "2008-02-05T23:16:52.494236",
+    "k": null,
+    "knn_center": null
+   },
+   "query_id": "tdrive:plan-sensitive:001"
+  },
+  {
+   "profile": "selective",
+   "predicate": {
+    "min_lon": 116.17708669189108,
+    "max_lon": 116.44825843309494,
+    "min_lat": 39.87954259240589,
+    "max_lat": 40.15071433360975,
+    "start_time": "2008-02-02T20:44:55.945680",
+    "end_time": "2008-02-03T01:05:40.631745",
+    "k": null,
+    "knn_center": null
+   },
+   "query_id": "tdrive:plan-sensitive:002"
+  },
+  {
+   "profile": "boundary_scale",
+   "predicate": {
+    "min_lon": 116.63012586946965,
+    "max_lon": 116.87532781431068,
+    "min_lat": 40.03468999839475,
+    "max_lat": 40.27989194323577,
+    "start_time": "2008-02-03T06:49:28.878584",
+    "end_time": "2008-02-03T22:47:57.474731",
+    "k": null,
+    "knn_center": null
+   },
+   "query_id": "tdrive:plan-sensitive:003"
+  },
+  {
+   "profile": "boundary_scale",
+   "predicate": {
+    "min_lon": 115.8185811109754,
+    "max_lon": 116.16127399754888,
+    "min_lat": 39.45170954139336,
+    "max_lat": 39.794402427966844,
+    "start_time": "2008-02-04T03:19:59.730627",
+    "end_time": "2008-02-05T15:08:26.811957",
+    "k": null,
+    "knn_center": null
+   },
+   "query_id": "tdrive:plan-sensitive:004"
+  },
+  {
+   "profile": "boundary_scale",
+   "predicate": {
+    "min_lon": 116.5989402038664,
+    "max_lon": 117.08989932321299,
+    "min_lat": 39.40365914061068,
+    "max_lat": 39.894618259957255,
+    "start_time": "2008-02-03T08:15:25.017961",
+    "end_time": "2008-02-04T17:42:38.512479",
+    "k": null,
+    "knn_center": null
+   },
+   "query_id": "tdrive:plan-sensitive:005"
+  },
+  {
+   "profile": "boundary_scale",
+   "predicate": {
+    "min_lon": 115.98487347238147,
+    "max_lon": 116.25006891279462,
+    "min_lat": 39.69250642342405,
+    "max_lat": 39.9577018638372,
+    "start_time": "2008-02-05T00:41:11.234466",
+    "end_time": "2008-02-05T12:48:27.333018",
+    "k": null,
+    "knn_center": null
+   },
+   "query_id": "tdrive:plan-sensitive:006"
+  },
+  {
+   "profile": "boundary_scale",
+   "predicate": {
+    "min_lon": 115.9349658800431,
+    "max_lon": 116.26239738712862,
+    "min_lat": 39.46089132033768,
+    "max_lat": 39.78832282742321,
+    "start_time": "2008-02-05T20:19:52.901819",
+    "end_time": "2008-02-07T06:45:47.385343",
+    "k": null,
+    "knn_center": null
+   },
+   "query_id": "tdrive:plan-sensitive:007"
+  },
+  {
+   "profile": "boundary_scale",
+   "predicate": {
+    "min_lon": 115.57380580776295,
+    "max_lon": 116.25814165719382,
+    "min_lat": 39.80526896727349,
+    "max_lat": 40.48960481670436,
+    "start_time": "2008-02-04T03:06:55.858259",
+    "end_time": "2008-02-06T03:01:52.535547",
+    "k": null,
+    "knn_center": null
+   },
+   "query_id": "tdrive:plan-sensitive:008"
+  },
+  {
+   "profile": "boundary_scale",
+   "predicate": {
+    "min_lon": 116.64335354189339,
+    "max_lon": 117.02851818655678,
+    "min_lat": 40.102642332017595,
+    "max_lat": 40.48780697668099,
+    "start_time": "2008-02-06T19:38:03.656201",
+    "end_time": "2008-02-08T03:07:36.227752",
+    "k": null,
+    "knn_center": null
+   },
+   "query_id": "tdrive:plan-sensitive:009"
+  },
+  {
+   "profile": "boundary_scale",
+   "predicate": {
+    "min_lon": 116.13332975120763,
+    "max_lon": 116.4493971058948,
+    "min_lat": 39.71403422485415,
+    "max_lat": 40.03010157954133,
+    "start_time": "2008-02-03T01:53:33.393792",
+    "end_time": "2008-02-04T13:59:23.205727",
+    "k": null,
+    "knn_center": null
+   },
+   "query_id": "tdrive:plan-sensitive:010"
+  },
+  {
+   "profile": "boundary_scale",
+   "predicate": {
+    "min_lon": 116.03517990373322,
+    "max_lon": 116.34791959081866,
+    "min_lat": 39.91751333877077,
+    "max_lat": 40.230253025856214,
+    "start_time": "2008-02-04T12:03:45.127078",
+    "end_time": "2008-02-06T01:40:13.540671",
+    "k": null,
+    "knn_center": null
+   },
+   "query_id": "tdrive:plan-sensitive:011"
+  },
+  {
+   "profile": "boundary_scale",
+   "predicate": {
+    "min_lon": 116.15596635637974,
+    "max_lon": 116.902895990642,
+    "min_lat": 39.620947621316894,
+    "max_lat": 40.36787725557916,
+    "start_time": "2008-02-05T21:14:53.835988",
+    "end_time": "2008-02-07T16:07:36.234952",
+    "k": null,
+    "knn_center": null
+   },
+   "query_id": "tdrive:plan-sensitive:012"
+  },
+  {
+   "profile": "boundary_scale",
+   "predicate": {
+    "min_lon": 116.55000442094071,
+    "max_lon": 117.3692594148908,
+    "min_lat": 39.472003855100695,
+    "max_lat": 40.29125884905079,
+    "start_time": "2008-02-06T02:24:19.194268",
+    "end_time": "2008-02-06T17:10:49.928053",
+    "k": null,
+    "knn_center": null
+   },
+   "query_id": "tdrive:plan-sensitive:013"
+  },
+  {
+   "profile": "boundary_scale",
+   "predicate": {
+    "min_lon": 116.37369896985544,
+    "max_lon": 117.26211009617363,
+    "min_lat": 40.16917232468988,
+    "max_lat": 41.05758345100807,
+    "start_time": "2008-02-06T22:09:37.909236",
+    "end_time": "2008-02-08T12:22:18.516912",
+    "k": null,
+    "knn_center": null
+   },
+   "query_id": "tdrive:plan-sensitive:014"
+  },
+  {
+   "profile": "boundary_scale",
+   "predicate": {
+    "min_lon": 115.90867228193747,
+    "max_lon": 116.71545983481924,
+    "min_lat": 39.47754035011429,
+    "max_lat": 40.284327902996054,
+    "start_time": "2008-02-06T14:18:09.029161",
+    "end_time": "2008-02-07T08:42:50.269983",
+    "k": null,
+    "knn_center": null
+   },
+   "query_id": "tdrive:plan-sensitive:015"
+  },
+  {
+   "profile": "boundary_scale",
+   "predicate": {
+    "min_lon": 116.50365349007495,
+    "max_lon": 117.2314879131612,
+    "min_lat": 39.72838367057793,
+    "max_lat": 40.456218093664184,
+    "start_time": "2008-02-03T06:38:42.007384",
+    "end_time": "2008-02-04T01:02:41.968777",
+    "k": null,
+    "knn_center": null
+   },
+   "query_id": "tdrive:plan-sensitive:016"
+  },
+  {
+   "profile": "boundary_scale",
+   "predicate": {
+    "min_lon": 115.86644880972526,
+    "max_lon": 116.62848557698791,
+    "min_lat": 40.002991140998894,
+    "max_lat": 40.76502790826155,
+    "start_time": "2008-02-04T03:24:30.984559",
+    "end_time": "2008-02-04T23:48:08.829405",
+    "k": null,
+    "knn_center": null
+   },
+   "query_id": "tdrive:plan-sensitive:017"
+  },
+  {
+   "profile": "boundary_scale",
+   "predicate": {
+    "min_lon": 116.49586957618027,
+    "max_lon": 117.10520873113032,
+    "min_lat": 39.98858843089343,
+    "max_lat": 40.59792758584347,
+    "start_time": "2008-02-06T04:49:09.006281",
+    "end_time": "2008-02-07T04:34:24.890248",
+    "k": null,
+    "knn_center": null
+   },
+   "query_id": "tdrive:plan-sensitive:018"
+  },
+  {
+   "profile": "boundary_scale",
+   "predicate": {
+    "min_lon": 117.04379848294515,
+    "max_lon": 117.29805289627072,
+    "min_lat": 39.98513647596523,
+    "max_lat": 40.239390889290796,
+    "start_time": "2008-02-05T09:37:52.405672",
+    "end_time": "2008-02-06T23:11:31.066492",
+    "k": null,
+    "knn_center": null
+   },
+   "query_id": "tdrive:plan-sensitive:019"
+  },
+  {
+   "profile": "boundary_scale",
+   "predicate": {
+    "min_lon": 115.74130534057534,
+    "max_lon": 116.28648219464655,
+    "min_lat": 39.78918884903073,
+    "max_lat": 40.33436570310194,
+    "start_time": "2008-02-06T14:58:56.953231",
+    "end_time": "2008-02-07T03:13:15.841300",
+    "k": null,
+    "knn_center": null
+   },
+   "query_id": "tdrive:plan-sensitive:020"
+  },
+  {
+   "profile": "boundary_scale",
+   "predicate": {
+    "min_lon": 116.04812948409636,
+    "max_lon": 116.64008935213012,
+    "min_lat": 39.876232901336664,
+    "max_lat": 40.468192769370425,
+    "start_time": "2008-02-03T11:37:29.753275",
+    "end_time": "2008-02-04T01:54:50.594951",
+    "k": null,
+    "knn_center": null
+   },
+   "query_id": "tdrive:plan-sensitive:021"
+  },
+  {
+   "profile": "boundary_scale",
+   "predicate": {
+    "min_lon": 115.95493850921117,
+    "max_lon": 116.37377184885287,
+    "min_lat": 39.774148214272444,
+    "max_lat": 40.19298155391414,
+    "start_time": "2008-02-07T11:25:47.559761",
+    "end_time": "2008-02-08T04:00:45.265874",
+    "k": null,
+    "knn_center": null
+   },
+   "query_id": "tdrive:plan-sensitive:022"
+  },
+  {
+   "profile": "moderate",
+   "predicate": {
+    "min_lon": 115.89517079651093,
+    "max_lon": 116.85897519953089,
+    "min_lat": 40.371380539192984,
+    "max_lat": 41.33518494221295,
+    "start_time": "2008-02-03T09:00:28.075057",
+    "end_time": "2008-02-05T18:01:26.438502",
+    "k": null,
+    "knn_center": null
+   },
+   "query_id": "tdrive:plan-sensitive:023"
+  },
+  {
+   "profile": "moderate",
+   "predicate": {
+    "min_lon": 116.2608442725773,
+    "max_lon": 117.22929498945308,
+    "min_lat": 40.28108441078826,
+    "max_lat": 41.249535127664046,
+    "start_time": "2008-02-04T16:21:23.527210",
+    "end_time": "2008-02-06T09:16:46.614281",
+    "k": null,
+    "knn_center": null
+   },
+   "query_id": "tdrive:plan-sensitive:024"
+  },
+  {
+   "profile": "moderate",
+   "predicate": {
+    "min_lon": 115.77481265679992,
+    "max_lon": 116.78394638159817,
+    "min_lat": 40.1133366314216,
+    "max_lat": 41.12247035621985,
+    "start_time": "2008-02-04T09:06:03.063276",
+    "end_time": "2008-02-06T23:42:06.694971",
+    "k": null,
+    "knn_center": null
+   },
+   "query_id": "tdrive:plan-sensitive:025"
+  },
+  {
+   "profile": "moderate",
+   "predicate": {
+    "min_lon": 115.95364886260079,
+    "max_lon": 116.83952207761159,
+    "min_lat": 40.31490500029854,
+    "max_lat": 41.20077821530934,
+    "start_time": "2008-02-03T12:58:06.683045",
+    "end_time": "2008-02-07T09:57:53.428235",
+    "k": null,
+    "knn_center": null
+   },
+   "query_id": "tdrive:plan-sensitive:026"
+  },
+  {
+   "profile": "moderate",
+   "predicate": {
+    "min_lon": 116.34915984165994,
+    "max_lon": 117.3494799932026,
+    "min_lat": 39.99120138434603,
+    "max_lat": 40.991521535888694,
+    "start_time": "2008-02-03T01:02:27.991637",
+    "end_time": "2008-02-05T13:38:44.924406",
+    "k": null,
+    "knn_center": null
+   },
+   "query_id": "tdrive:plan-sensitive:027"
+  },
+  {
+   "profile": "moderate",
+   "predicate": {
+    "min_lon": 115.46059561136687,
+    "max_lon": 116.34345314595643,
+    "min_lat": 40.046932211535,
+    "max_lat": 40.92978974612457,
+    "start_time": "2008-02-06T18:43:39.655832",
+    "end_time": "2008-02-08T07:40:34.478040",
+    "k": null,
+    "knn_center": null
+   },
+   "query_id": "tdrive:plan-sensitive:028"
+  },
+  {
+   "profile": "moderate",
+   "predicate": {
+    "min_lon": 115.53024398755167,
+    "max_lon": 116.90532662020263,
+    "min_lat": 39.74811150205816,
+    "max_lat": 41.123194134709124,
+    "start_time": "2008-02-02T22:08:49.549917",
+    "end_time": "2008-02-07T07:15:00.167719",
+    "k": null,
+    "knn_center": null
+   },
+   "query_id": "tdrive:plan-sensitive:029"
+  },
+  {
+   "profile": "moderate",
+   "predicate": {
+    "min_lon": 115.53352775142564,
+    "max_lon": 116.98768166559863,
+    "min_lat": 39.406760971358736,
+    "max_lat": 40.86091488553172,
+    "start_time": "2008-02-03T16:51:18.267367",
+    "end_time": "2008-02-08T01:51:04.499608",
+    "k": null,
+    "knn_center": null
+   },
+   "query_id": "tdrive:plan-sensitive:030"
+  },
+  {
+   "profile": "moderate",
+   "predicate": {
+    "min_lon": 115.4130727911221,
+    "max_lon": 117.4530477629843,
+    "min_lat": 39.47408770155055,
+    "max_lat": 41.514062673412745,
+    "start_time": "2008-02-03T00:42:25.343097",
+    "end_time": "2008-02-07T10:03:37.642351",
+    "k": null,
+    "knn_center": null
+   },
+   "query_id": "tdrive:plan-sensitive:031"
+  },
+  {
+   "profile": "moderate",
+   "predicate": {
+    "min_lon": 115.95052075533776,
+    "max_lon": 117.04576849799861,
+    "min_lat": 39.67005025407762,
+    "max_lat": 40.76529799673847,
+    "start_time": "2008-02-02T22:03:35.063640",
+    "end_time": "2008-02-07T14:14:07.879122",
+    "k": null,
+    "knn_center": null
+   },
+   "query_id": "tdrive:plan-sensitive:032"
+  },
+  {
+   "profile": "moderate",
+   "predicate": {
+    "min_lon": 115.4767805191981,
+    "max_lon": 117.2155019583515,
+    "min_lat": 39.61880330518269,
+    "max_lat": 41.35752474433608,
+    "start_time": "2008-02-02T20:22:14.424775",
+    "end_time": "2008-02-07T13:16:06.544146",
+    "k": null,
+    "knn_center": null
+   },
+   "query_id": "tdrive:plan-sensitive:033"
+  },
+  {
+   "profile": "moderate",
+   "predicate": {
+    "min_lon": 115.45588762108387,
+    "max_lon": 116.99982836027738,
+    "min_lat": 39.5451062942096,
+    "max_lat": 41.089047033403105,
+    "start_time": "2008-02-02T18:51:27.523514",
+    "end_time": "2008-02-07T15:29:36.403273",
+    "k": null,
+    "knn_center": null
+   },
+   "query_id": "tdrive:plan-sensitive:034"
+  },
+  {
+   "profile": "moderate",
+   "predicate": {
+    "min_lon": 115.51230039793671,
+    "max_lon": 116.20466136535825,
+    "min_lat": 39.55605055475997,
+    "max_lat": 40.248411522181506,
+    "start_time": "2008-02-03T07:31:00.143510",
+    "end_time": "2008-02-06T17:58:10.710691",
+    "k": null,
+    "knn_center": null
+   },
+   "query_id": "tdrive:plan-sensitive:035"
+  },
+  {
+   "profile": "moderate",
+   "predicate": {
+    "min_lon": 116.02548265469305,
+    "max_lon": 116.79806313923226,
+    "min_lat": 39.9213344895252,
+    "max_lat": 40.693914974064405,
+    "start_time": "2008-02-07T01:30:21.905445",
+    "end_time": "2008-02-08T15:35:28.382123",
+    "k": null,
+    "knn_center": null
+   },
+   "query_id": "tdrive:plan-sensitive:036"
+  },
+  {
+   "profile": "moderate",
+   "predicate": {
+    "min_lon": 115.7319726208891,
+    "max_lon": 116.68511546544602,
+    "min_lat": 40.231296316994104,
+    "max_lat": 41.184439161551026,
+    "start_time": "2008-02-03T07:41:49.032425",
+    "end_time": "2008-02-07T13:10:02.984427",
+    "k": null,
+    "knn_center": null
+   },
+   "query_id": "tdrive:plan-sensitive:037"
+  },
+  {
+   "profile": "moderate",
+   "predicate": {
+    "min_lon": 116.00181470597705,
+    "max_lon": 117.4314916133352,
+    "min_lat": 40.056669472240195,
+    "max_lat": 41.486346379598345,
+    "start_time": "2008-02-03T17:11:27.741375",
+    "end_time": "2008-02-07T12:11:04.489283",
+    "k": null,
+    "knn_center": null
+   },
+   "query_id": "tdrive:plan-sensitive:038"
+  },
+  {
+   "profile": "moderate",
+   "predicate": {
+    "min_lon": 115.89186412799076,
+    "max_lon": 117.04651824815589,
+    "min_lat": 40.01640050180132,
+    "max_lat": 41.17105462196645,
+    "start_time": "2008-02-04T21:18:20.658889",
+    "end_time": "2008-02-08T11:22:35.858852",
+    "k": null,
+    "knn_center": null
+   },
+   "query_id": "tdrive:plan-sensitive:039"
+  },
+  {
+   "profile": "moderate",
+   "predicate": {
+    "min_lon": 115.83243894557698,
+    "max_lon": 117.11486699488155,
+    "min_lat": 40.02540996973887,
+    "max_lat": 41.307838019043444,
+    "start_time": "2008-02-04T18:25:29.560685",
+    "end_time": "2008-02-08T02:23:44.095503",
+    "k": null,
+    "knn_center": null
+   },
+   "query_id": "tdrive:plan-sensitive:040"
+  },
+  {
+   "profile": "moderate",
+   "predicate": {
+    "min_lon": 115.97505201183282,
+    "max_lon": 117.15058923324045,
+    "min_lat": 40.243609913236504,
+    "max_lat": 41.41914713464414,
+    "start_time": "2008-02-03T21:07:28.832152",
+    "end_time": "2008-02-06T17:45:54.601191",
+    "k": null,
+    "knn_center": null
+   },
+   "query_id": "tdrive:plan-sensitive:041"
+  },
+  {
+   "profile": "moderate",
+   "predicate": {
+    "min_lon": 115.51460045286996,
+    "max_lon": 116.34958975520033,
+    "min_lat": 39.62195556873674,
+    "max_lat": 40.45694487106711,
+    "start_time": "2008-02-04T23:46:19.720683",
+    "end_time": "2008-02-07T14:22:55.661908",
+    "k": null,
+    "knn_center": null
+   },
+   "query_id": "tdrive:plan-sensitive:042"
+  },
+  {
+   "profile": "broad",
+   "predicate": {
+    "min_lon": 115.4078,
+    "max_lon": 117.4957,
+    "min_lat": 39.40049,
+    "max_lat": 41.51908,
+    "start_time": "2008-02-04T15:11:01.185684",
+    "end_time": "2008-02-08T15:12:01.352747",
+    "k": null,
+    "knn_center": null
+   },
+   "query_id": "tdrive:plan-sensitive:043"
+  },
+  {
+   "profile": "broad",
+   "predicate": {
+    "min_lon": 115.4078,
+    "max_lon": 117.4957,
+    "min_lat": 39.40049,
+    "max_lat": 41.51908,
+    "start_time": "2008-02-04T06:05:14.041969",
+    "end_time": "2008-02-08T13:09:14.168130",
+    "k": null,
+    "knn_center": null
+   },
+   "query_id": "tdrive:plan-sensitive:044"
+  },
+  {
+   "profile": "broad",
+   "predicate": {
+    "min_lon": 115.4078,
+    "max_lon": 117.4957,
+    "min_lat": 39.40049,
+    "max_lat": 41.51908,
+    "start_time": "2008-02-04T02:14:50.210013",
+    "end_time": "2008-02-08T12:30:29.385682",
+    "k": null,
+    "knn_center": null
+   },
+   "query_id": "tdrive:plan-sensitive:045"
+  },
+  {
+   "profile": "broad",
+   "predicate": {
+    "min_lon": 115.4078,
+    "max_lon": 117.4957,
+    "min_lat": 39.40049,
+    "max_lat": 41.51908,
+    "start_time": "2008-02-04T01:31:24.111680",
+    "end_time": "2008-02-08T13:38:10.677543",
+    "k": null,
+    "knn_center": null
+   },
+   "query_id": "tdrive:plan-sensitive:046"
+  },
+  {
+   "profile": "broad",
+   "predicate": {
+    "min_lon": 115.4078,
+    "max_lon": 117.4957,
+    "min_lat": 39.40049,
+    "max_lat": 41.51908,
+    "start_time": "2008-02-02T17:58:54.058844",
+    "end_time": "2008-02-06T21:34:20.396881",
+    "k": null,
+    "knn_center": null
+   },
+   "query_id": "tdrive:plan-sensitive:047"
+  },
+  {
+   "profile": "broad",
+   "predicate": {
+    "min_lon": 115.4078,
+    "max_lon": 117.4957,
+    "min_lat": 39.40049,
+    "max_lat": 41.51908,
+    "start_time": "2008-02-03T17:53:48.099124",
+    "end_time": "2008-02-08T07:10:28.961858",
+    "k": null,
+    "knn_center": null
+   },
+   "query_id": "tdrive:plan-sensitive:048"
+  },
+  {
+   "profile": "broad",
+   "predicate": {
+    "min_lon": 115.4078,
+    "max_lon": 117.4957,
+    "min_lat": 39.40049,
+    "max_lat": 41.51908,
+    "start_time": "2008-02-02T13:30:48",
+    "end_time": "2008-02-08T17:39:19",
+    "k": null,
+    "knn_center": null
+   },
+   "query_id": "tdrive:plan-sensitive:049"
+  },
+  {
+   "profile": "broad",
+   "predicate": {
+    "min_lon": 115.4576598962154,
+    "max_lon": 117.46503764114667,
+    "min_lat": 39.42331979292736,
+    "max_lat": 41.43069753785862,
+    "start_time": "2008-02-02T14:35:39.450921",
+    "end_time": "2008-02-06T19:59:04.892661",
+    "k": null,
+    "knn_center": null
+   },
+   "query_id": "tdrive:plan-sensitive:050"
+  },
+  {
+   "profile": "broad",
+   "predicate": {
+    "min_lon": 115.4078,
+    "max_lon": 117.4957,
+    "min_lat": 39.40049,
+    "max_lat": 41.51908,
+    "start_time": "2008-02-03T16:27:42.612983",
+    "end_time": "2008-02-08T09:06:11.657779",
+    "k": null,
+    "knn_center": null
+   },
+   "query_id": "tdrive:plan-sensitive:051"
+  },
+  {
+   "profile": "broad",
+   "predicate": {
+    "min_lon": 115.4078,
+    "max_lon": 117.4957,
+    "min_lat": 39.40049,
+    "max_lat": 41.51908,
+    "start_time": "2008-02-03T22:25:36.105748",
+    "end_time": "2008-02-08T17:00:00.548538",
+    "k": null,
+    "knn_center": null
+   },
+   "query_id": "tdrive:plan-sensitive:052"
+  },
+  {
+   "profile": "broad",
+   "predicate": {
+    "min_lon": 115.4078,
+    "max_lon": 117.4957,
+    "min_lat": 39.40049,
+    "max_lat": 41.51908,
+    "start_time": "2008-02-03T03:38:07.600850",
+    "end_time": "2008-02-07T18:43:53.525626",
+    "k": null,
+    "knn_center": null
+   },
+   "query_id": "tdrive:plan-sensitive:053"
+  },
+  {
+   "profile": "broad",
+   "predicate": {
+    "min_lon": 115.4078,
+    "max_lon": 117.4957,
+    "min_lat": 39.40049,
+    "max_lat": 41.51908,
+    "start_time": "2008-02-02T20:39:05.847030",
+    "end_time": "2008-02-07T10:46:56.262200",
+    "k": null,
+    "knn_center": null
+   },
+   "query_id": "tdrive:plan-sensitive:054"
+  },
+  {
+   "profile": "broad",
+   "predicate": {
+    "min_lon": 115.4078,
+    "max_lon": 117.4957,
+    "min_lat": 39.40049,
+    "max_lat": 41.51908,
+    "start_time": "2008-02-02T14:23:08.713508",
+    "end_time": "2008-02-07T02:01:42.867907",
+    "k": null,
+    "knn_center": null
+   },
+   "query_id": "tdrive:plan-sensitive:055"
+  },
+  {
+   "profile": "broad",
+   "predicate": {
+    "min_lon": 115.4078,
+    "max_lon": 117.4957,
+    "min_lat": 39.40049,
+    "max_lat": 41.51908,
+    "start_time": "2008-02-02T23:06:16.132441",
+    "end_time": "2008-02-07T15:54:27.653350",
+    "k": null,
+    "knn_center": null
+   },
+   "query_id": "tdrive:plan-sensitive:056"
+  },
+  {
+   "profile": "broad",
+   "predicate": {
+    "min_lon": 115.4078,
+    "max_lon": 117.4957,
+    "min_lat": 39.40049,
+    "max_lat": 41.51908,
+    "start_time": "2008-02-02T21:14:29.844419",
+    "end_time": "2008-02-07T14:16:23.537177",
+    "k": null,
+    "knn_center": null
+   },
+   "query_id": "tdrive:plan-sensitive:057"
+  },
+  {
+   "profile": "broad",
+   "predicate": {
+    "min_lon": 115.4078,
+    "max_lon": 117.4957,
+    "min_lat": 39.40049,
+    "max_lat": 41.51908,
+    "start_time": "2008-02-03T05:35:15.465492",
+    "end_time": "2008-02-07T23:21:20.771290",
+    "k": null,
+    "knn_center": null
+   },
+   "query_id": "tdrive:plan-sensitive:058"
+  },
+  {
+   "profile": "broad",
+   "predicate": {
+    "min_lon": 115.4078,
+    "max_lon": 117.4957,
+    "min_lat": 39.40049,
+    "max_lat": 41.51908,
+    "start_time": "2008-02-03T10:23:02.574221",
+    "end_time": "2008-02-08T05:15:05.344323",
+    "k": null,
+    "knn_center": null
+   },
+   "query_id": "tdrive:plan-sensitive:059"
+  },
+  {
+   "profile": "broad",
+   "predicate": {
+    "min_lon": 115.4078,
+    "max_lon": 117.4957,
+    "min_lat": 39.40049,
+    "max_lat": 41.51908,
+    "start_time": "2008-02-03T04:24:28.013397",
+    "end_time": "2008-02-08T02:48:35.912787",
+    "k": null,
+    "knn_center": null
+   },
+   "query_id": "tdrive:plan-sensitive:060"
+  },
+  {
+   "profile": "broad",
+   "predicate": {
+    "min_lon": 115.4078,
+    "max_lon": 117.4957,
+    "min_lat": 39.40049,
+    "max_lat": 41.51908,
+    "start_time": "2008-02-03T12:55:22.448515",
+    "end_time": "2008-02-08T15:57:39.271504",
+    "k": null,
+    "knn_center": null
+   },
+   "query_id": "tdrive:plan-sensitive:061"
+  },
+  {
+   "profile": "broad",
+   "predicate": {
+    "min_lon": 115.58042005224388,
+    "max_lon": 117.40519150989397,
+    "min_lat": 39.43051083355573,
+    "max_lat": 41.255282291205816,
+    "start_time": "2008-02-02T14:06:38.256946",
+    "end_time": "2008-02-07T13:03:41.822003",
+    "k": null,
+    "knn_center": null
+   },
+   "query_id": "tdrive:plan-sensitive:062"
+  },
+  {
+   "profile": "boundary_scale",
+   "predicate": {
+    "min_lon": 116.3975693083999,
+    "max_lon": 116.72737522094143,
+    "min_lat": 40.092245495920366,
+    "max_lat": 40.42205140846189,
+    "start_time": "2008-02-03T21:53:29.870839",
+    "end_time": "2008-02-05T17:14:50.354691",
+    "k": null,
+    "knn_center": null
+   },
+   "query_id": "tdrive:plan-sensitive:063"
+  },
+  {
+   "profile": "boundary_scale",
+   "predicate": {
+    "min_lon": 116.68133220975798,
+    "max_lon": 117.17762826578307,
+    "min_lat": 39.721471154680586,
+    "max_lat": 40.21776721070568,
+    "start_time": "2008-02-06T20:27:13.214544",
+    "end_time": "2008-02-07T10:28:44.503936",
+    "k": null,
+    "knn_center": null
+   },
+   "query_id": "tdrive:plan-sensitive:064"
+  },
+  {
+   "profile": "boundary_scale",
+   "predicate": {
+    "min_lon": 115.59274682027107,
+    "max_lon": 116.24273122017931,
+    "min_lat": 39.897104073808855,
+    "max_lat": 40.54708847371708,
+    "start_time": "2008-02-04T02:18:07.459148",
+    "end_time": "2008-02-05T22:18:34.160644",
+    "k": null,
+    "knn_center": null
+   },
+   "query_id": "tdrive:plan-sensitive:065"
+  },
+  {
+   "profile": "boundary_scale",
+   "predicate": {
+    "min_lon": 116.03433688820164,
+    "max_lon": 116.78213119817543,
+    "min_lat": 39.46830205027625,
+    "max_lat": 40.21609636025005,
+    "start_time": "2008-02-05T19:32:52.356275",
+    "end_time": "2008-02-06T18:15:56.886666",
+    "k": null,
+    "knn_center": null
+   },
+   "query_id": "tdrive:plan-sensitive:066"
+  },
+  {
+   "profile": "boundary_scale",
+   "predicate": {
+    "min_lon": 116.20240928828406,
+    "max_lon": 116.96065031021205,
+    "min_lat": 39.918026864897854,
+    "max_lat": 40.67626788682584,
+    "start_time": "2008-02-08T02:57:43.769080",
+    "end_time": "2008-02-08T17:34:28.681586",
+    "k": null,
+    "knn_center": null
+   },
+   "query_id": "tdrive:plan-sensitive:067"
+  },
+  {
+   "profile": "boundary_scale",
+   "predicate": {
+    "min_lon": 116.22285843513286,
+    "max_lon": 116.76424856545326,
+    "min_lat": 39.58053689267778,
+    "max_lat": 40.12192702299817,
+    "start_time": "2008-02-05T23:27:01.165957",
+    "end_time": "2008-02-07T07:14:45.847902",
+    "k": null,
+    "knn_center": null
+   },
+   "query_id": "tdrive:plan-sensitive:068"
+  },
+  {
+   "profile": "moderate",
+   "predicate": {
+    "min_lon": 116.30054815596058,
+    "max_lon": 117.15258861484728,
+    "min_lat": 39.97587042602264,
+    "max_lat": 40.82791088490932,
+    "start_time": "2008-02-05T00:34:43.688916",
+    "end_time": "2008-02-07T21:01:06.140848",
+    "k": null,
+    "knn_center": null
+   },
+   "query_id": "tdrive:plan-sensitive:069"
+  },
+  {
+   "profile": "boundary_scale",
+   "predicate": {
+    "min_lon": 116.23289089819284,
+    "max_lon": 117.0810869727603,
+    "min_lat": 39.661160634302774,
+    "max_lat": 40.50935670887024,
+    "start_time": "2008-02-06T02:20:57.024694",
+    "end_time": "2008-02-07T10:17:26.159560",
+    "k": null,
+    "knn_center": null
+   },
+   "query_id": "tdrive:plan-sensitive:070"
+  },
+  {
+   "profile": "boundary_scale",
+   "predicate": {
+    "min_lon": 116.60331938232034,
+    "max_lon": 116.96366535378661,
+    "min_lat": 39.886309158661675,
+    "max_lat": 40.24665513012794,
+    "start_time": "2008-02-04T08:35:08.263946",
+    "end_time": "2008-02-06T06:41:22.962201",
+    "k": null,
+    "knn_center": null
+   },
+   "query_id": "tdrive:plan-sensitive:071"
+  },
+  {
+   "profile": "moderate",
+   "predicate": {
+    "min_lon": 115.56918745299576,
+    "max_lon": 116.40556388291559,
+    "min_lat": 39.96248936130668,
+    "max_lat": 40.798865791226504,
+    "start_time": "2008-02-06T00:09:33.345668",
+    "end_time": "2008-02-08T14:37:24.482560",
+    "k": null,
+    "knn_center": null
+   },
+   "query_id": "tdrive:plan-sensitive:072"
+  },
+  {
+   "profile": "moderate",
+   "predicate": {
+    "min_lon": 116.7154237155702,
+    "max_lon": 117.4408982401327,
+    "min_lat": 39.900054706349884,
+    "max_lat": 40.625529230912385,
+    "start_time": "2008-02-03T03:37:21.727603",
+    "end_time": "2008-02-07T19:51:53.152828",
+    "k": null,
+    "knn_center": null
+   },
+   "query_id": "tdrive:plan-sensitive:073"
+  },
+  {
+   "profile": "moderate",
+   "predicate": {
+    "min_lon": 116.10888367031563,
+    "max_lon": 117.34803999129076,
+    "min_lat": 40.27917788417005,
+    "max_lat": 41.51833420514519,
+    "start_time": "2008-02-06T02:49:41.096764",
+    "end_time": "2008-02-08T07:36:43.746542",
+    "k": null,
+    "knn_center": null
+   },
+   "query_id": "tdrive:plan-sensitive:074"
+  },
+  {
+   "profile": "moderate",
+   "predicate": {
+    "min_lon": 116.45819623727947,
+    "max_lon": 117.49219352027134,
+    "min_lat": 39.99004709394685,
+    "max_lat": 41.02404437693872,
+    "start_time": "2008-02-06T18:13:04.875959",
+    "end_time": "2008-02-08T09:06:08.780152",
+    "k": null,
+    "knn_center": null
+   },
+   "query_id": "tdrive:plan-sensitive:075"
+  },
+  {
+   "profile": "moderate",
+   "predicate": {
+    "min_lon": 115.8781825637719,
+    "max_lon": 117.02988576995507,
+    "min_lat": 39.62633876513426,
+    "max_lat": 40.77804197131743,
+    "start_time": "2008-02-07T01:39:03.962607",
+    "end_time": "2008-02-08T17:18:31.459522",
+    "k": null,
+    "knn_center": null
+   },
+   "query_id": "tdrive:plan-sensitive:076"
+  },
+  {
+   "profile": "moderate",
+   "predicate": {
+    "min_lon": 115.45173847947231,
+    "max_lon": 116.84387308477893,
+    "min_lat": 39.942328373249985,
+    "max_lat": 41.3344629785566,
+    "start_time": "2008-02-05T02:43:47.284047",
+    "end_time": "2008-02-08T10:45:41.238857",
+    "k": null,
+    "knn_center": null
+   },
+   "query_id": "tdrive:plan-sensitive:077"
+  },
+  {
+   "profile": "moderate",
+   "predicate": {
+    "min_lon": 116.12633544702484,
+    "max_lon": 117.45208695032696,
+    "min_lat": 39.771542619763295,
+    "max_lat": 41.09729412306541,
+    "start_time": "2008-02-05T16:12:37.323999",
+    "end_time": "2008-02-07T06:36:08.845375",
+    "k": null,
+    "knn_center": null
+   },
+   "query_id": "tdrive:plan-sensitive:078"
+  },
+  {
+   "profile": "moderate",
+   "predicate": {
+    "min_lon": 115.55474429066453,
+    "max_lon": 117.02532747138278,
+    "min_lat": 40.020235533909705,
+    "max_lat": 41.490818714627956,
+    "start_time": "2008-02-05T11:13:52.168427",
+    "end_time": "2008-02-07T15:00:10.793959",
+    "k": null,
+    "knn_center": null
+   },
+   "query_id": "tdrive:plan-sensitive:079"
+  },
+  {
+   "profile": "moderate",
+   "predicate": {
+    "min_lon": 115.46881236797736,
+    "max_lon": 116.52798838225789,
+    "min_lat": 40.07142218468788,
+    "max_lat": 41.13059819896841,
+    "start_time": "2008-02-04T10:46:50.413532",
+    "end_time": "2008-02-07T18:47:27.588148",
+    "k": null,
+    "knn_center": null
+   },
+   "query_id": "tdrive:plan-sensitive:080"
+  },
+  {
+   "profile": "moderate",
+   "predicate": {
+    "min_lon": 115.69477087933863,
+    "max_lon": 117.09373994948402,
+    "min_lat": 39.974605678588496,
+    "max_lat": 41.37357474873387,
+    "start_time": "2008-02-04T08:50:00.018951",
+    "end_time": "2008-02-08T16:51:55.840046",
+    "k": null,
+    "knn_center": null
+   },
+   "query_id": "tdrive:plan-sensitive:081"
+  },
+  {
+   "profile": "moderate",
+   "predicate": {
+    "min_lon": 115.46925399533107,
+    "max_lon": 116.34620522996066,
+    "min_lat": 39.7095495675829,
+    "max_lat": 40.58650080221249,
+    "start_time": "2008-02-02T18:55:38.753065",
+    "end_time": "2008-02-06T23:02:11.948043",
+    "k": null,
+    "knn_center": null
+   },
+   "query_id": "tdrive:plan-sensitive:082"
+  },
+  {
+   "profile": "moderate",
+   "predicate": {
+    "min_lon": 115.72329265608046,
+    "max_lon": 116.94761419272884,
+    "min_lat": 39.80678880398591,
+    "max_lat": 41.031110340634285,
+    "start_time": "2008-02-04T01:36:34.823511",
+    "end_time": "2008-02-05T15:09:04.667880",
+    "k": null,
+    "knn_center": null
+   },
+   "query_id": "tdrive:plan-sensitive:083"
+  },
+  {
+   "profile": "moderate",
+   "predicate": {
+    "min_lon": 115.9498100571054,
+    "max_lon": 117.39247539206404,
+    "min_lat": 39.908684771763895,
+    "max_lat": 41.35135010672254,
+    "start_time": "2008-02-03T19:45:09.620912",
+    "end_time": "2008-02-05T23:18:07.631061",
+    "k": null,
+    "knn_center": null
+   },
+   "query_id": "tdrive:plan-sensitive:084"
+  },
+  {
+   "profile": "moderate",
+   "predicate": {
+    "min_lon": 115.46910474344782,
+    "max_lon": 117.4931910938616,
+    "min_lat": 39.48206358099533,
+    "max_lat": 41.50614993140911,
+    "start_time": "2008-02-02T19:58:19.404687",
+    "end_time": "2008-02-04T09:15:24.551589",
+    "k": null,
+    "knn_center": null
+   },
+   "query_id": "tdrive:plan-sensitive:085"
+  },
+  {
+   "profile": "moderate",
+   "predicate": {
+    "min_lon": 115.64158160949607,
+    "max_lon": 117.09189146715784,
+    "min_lat": 39.6731890968208,
+    "max_lat": 41.123498954482564,
+    "start_time": "2008-02-05T06:40:47.170392",
+    "end_time": "2008-02-07T02:43:35.426984",
+    "k": null,
+    "knn_center": null
+   },
+   "query_id": "tdrive:plan-sensitive:086"
+  },
+  {
+   "profile": "moderate",
+   "predicate": {
+    "min_lon": 116.3545251652588,
+    "max_lon": 117.13648932147419,
+    "min_lat": 39.925636699456874,
+    "max_lat": 40.707600855672254,
+    "start_time": "2008-02-03T20:41:05.746878",
+    "end_time": "2008-02-07T15:49:57.129581",
+    "k": null,
+    "knn_center": null
+   },
+   "query_id": "tdrive:plan-sensitive:087"
+  },
+  {
+   "profile": "moderate",
+   "predicate": {
+    "min_lon": 115.62343018111044,
+    "max_lon": 117.32289970236222,
+    "min_lat": 39.66356460148467,
+    "max_lat": 41.36303412273645,
+    "start_time": "2008-02-06T05:07:37.594240",
+    "end_time": "2008-02-08T07:58:52.942501",
+    "k": null,
+    "knn_center": null
+   },
+   "query_id": "tdrive:plan-sensitive:088"
+  },
+  {
+   "profile": "moderate",
+   "predicate": {
+    "min_lon": 115.84995316918915,
+    "max_lon": 116.66815038925371,
+    "min_lat": 39.7372555593756,
+    "max_lat": 40.55545277944017,
+    "start_time": "2008-02-04T03:18:25.107182",
+    "end_time": "2008-02-05T21:42:03.849731",
+    "k": null,
+    "knn_center": null
+   },
+   "query_id": "tdrive:plan-sensitive:089"
+  },
+  {
+   "profile": "moderate",
+   "predicate": {
+    "min_lon": 115.53337596802442,
+    "max_lon": 116.84377440915661,
+    "min_lat": 40.18890705558388,
+    "max_lat": 41.49930549671607,
+    "start_time": "2008-02-05T14:08:44.692682",
+    "end_time": "2008-02-08T16:11:37.420994",
+    "k": null,
+    "knn_center": null
+   },
+   "query_id": "tdrive:plan-sensitive:090"
+  },
+  {
+   "profile": "moderate",
+   "predicate": {
+    "min_lon": 115.77831256370676,
+    "max_lon": 116.84916438705231,
+    "min_lat": 39.414819160841766,
+    "max_lat": 40.48567098418731,
+    "start_time": "2008-02-05T05:28:46.488308",
+    "end_time": "2008-02-07T08:16:29.558736",
+    "k": null,
+    "knn_center": null
+   },
+   "query_id": "tdrive:plan-sensitive:091"
+  },
+  {
+   "profile": "moderate",
+   "predicate": {
+    "min_lon": 115.57684343167536,
+    "max_lon": 117.39094580414283,
+    "min_lat": 39.48718193165488,
+    "max_lat": 41.30128430412235,
+    "start_time": "2008-02-03T21:33:40.059607",
+    "end_time": "2008-02-05T17:31:05.108009",
+    "k": null,
+    "knn_center": null
+   },
+   "query_id": "tdrive:plan-sensitive:092"
+  },
+  {
+   "profile": "moderate",
+   "predicate": {
+    "min_lon": 115.84549693705952,
+    "max_lon": 116.70438787725227,
+    "min_lat": 39.915325003707984,
+    "max_lat": 40.774215943900735,
+    "start_time": "2008-02-03T17:24:43.634834",
+    "end_time": "2008-02-07T00:37:22.068888",
+    "k": null,
+    "knn_center": null
+   },
+   "query_id": "tdrive:plan-sensitive:093"
+  },
+  {
+   "profile": "moderate",
+   "predicate": {
+    "min_lon": 116.07752881698653,
+    "max_lon": 117.48099110700325,
+    "min_lat": 39.79701451277091,
+    "max_lat": 41.20047680278762,
+    "start_time": "2008-02-03T05:43:12.393768",
+    "end_time": "2008-02-05T06:06:08.708211",
+    "k": null,
+    "knn_center": null
+   },
+   "query_id": "tdrive:plan-sensitive:094"
+  },
+  {
+   "profile": "moderate",
+   "predicate": {
+    "min_lon": 115.93203531738504,
+    "max_lon": 117.46603381702488,
+    "min_lat": 39.86407554987299,
+    "max_lat": 41.39807404951283,
+    "start_time": "2008-02-05T07:46:39.021935",
+    "end_time": "2008-02-08T04:47:40.203789",
+    "k": null,
+    "knn_center": null
+   },
+   "query_id": "tdrive:plan-sensitive:095"
+  },
+  {
+   "profile": "moderate",
+   "predicate": {
+    "min_lon": 115.4078,
+    "max_lon": 117.4957,
+    "min_lat": 39.40049,
+    "max_lat": 41.51908,
+    "start_time": "2008-02-03T04:45:31.934058",
+    "end_time": "2008-02-05T07:07:36.347345",
+    "k": null,
+    "knn_center": null
+   },
+   "query_id": "tdrive:plan-sensitive:096"
+  },
+  {
+   "profile": "moderate",
+   "predicate": {
+    "min_lon": 115.7371404803219,
+    "max_lon": 116.81498872772133,
+    "min_lat": 39.58471288426035,
+    "max_lat": 40.66256113165977,
+    "start_time": "2008-02-03T18:50:30.995188",
+    "end_time": "2008-02-05T23:39:10.204430",
+    "k": null,
+    "knn_center": null
+   },
+   "query_id": "tdrive:plan-sensitive:097"
+  },
+  {
+   "profile": "moderate",
+   "predicate": {
+    "min_lon": 116.49326953673953,
+    "max_lon": 117.32135033307806,
+    "min_lat": 39.84542855792256,
+    "max_lat": 40.673509354261085,
+    "start_time": "2008-02-05T14:10:55.101711",
+    "end_time": "2008-02-08T05:34:46.048892",
+    "k": null,
+    "knn_center": null
+   },
+   "query_id": "tdrive:plan-sensitive:098"
+  },
+  {
+   "profile": "moderate",
+   "predicate": {
+    "min_lon": 115.68600709993365,
+    "max_lon": 117.19444459260953,
+    "min_lat": 39.68057370082281,
+    "max_lat": 41.18901119349869,
+    "start_time": "2008-02-03T19:34:22.264804",
+    "end_time": "2008-02-06T03:01:36.735195",
+    "k": null,
+    "knn_center": null
+   },
+   "query_id": "tdrive:plan-sensitive:099"
+  }
+ ]
+}

@@ -1,0 +1,23 @@
+{
+  "created_utc": "2026-10-07T09:01:20.822252+00:00",
+  "source": "run/real_experiments/task7b/plan_sensitive",
+  "n_rows": 100000,
+  "clamp": "[0, N] before injection; pg_hint_plan Rows() also floors at 1",
+  "run_config": {
+    "dsn": "postgresql://postgres@localhost:5434/mobilitydb",
+    "output_dir": "run/vldbj_rev/plan_retime_lowload",
+    "n_train": 800,
+    "dm_seed": 70001,
+    "execution_seed": 44004,
+    "repeats": 5,
+    "epochs": 1000,
+    "threads": 4,
+    "dataset": "tdrive",
+    "source_dir": "/mnt/store5/Hashmi/SpatioTemp/.worktrees/st-cardinality-estimation/run/real_experiments/task7b/plan_sensitive",
+    "no_learned": false,
+    "retime_from": "run/vldbj_rev/plan_rerun",
+    "retime_n": 10,
+    "retime_seed": 81001
+  },
+  "analyze_run": false
+}

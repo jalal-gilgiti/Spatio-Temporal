@@ -1,0 +1,11 @@
+{
+  "q_error": "max((t+1)/(e+1), (e+1)/(t+1))",
+  "clamp": "e = min(max(prediction, 1), N), N = table row count",
+  "subset": "queries with true cardinality >= 1",
+  "median_and_p95": "mean over estimator seeds of the per-seed statistic",
+  "max": "worst q-error over all seeds and queries (no interval)",
+  "bootstrap": "10000 paired-query resamples, seed 20260911, fresh indices over the non-empty subset",
+  "reproduced_saved_rows": [],
+  "clamp_shares": "share of raw per-seed predictions below 1 or above N (unclamped inputs)",
+  "native_source": "run/vldbj_rev/native/explain_estimates_primary.csv"
+}

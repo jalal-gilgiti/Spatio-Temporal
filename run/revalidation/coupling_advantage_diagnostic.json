@@ -1,0 +1,122 @@
+{
+  "run_config": {
+    "n_trajectories": 24000,
+    "n_points_per_traj": 10,
+    "box_extent": 2.0,
+    "window_hours": 1.0,
+    "n_train": 1500,
+    "n_eval": 400,
+    "epochs": 1500,
+    "model_seeds": [
+      1,
+      2,
+      3
+    ],
+    "data_seed": 42,
+    "strengths": [
+      0.0,
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ]
+  },
+  "rows": [
+    {
+      "correlation_strength": 0.0,
+      "measured_mi": 0.003303421701215581,
+      "eval_p50_true_cardinality": 48.5,
+      "eval_n_nonzero": 399,
+      "coupled_median_qerror_per_seed": [
+        1.3049583292467108,
+        1.3073056966332994,
+        1.3099686974762816
+      ],
+      "coupled_no_coupling_median_qerror_per_seed": [
+        1.3504373964354848,
+        1.4028060165206941,
+        1.4066512416077295
+      ],
+      "coupled_mean": 1.3074109077854306,
+      "coupled_no_coupling_mean": 1.3866315515213028,
+      "ablation_ratio_no_coupling_over_coupled": 1.0605935312793595
+    },
+    {
+      "correlation_strength": 0.25,
+      "measured_mi": 0.01962340436986323,
+      "eval_p50_true_cardinality": 44.0,
+      "eval_n_nonzero": 399,
+      "coupled_median_qerror_per_seed": [
+        1.2046251305480307,
+        1.3177054701257689,
+        1.3130378124870639
+      ],
+      "coupled_no_coupling_median_qerror_per_seed": [
+        1.52930603615394,
+        1.3502994523858076,
+        1.4944501962764596
+      ],
+      "coupled_mean": 1.2784561377202879,
+      "coupled_no_coupling_mean": 1.4580185616054024,
+      "ablation_ratio_no_coupling_over_coupled": 1.140452549436155
+    },
+    {
+      "correlation_strength": 0.5,
+      "measured_mi": 0.06524509970282215,
+      "eval_p50_true_cardinality": 37.5,
+      "eval_n_nonzero": 399,
+      "coupled_median_qerror_per_seed": [
+        1.18733181797941,
+        1.308996445610151,
+        1.308044759008786
+      ],
+      "coupled_no_coupling_median_qerror_per_seed": [
+        1.4049294484386172,
+        1.4134158972978343,
+        1.4012877582576446
+      ],
+      "coupled_mean": 1.2681243408661158,
+      "coupled_no_coupling_mean": 1.4065443679980323,
+      "ablation_ratio_no_coupling_over_coupled": 1.109153355606578
+    },
+    {
+      "correlation_strength": 0.75,
+      "measured_mi": 0.14138785197707765,
+      "eval_p50_true_cardinality": 27.0,
+      "eval_n_nonzero": 399,
+      "coupled_median_qerror_per_seed": [
+        1.2733630748315607,
+        1.2747749714096346,
+        1.2709448538850028
+      ],
+      "coupled_no_coupling_median_qerror_per_seed": [
+        1.4643701730301109,
+        1.344940675490936,
+        1.4684273342086043
+      ],
+      "coupled_mean": 1.2730276333753994,
+      "coupled_no_coupling_mean": 1.4259127275765504,
+      "ablation_ratio_no_coupling_over_coupled": 1.1200956602927623
+    },
+    {
+      "correlation_strength": 1.0,
+      "measured_mi": 0.26107292626460554,
+      "eval_p50_true_cardinality": 12.0,
+      "eval_n_nonzero": 398,
+      "coupled_median_qerror_per_seed": [
+        1.2498086838508677,
+        1.3032267922583594,
+        1.2642212597711469
+      ],
+      "coupled_no_coupling_median_qerror_per_seed": [
+        1.2744551348971984,
+        1.3533911218444181,
+        1.3328988706663463
+      ],
+      "coupled_mean": 1.2724189119601246,
+      "coupled_no_coupling_mean": 1.3202483758026542,
+      "ablation_ratio_no_coupling_over_coupled": 1.0375894003090929
+    }
+  ],
+  "wall_seconds": 562.1
+}

@@ -1,0 +1,23 @@
+{
+  "dataset": "porto",
+  "requested_max_scale": 1000000,
+  "available_raw_trajectory_count": 1710670,
+  "availability_basis": "official CSV data rows; prepared pool excludes missing/empty/out-of-bbox data",
+  "prepared_trajectory_count": 1000000,
+  "prepared_point_count": 48274442,
+  "preparation_seconds": 1010.4417715590098,
+  "sampling_seed": 50505,
+  "nested_rank_policy": "one seeded permutation, remapped to dense rank; scale N uses rank < N",
+  "bbox": [
+    -8.735823,
+    -8.400006,
+    40.900005,
+    41.299992
+  ],
+  "time_range": [
+    "2013-07-01T00:00:53",
+    "2014-06-30T23:59:44"
+  ],
+  "cache_file": "run/real_experiments/scalability/prepared/porto__max_1000000.parquet",
+  "cache_bytes": 519918001
+}

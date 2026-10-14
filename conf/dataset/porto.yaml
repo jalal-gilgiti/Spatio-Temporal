@@ -1,0 +1,9 @@
+name: porto
+table: porto_traj
+# Real Porto format is a single JSON-array POLYLINE column, not flat
+# lon/lat columns -- see `src/data_module/porto_polyline_reader.py`.
+raw_path: data/raw/porto/train.csv
+# Each row is already one complete, bounded trip (one POLYLINE) -- no
+# `segment_into_trips` needed, unlike tdrive. Verified empirically:
+# per-trip span is well within trip scale.
+needs_segmentation: false

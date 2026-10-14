@@ -1,0 +1,35 @@
+{
+  "porto_traj": {
+    "trajectory_id_min": 0,
+    "trajectory_id_max": 99999,
+    "rows": 100000,
+    "distinct_ids": 100000,
+    "time_min": "2013-07-01T00:02:36+09:00",
+    "time_max": "2014-06-30T23:59:38+09:00"
+  },
+  "pool": {
+    "path": "run/real_experiments/scalability/prepared/porto__max_1000000.parquet",
+    "trajectories": 999996,
+    "time_min": "2013-07-01 00:00:53",
+    "time_max": "2014-06-30 23:59:44"
+  },
+  "content_match": {
+    "signature": "start epoch second, first lon/lat (6 dp)",
+    "table_trips_found_in_pool": 58482,
+    "share_found_in_pool": 0.58482,
+    "found_with_pool_id_below_100000": 5768,
+    "matched_with_same_trajectory_id": 0
+  },
+  "positive_control": {
+    "description": "porto_traj ids 0 and 1 located in the pool by hand (pool ids 461221, 293480)",
+    "found": 2,
+    "expected": 2,
+    "pool_ids_correct": true
+  },
+  "conclusion": "porto_traj is not the 100k prefix of the 1M pool. Its overlap with the pool (58.5%; 5,768 within the pool's first 100k ids) matches independent sampling from the same CSV (58.5%; 5,846 expected)",
+  "independence_check": {
+    "available_csv_trips": 1710670,
+    "expected_share_in_pool_if_independent": 0.5845662810477766,
+    "expected_in_pool_prefix_100k_if_independent": 5845.6628104777665
+  }
+}

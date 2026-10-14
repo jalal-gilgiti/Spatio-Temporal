@@ -1,0 +1,81 @@
+{
+  "rule": {
+    "max_empty_share": 0.15,
+    "min_median_true": 10
+  },
+  "pilot_ais": {
+    "1.0": {
+      "n": 300,
+      "empty_share": 0.18666666666666668,
+      "median_true": 52.0,
+      "satisfies_rule": false
+    },
+    "1.5": {
+      "n": 300,
+      "empty_share": 0.09666666666666666,
+      "median_true": 156.5,
+      "satisfies_rule": true
+    },
+    "2.0": {
+      "n": 300,
+      "empty_share": 0.05,
+      "median_true": 256.5,
+      "satisfies_rule": true
+    }
+  },
+  "frozen_workloads": {
+    "tdrive": {
+      "extent_degrees": 0.45,
+      "window_hours": 24.0,
+      "rule_applied": "post hoc",
+      "evaluation": {
+        "n": 300,
+        "empty_share": 0.11333333333333333,
+        "median_true": 43.5,
+        "satisfies_rule": true
+      },
+      "training": {
+        "n": 800,
+        "empty_share": 0.10375,
+        "median_true": 53.0,
+        "satisfies_rule": true
+      }
+    },
+    "porto": {
+      "extent_degrees": 0.15,
+      "window_hours": 336.0,
+      "rule_applied": "post hoc",
+      "evaluation": {
+        "n": 300,
+        "empty_share": 0.0,
+        "median_true": 571.0,
+        "satisfies_rule": true
+      },
+      "training": {
+        "n": 800,
+        "empty_share": 0.00125,
+        "median_true": 584.5,
+        "satisfies_rule": true
+      }
+    },
+    "ais": {
+      "extent_degrees": 1.5,
+      "window_hours": 24.0,
+      "rule_applied": "chosen by the rule",
+      "evaluation": {
+        "n": 300,
+        "empty_share": 0.09666666666666666,
+        "median_true": 156.5,
+        "satisfies_rule": true
+      },
+      "training": {
+        "n": 800,
+        "empty_share": 0.11625,
+        "median_true": 134.5,
+        "satisfies_rule": true
+      }
+    }
+  },
+  "pilot_ais_chosen_extent": 1.5,
+  "pilot_note": "pilot queries use the evaluation seed 43; the 1.5 deg pilot set is the AIS evaluation set"
+}

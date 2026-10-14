@@ -1,0 +1,13 @@
+name: nyc_tlc
+table: nyc_tlc_traj
+# Real NYC TLC format is *.parquet (needs a parquet reader, not
+# read_raw_csv) -- see `src/data_module/parquet_reader.py`. Every
+# currently-served vintage (checked 2024-01 and 2015-01) reports
+# PULocationID/DOLocationID taxi-zone ids, not raw lat/lon, so trip
+# endpoints are approximated by each zone's polygon centroid (computed
+# from `zone_shapefile` below) -- ZONE-resolution, not GPS-resolution.
+raw_path: data/raw/nyc_tlc/*.parquet
+zone_shapefile: data/raw/nyc_tlc/taxi_zones/taxi_zones.shp
+# Each row is already one complete, bounded (pickup, dropoff) trip -- no
+# `segment_into_trips` needed, unlike tdrive.
+needs_segmentation: false

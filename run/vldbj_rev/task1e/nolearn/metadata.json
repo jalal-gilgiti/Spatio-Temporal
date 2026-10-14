@@ -1,0 +1,7 @@
+{
+  "q_error": "bounded to [1, N], N = 100,000",
+  "aggregation": "per bucket: mean over seeds of the per-seed median / p95; max over seeds and queries",
+  "trajectory_sampling": "1% samples, seeds [17, 23, 47, 59, 71]",
+  "path_histogram": "rebuilt from saved grid counts; reproduces the saved headline estimates exactly",
+  "native": "EXPLAIN row estimates at statistics target 1000: original tables (tdrive, ais); porto from a full-table copy in a dropped scratch schema; reproduces the primary headline estimates exactly"
+}

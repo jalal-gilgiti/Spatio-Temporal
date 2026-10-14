@@ -1,0 +1,9 @@
+{
+  "q_error": "clamped to [1, N]",
+  "statistic": "ratio of mean-of-per-seed bootstrap medians, left / right (<1 favours left)",
+  "resamples": "10000, seed 20260911, identical to vldbj_task1_table.py",
+  "p_value": "two-sided, p = min(1, 2*min(#(r>=1)+1, #(r<=1)+1)/(B+1)); smallest possible ~2e-4",
+  "multiple_testing": "Holm within each family and subset; family sizes in column family_size",
+  "native_source": "run/vldbj_rev/native/explain_estimates_primary.csv",
+  "model_source": "saved headline runs (task7b/headline, multiseed_accuracy); rerun after retraining"
+}

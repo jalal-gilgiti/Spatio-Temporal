@@ -1,0 +1,2721 @@
+{
+  "dataset": "porto",
+  "table": "porto_traj",
+  "workload": "mixed_extent_stratified",
+  "seed": 61001,
+  "per_bucket_target": 60,
+  "draws": 20000,
+  "max_draws": 20000,
+  "label_seconds": 5925.139936788939,
+  "per_bucket_obtained": {
+    "0": 60,
+    "1-10": 60,
+    "11-100": 60,
+    "101-1,000": 0,
+    ">1,000": 0
+  },
+  "selection_rule": "first queries per bucket in draw order; estimates never consulted",
+  "evaluation_workload_id": "fae49936ed1b11c37e529e765fa16fc36adaa67db42df631c30fe829c738f10d",
+  "evaluation_queries": [
+    {
+      "predicate": {
+        "min_lon": -8.5517001200892,
+        "max_lon": -8.454276350138505,
+        "min_lat": 41.07658204403603,
+        "max_lat": 41.17737034678037,
+        "start_time": "2014-01-11T16:33:03.333359",
+        "end_time": "2014-01-11T16:36:04.143999",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 0,
+      "bucket": "0",
+      "query_id": "porto:stratified:0:00"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.50299205893603,
+        "max_lon": -8.459659158505696,
+        "min_lat": 41.1479341977793,
+        "max_lat": 41.216180675935426,
+        "start_time": "2013-09-06T11:25:27.790234",
+        "end_time": "2013-09-06T11:26:38.243526",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 0,
+      "bucket": "0",
+      "query_id": "porto:stratified:0:01"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.695079057861454,
+        "max_lon": -8.464915994252067,
+        "min_lat": 40.93046232017953,
+        "max_lat": 41.06678093614259,
+        "start_time": "2013-11-01T19:29:13.426661",
+        "end_time": "2013-11-01T19:37:04.299469",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 0,
+      "bucket": "0",
+      "query_id": "porto:stratified:0:02"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.56212393564558,
+        "max_lon": -8.508963854368599,
+        "min_lat": 41.124283889986756,
+        "max_lat": 41.184427331145535,
+        "start_time": "2014-05-16T16:22:25.166680",
+        "end_time": "2014-05-16T16:28:03.447988",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 0,
+      "bucket": "0",
+      "query_id": "porto:stratified:0:03"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.648596767167831,
+        "max_lon": -8.540474757119402,
+        "min_lat": 40.95907925076162,
+        "max_lat": 41.05255231557502,
+        "start_time": "2013-07-21T19:28:38.369180",
+        "end_time": "2013-07-21T20:15:39.284744",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 0,
+      "bucket": "0",
+      "query_id": "porto:stratified:0:04"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.532977031445744,
+        "max_lon": -8.505326513462053,
+        "min_lat": 40.98450710642346,
+        "max_lat": 41.06995332003326,
+        "start_time": "2013-08-13T00:14:10.961480",
+        "end_time": "2013-08-13T00:20:53.280580",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 0,
+      "bucket": "0",
+      "query_id": "porto:stratified:0:05"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.618595736532212,
+        "max_lon": -8.568868734785685,
+        "min_lat": 41.04275826600913,
+        "max_lat": 41.07951308466265,
+        "start_time": "2013-10-03T19:50:59.398804",
+        "end_time": "2013-10-03T21:25:07.463586",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 0,
+      "bucket": "0",
+      "query_id": "porto:stratified:0:06"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.648193844291418,
+        "max_lon": -8.51568114649321,
+        "min_lat": 40.934498231524216,
+        "max_lat": 41.051748271255335,
+        "start_time": "2013-09-09T22:19:56.155135",
+        "end_time": "2013-09-09T22:29:24.278120",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 0,
+      "bucket": "0",
+      "query_id": "porto:stratified:0:07"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.55006052025062,
+        "max_lon": -8.51336789251055,
+        "min_lat": 41.06379564433276,
+        "max_lat": 41.228634491507634,
+        "start_time": "2013-12-15T16:33:30.443813",
+        "end_time": "2013-12-15T17:26:45.511240",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 0,
+      "bucket": "0",
+      "query_id": "porto:stratified:0:08"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.549565377848992,
+        "max_lon": -8.47508737705193,
+        "min_lat": 40.93164443752366,
+        "max_lat": 41.1889782910932,
+        "start_time": "2013-08-25T08:12:14.333313",
+        "end_time": "2013-08-25T08:13:21.732705",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 0,
+      "bucket": "0",
+      "query_id": "porto:stratified:0:09"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.499843661586853,
+        "max_lon": -8.441653448928102,
+        "min_lat": 40.9923550014294,
+        "max_lat": 41.085628508323374,
+        "start_time": "2014-06-13T23:24:52.924521",
+        "end_time": "2014-06-13T23:26:00.695387",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 0,
+      "bucket": "0",
+      "query_id": "porto:stratified:0:10"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.438696217305605,
+        "max_lon": -8.403122237925679,
+        "min_lat": 41.038620154490175,
+        "max_lat": 41.2190802296561,
+        "start_time": "2013-09-28T18:23:49.904057",
+        "end_time": "2013-09-28T18:26:09.245765",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 0,
+      "bucket": "0",
+      "query_id": "porto:stratified:0:11"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.468014624815616,
+        "max_lon": -8.431442233230664,
+        "min_lat": 41.06058658305275,
+        "max_lat": 41.273946843148934,
+        "start_time": "2014-06-25T02:55:10.333579",
+        "end_time": "2014-06-25T04:18:57.179129",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 0,
+      "bucket": "0",
+      "query_id": "porto:stratified:0:12"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.584907885205931,
+        "max_lon": -8.45004107091783,
+        "min_lat": 40.93825473363808,
+        "max_lat": 41.07875188653682,
+        "start_time": "2013-07-03T06:50:35.098581",
+        "end_time": "2013-07-03T07:45:26.415424",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 0,
+      "bucket": "0",
+      "query_id": "porto:stratified:0:13"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.726403186264829,
+        "max_lon": -8.626753308810182,
+        "min_lat": 40.9981936590417,
+        "max_lat": 41.1785131924779,
+        "start_time": "2014-03-25T01:37:34.191094",
+        "end_time": "2014-03-25T01:46:26.803808",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 0,
+      "bucket": "0",
+      "query_id": "porto:stratified:0:14"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.558516332636422,
+        "max_lon": -8.45850244942371,
+        "min_lat": 40.992296759059684,
+        "max_lat": 41.26275835590249,
+        "start_time": "2014-03-10T08:49:14.911344",
+        "end_time": "2014-03-10T08:58:36.722475",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 0,
+      "bucket": "0",
+      "query_id": "porto:stratified:0:15"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.595539810332285,
+        "max_lon": -8.468262551733941,
+        "min_lat": 40.99783972328819,
+        "max_lat": 41.041915253489314,
+        "start_time": "2014-06-09T16:47:51.918066",
+        "end_time": "2014-06-09T17:04:57.023329",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 0,
+      "bucket": "0",
+      "query_id": "porto:stratified:0:16"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.572072291376587,
+        "max_lon": -8.541341682968675,
+        "min_lat": 41.02172457271841,
+        "max_lat": 41.09037243761234,
+        "start_time": "2014-02-20T05:09:52.106148",
+        "end_time": "2014-02-20T05:20:35.182820",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 0,
+      "bucket": "0",
+      "query_id": "porto:stratified:0:17"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.50068514396469,
+        "max_lon": -8.429019255753904,
+        "min_lat": 41.23402156006153,
+        "max_lat": 41.268068616317336,
+        "start_time": "2013-09-24T19:22:03.314960",
+        "end_time": "2013-09-24T19:25:03.946921",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 0,
+      "bucket": "0",
+      "query_id": "porto:stratified:0:18"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.714897742086125,
+        "max_lon": -8.580625804200016,
+        "min_lat": 40.914375756616174,
+        "max_lat": 40.94332163748474,
+        "start_time": "2013-10-24T11:15:50.851261",
+        "end_time": "2013-10-24T11:18:14.903762",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 0,
+      "bucket": "0",
+      "query_id": "porto:stratified:0:19"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.479375022861582,
+        "max_lon": -8.465990088496854,
+        "min_lat": 40.9265285016018,
+        "max_lat": 41.1016439428239,
+        "start_time": "2013-10-26T22:50:16.153820",
+        "end_time": "2013-10-26T23:04:12.251461",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 0,
+      "bucket": "0",
+      "query_id": "porto:stratified:0:20"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.657964478733376,
+        "max_lon": -8.520322900647235,
+        "min_lat": 41.031538414572694,
+        "max_lat": 41.280718453876716,
+        "start_time": "2013-10-08T04:08:47.169295",
+        "end_time": "2013-10-08T04:10:51.452693",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 0,
+      "bucket": "0",
+      "query_id": "porto:stratified:0:21"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.508330732171567,
+        "max_lon": -8.443403084431983,
+        "min_lat": 41.18145231035249,
+        "max_lat": 41.24171178356407,
+        "start_time": "2013-09-20T22:27:10.492773",
+        "end_time": "2013-09-20T22:36:56.006289",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 0,
+      "bucket": "0",
+      "query_id": "porto:stratified:0:22"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.540650653780299,
+        "max_lon": -8.502669562183051,
+        "min_lat": 40.95687823354655,
+        "max_lat": 41.29198513037679,
+        "start_time": "2013-08-16T04:55:02.331410",
+        "end_time": "2013-08-16T05:25:32.870702",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 0,
+      "bucket": "0",
+      "query_id": "porto:stratified:0:23"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.695810120017706,
+        "max_lon": -8.541828771301056,
+        "min_lat": 40.93236099383783,
+        "max_lat": 41.104646169979944,
+        "start_time": "2013-07-01T08:02:54.802685",
+        "end_time": "2013-07-01T08:55:11.655034",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 0,
+      "bucket": "0",
+      "query_id": "porto:stratified:0:24"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.568423624641554,
+        "max_lon": -8.454240086179254,
+        "min_lat": 41.00194528107356,
+        "max_lat": 41.27697712867862,
+        "start_time": "2014-02-24T06:10:38.265734",
+        "end_time": "2014-02-24T06:16:28.828721",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 0,
+      "bucket": "0",
+      "query_id": "porto:stratified:0:25"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.701910974622685,
+        "max_lon": -8.531476266013234,
+        "min_lat": 40.94258343802191,
+        "max_lat": 41.0438703245195,
+        "start_time": "2014-01-01T03:53:35.228764",
+        "end_time": "2014-01-01T04:58:42.982945",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 0,
+      "bucket": "0",
+      "query_id": "porto:stratified:0:26"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.554589943676447,
+        "max_lon": -8.457428995262477,
+        "min_lat": 40.96283550224871,
+        "max_lat": 41.09998951540104,
+        "start_time": "2013-09-25T20:13:52.387768",
+        "end_time": "2013-09-25T21:39:17.919301",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 0,
+      "bucket": "0",
+      "query_id": "porto:stratified:0:27"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.69315351884664,
+        "max_lon": -8.445923689184543,
+        "min_lat": 40.95549651478094,
+        "max_lat": 41.01885903398697,
+        "start_time": "2013-07-21T23:39:15.762948",
+        "end_time": "2013-07-21T23:40:20.271969",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 0,
+      "bucket": "0",
+      "query_id": "porto:stratified:0:28"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.650388539057458,
+        "max_lon": -8.491195120735899,
+        "min_lat": 40.97747119469068,
+        "max_lat": 41.098863155924285,
+        "start_time": "2014-03-10T02:26:32.479606",
+        "end_time": "2014-03-10T03:37:24.839756",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 0,
+      "bucket": "0",
+      "query_id": "porto:stratified:0:29"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.435168302699866,
+        "max_lon": -8.425191479878503,
+        "min_lat": 41.178677985373,
+        "max_lat": 41.27175785410077,
+        "start_time": "2014-06-04T00:29:01.620327",
+        "end_time": "2014-06-04T00:33:29.884887",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 0,
+      "bucket": "0",
+      "query_id": "porto:stratified:0:30"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.722901166721712,
+        "max_lon": -8.62191722857714,
+        "min_lat": 40.90149457737507,
+        "max_lat": 41.05074356650655,
+        "start_time": "2014-05-22T09:44:41.837269",
+        "end_time": "2014-05-22T10:10:12.827706",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 0,
+      "bucket": "0",
+      "query_id": "porto:stratified:0:31"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.705163554483072,
+        "max_lon": -8.70306812214681,
+        "min_lat": 41.18254404626963,
+        "max_lat": 41.21728428090161,
+        "start_time": "2013-08-01T17:58:42.592766",
+        "end_time": "2013-08-01T19:12:16.209635",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 0,
+      "bucket": "0",
+      "query_id": "porto:stratified:0:32"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.640104599351405,
+        "max_lon": -8.534715163459511,
+        "min_lat": 41.02548453133894,
+        "max_lat": 41.03794160509912,
+        "start_time": "2013-11-11T10:15:02.176882",
+        "end_time": "2013-11-11T11:18:47.565939",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 0,
+      "bucket": "0",
+      "query_id": "porto:stratified:0:33"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.70997720206186,
+        "max_lon": -8.468571944057574,
+        "min_lat": 40.99411706956728,
+        "max_lat": 41.089464743500855,
+        "start_time": "2013-10-13T05:23:40.766963",
+        "end_time": "2013-10-13T05:24:51.371402",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 0,
+      "bucket": "0",
+      "query_id": "porto:stratified:0:34"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.676138653837128,
+        "max_lon": -8.665518657246729,
+        "min_lat": 40.94597682603265,
+        "max_lat": 41.03041334435185,
+        "start_time": "2014-04-25T16:23:16.282464",
+        "end_time": "2014-04-25T17:10:27.552845",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 0,
+      "bucket": "0",
+      "query_id": "porto:stratified:0:35"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.68488488799143,
+        "max_lon": -8.40741573995032,
+        "min_lat": 41.118333788041376,
+        "max_lat": 41.23659998465726,
+        "start_time": "2014-04-24T02:57:55.813747",
+        "end_time": "2014-04-24T02:59:07.850786",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 0,
+      "bucket": "0",
+      "query_id": "porto:stratified:0:36"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.435365090442248,
+        "max_lon": -8.425855386975648,
+        "min_lat": 40.91290203390681,
+        "max_lat": 41.0430593768082,
+        "start_time": "2014-06-06T01:23:05.603636",
+        "end_time": "2014-06-06T02:08:04.981661",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 0,
+      "bucket": "0",
+      "query_id": "porto:stratified:0:37"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.582551463773257,
+        "max_lon": -8.517727732295794,
+        "min_lat": 41.13418885084376,
+        "max_lat": 41.13515612572738,
+        "start_time": "2013-11-06T22:02:06.662715",
+        "end_time": "2013-11-06T22:58:58.587135",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 0,
+      "bucket": "0",
+      "query_id": "porto:stratified:0:38"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.63977234003901,
+        "max_lon": -8.609203192790773,
+        "min_lat": 41.168934102021154,
+        "max_lat": 41.17036346544769,
+        "start_time": "2014-06-23T03:30:09.450814",
+        "end_time": "2014-06-23T03:33:43.943351",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 0,
+      "bucket": "0",
+      "query_id": "porto:stratified:0:39"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.489570877534145,
+        "max_lon": -8.444384982511338,
+        "min_lat": 41.053354548916836,
+        "max_lat": 41.262200719440706,
+        "start_time": "2013-07-02T23:30:45.434100",
+        "end_time": "2013-07-03T00:17:13.114591",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 0,
+      "bucket": "0",
+      "query_id": "porto:stratified:0:40"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.716540129573573,
+        "max_lon": -8.492263488382207,
+        "min_lat": 40.98717917145961,
+        "max_lat": 41.076392925293014,
+        "start_time": "2014-02-02T23:42:32.436417",
+        "end_time": "2014-02-02T23:55:00.965279",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 0,
+      "bucket": "0",
+      "query_id": "porto:stratified:0:41"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.704377455460452,
+        "max_lon": -8.557957417928032,
+        "min_lat": 41.09633092682106,
+        "max_lat": 41.28978385970905,
+        "start_time": "2013-08-11T23:03:33.751832",
+        "end_time": "2013-08-11T23:08:40.073923",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 0,
+      "bucket": "0",
+      "query_id": "porto:stratified:0:42"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.645426095812915,
+        "max_lon": -8.531085634623963,
+        "min_lat": 40.92788819658088,
+        "max_lat": 41.062730334700724,
+        "start_time": "2014-03-07T05:54:10.255862",
+        "end_time": "2014-03-07T06:22:45.793620",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 0,
+      "bucket": "0",
+      "query_id": "porto:stratified:0:43"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.594789443645018,
+        "max_lon": -8.583886667201558,
+        "min_lat": 41.19481778930897,
+        "max_lat": 41.281174825859594,
+        "start_time": "2013-08-19T13:18:47.759054",
+        "end_time": "2013-08-19T13:25:05.719035",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 0,
+      "bucket": "0",
+      "query_id": "porto:stratified:0:44"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.526255054023066,
+        "max_lon": -8.497343875097997,
+        "min_lat": 41.047301611868775,
+        "max_lat": 41.285861964280116,
+        "start_time": "2014-03-06T13:26:22.020126",
+        "end_time": "2014-03-06T14:36:32.594866",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 0,
+      "bucket": "0",
+      "query_id": "porto:stratified:0:45"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.684719034886571,
+        "max_lon": -8.64914251373859,
+        "min_lat": 40.94534064990672,
+        "max_lat": 41.15458914795819,
+        "start_time": "2013-12-01T19:55:12.391965",
+        "end_time": "2013-12-01T19:57:00.822935",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 0,
+      "bucket": "0",
+      "query_id": "porto:stratified:0:46"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.69394126331229,
+        "max_lon": -8.540432406030524,
+        "min_lat": 41.09734294122961,
+        "max_lat": 41.15085973830631,
+        "start_time": "2014-02-13T00:12:22.188513",
+        "end_time": "2014-02-13T00:14:16.983770",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 0,
+      "bucket": "0",
+      "query_id": "porto:stratified:0:47"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.511849705719161,
+        "max_lon": -8.418720184194813,
+        "min_lat": 40.98773246555026,
+        "max_lat": 41.15138904241721,
+        "start_time": "2014-02-19T03:23:25.539228",
+        "end_time": "2014-02-19T05:14:22.568156",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 0,
+      "bucket": "0",
+      "query_id": "porto:stratified:0:48"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.604881857412595,
+        "max_lon": -8.458345895347884,
+        "min_lat": 40.9026087874738,
+        "max_lat": 41.26867490435877,
+        "start_time": "2013-08-30T21:08:10.710589",
+        "end_time": "2013-08-30T21:16:49.792330",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 0,
+      "bucket": "0",
+      "query_id": "porto:stratified:0:49"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.581250907289158,
+        "max_lon": -8.520517888966085,
+        "min_lat": 40.913819598355424,
+        "max_lat": 41.10512551718462,
+        "start_time": "2014-06-10T19:48:00.832674",
+        "end_time": "2014-06-10T19:51:59.982456",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 0,
+      "bucket": "0",
+      "query_id": "porto:stratified:0:50"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.660858812958347,
+        "max_lon": -8.481445192688728,
+        "min_lat": 41.168447623884774,
+        "max_lat": 41.218859820798734,
+        "start_time": "2013-10-10T21:02:59.337478",
+        "end_time": "2013-10-10T21:11:32.153831",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 0,
+      "bucket": "0",
+      "query_id": "porto:stratified:0:51"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.568399649488509,
+        "max_lon": -8.491521051352347,
+        "min_lat": 41.15697277584709,
+        "max_lat": 41.21364388054905,
+        "start_time": "2014-02-06T21:14:15.621155",
+        "end_time": "2014-02-06T21:17:54.401438",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 0,
+      "bucket": "0",
+      "query_id": "porto:stratified:0:52"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.621017388563272,
+        "max_lon": -8.520450405859297,
+        "min_lat": 41.142909393764405,
+        "max_lat": 41.21528776117063,
+        "start_time": "2014-01-21T06:41:06.345345",
+        "end_time": "2014-01-21T06:46:13.482536",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 0,
+      "bucket": "0",
+      "query_id": "porto:stratified:0:53"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.443646853367895,
+        "max_lon": -8.409640553746963,
+        "min_lat": 41.112072867082865,
+        "max_lat": 41.29480939956438,
+        "start_time": "2014-03-09T19:47:01.996531",
+        "end_time": "2014-03-09T19:51:21.231209",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 0,
+      "bucket": "0",
+      "query_id": "porto:stratified:0:54"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.647436959688724,
+        "max_lon": -8.404479281160626,
+        "min_lat": 41.02616590460376,
+        "max_lat": 41.03406063884253,
+        "start_time": "2013-11-20T00:29:02.820659",
+        "end_time": "2013-11-20T00:34:46.270312",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 0,
+      "bucket": "0",
+      "query_id": "porto:stratified:0:55"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.719898604120868,
+        "max_lon": -8.407204254166826,
+        "min_lat": 40.99026571578677,
+        "max_lat": 41.081207313146166,
+        "start_time": "2013-12-07T17:38:10.799695",
+        "end_time": "2013-12-07T17:41:35.086947",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 0,
+      "bucket": "0",
+      "query_id": "porto:stratified:0:56"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.681821039680877,
+        "max_lon": -8.588453495345655,
+        "min_lat": 40.91952099445964,
+        "max_lat": 41.100439456048875,
+        "start_time": "2014-03-20T09:30:22.391147",
+        "end_time": "2014-03-20T09:31:23.671829",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 0,
+      "bucket": "0",
+      "query_id": "porto:stratified:0:57"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.723859584905021,
+        "max_lon": -8.502750484831886,
+        "min_lat": 41.242212034732276,
+        "max_lat": 41.25038144274263,
+        "start_time": "2014-05-31T09:57:22.962596",
+        "end_time": "2014-05-31T10:07:02.681581",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 0,
+      "bucket": "0",
+      "query_id": "porto:stratified:0:58"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.70451697303795,
+        "max_lon": -8.447520931690562,
+        "min_lat": 41.07210611746712,
+        "max_lat": 41.133236910836466,
+        "start_time": "2013-07-29T08:43:21.417472",
+        "end_time": "2013-07-29T08:54:29.755391",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 0,
+      "bucket": "0",
+      "query_id": "porto:stratified:0:59"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.702052932692826,
+        "max_lon": -8.59920079497175,
+        "min_lat": 41.00922048200181,
+        "max_lat": 41.246178175812524,
+        "start_time": "2013-10-14T06:19:13.310245",
+        "end_time": "2013-10-14T06:33:15.859503",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 3,
+      "bucket": "1-10",
+      "query_id": "porto:stratified:1-10:00"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.64977532799328,
+        "max_lon": -8.4742866115338,
+        "min_lat": 40.91483916527648,
+        "max_lat": 41.17827234644122,
+        "start_time": "2013-08-02T19:24:33.239589",
+        "end_time": "2013-08-02T19:25:37.652204",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 2,
+      "bucket": "1-10",
+      "query_id": "porto:stratified:1-10:01"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.621201102566614,
+        "max_lon": -8.615012414722615,
+        "min_lat": 41.012873026442705,
+        "max_lat": 41.27874203458289,
+        "start_time": "2013-09-25T00:25:07.971567",
+        "end_time": "2013-09-25T01:47:36.352284",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 1,
+      "bucket": "1-10",
+      "query_id": "porto:stratified:1-10:02"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.646217613110293,
+        "max_lon": -8.617179706026146,
+        "min_lat": 41.1365137253113,
+        "max_lat": 41.16489609035865,
+        "start_time": "2013-10-04T04:28:18.187525",
+        "end_time": "2013-10-04T04:56:38.633709",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 3,
+      "bucket": "1-10",
+      "query_id": "porto:stratified:1-10:03"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.622926554437601,
+        "max_lon": -8.527565414236882,
+        "min_lat": 41.07905103670951,
+        "max_lat": 41.19097250546923,
+        "start_time": "2013-12-14T13:22:06.675328",
+        "end_time": "2013-12-14T13:26:42.627122",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 3,
+      "bucket": "1-10",
+      "query_id": "porto:stratified:1-10:04"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.700463717368347,
+        "max_lon": -8.409165471565801,
+        "min_lat": 41.08154741508776,
+        "max_lat": 41.18592345855544,
+        "start_time": "2014-04-14T05:52:42.329489",
+        "end_time": "2014-04-14T06:06:02.686370",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 1,
+      "bucket": "1-10",
+      "query_id": "porto:stratified:1-10:05"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.639121960790083,
+        "max_lon": -8.414161066036835,
+        "min_lat": 41.032197346510515,
+        "max_lat": 41.17737493414419,
+        "start_time": "2014-05-30T11:09:06.134085",
+        "end_time": "2014-05-30T11:10:21.779468",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 3,
+      "bucket": "1-10",
+      "query_id": "porto:stratified:1-10:06"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.647757214690364,
+        "max_lon": -8.516288206547912,
+        "min_lat": 40.92998245027025,
+        "max_lat": 41.19412120309646,
+        "start_time": "2014-03-06T11:04:58.621883",
+        "end_time": "2014-03-06T11:06:06.814465",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 2,
+      "bucket": "1-10",
+      "query_id": "porto:stratified:1-10:07"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.68695096502862,
+        "max_lon": -8.514165097945163,
+        "min_lat": 40.9442887647892,
+        "max_lat": 41.1740920485573,
+        "start_time": "2013-09-28T19:58:27.228706",
+        "end_time": "2013-09-28T19:59:48.888436",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 3,
+      "bucket": "1-10",
+      "query_id": "porto:stratified:1-10:08"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.717272134461046,
+        "max_lon": -8.617105547370278,
+        "min_lat": 41.050946680745284,
+        "max_lat": 41.17323208291586,
+        "start_time": "2014-03-23T10:47:07.714912",
+        "end_time": "2014-03-23T11:25:24.998722",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 3,
+      "bucket": "1-10",
+      "query_id": "porto:stratified:1-10:09"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.6894849882232,
+        "max_lon": -8.53863779734473,
+        "min_lat": 41.21074755578749,
+        "max_lat": 41.23849827050175,
+        "start_time": "2013-08-07T08:32:16.123470",
+        "end_time": "2013-08-07T09:50:27.589190",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 2,
+      "bucket": "1-10",
+      "query_id": "porto:stratified:1-10:10"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.669013482415407,
+        "max_lon": -8.446037304362072,
+        "min_lat": 41.06604965379846,
+        "max_lat": 41.27044547835338,
+        "start_time": "2014-04-26T13:32:25.586742",
+        "end_time": "2014-04-26T14:36:18.675547",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 8,
+      "bucket": "1-10",
+      "query_id": "porto:stratified:1-10:11"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.640953434809623,
+        "max_lon": -8.511809102180326,
+        "min_lat": 41.19115144986767,
+        "max_lat": 41.22572517845478,
+        "start_time": "2014-03-03T16:10:31.100286",
+        "end_time": "2014-03-03T17:29:14.714635",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 3,
+      "bucket": "1-10",
+      "query_id": "porto:stratified:1-10:12"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.714901559425554,
+        "max_lon": -8.523010093122895,
+        "min_lat": 41.13043687167533,
+        "max_lat": 41.28298132342633,
+        "start_time": "2013-09-01T03:25:26.325118",
+        "end_time": "2013-09-01T03:28:03.172938",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 3,
+      "bucket": "1-10",
+      "query_id": "porto:stratified:1-10:13"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.64109136645326,
+        "max_lon": -8.500032781296257,
+        "min_lat": 40.97598778681217,
+        "max_lat": 41.143091448302776,
+        "start_time": "2014-04-28T06:45:11.054936",
+        "end_time": "2014-04-28T07:31:08.683826",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 2,
+      "bucket": "1-10",
+      "query_id": "porto:stratified:1-10:14"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.534640423860576,
+        "max_lon": -8.416203345059458,
+        "min_lat": 41.06426283182976,
+        "max_lat": 41.21806827195572,
+        "start_time": "2013-07-28T23:29:23.608631",
+        "end_time": "2013-07-28T23:37:24.642138",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 1,
+      "bucket": "1-10",
+      "query_id": "porto:stratified:1-10:15"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.59208807929216,
+        "max_lon": -8.475560014157294,
+        "min_lat": 40.99127193468567,
+        "max_lat": 41.22414422368037,
+        "start_time": "2013-10-17T04:56:18.340683",
+        "end_time": "2013-10-17T05:47:02.829162",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 2,
+      "bucket": "1-10",
+      "query_id": "porto:stratified:1-10:16"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.64029277422335,
+        "max_lon": -8.607247196064078,
+        "min_lat": 40.91295621395709,
+        "max_lat": 41.198583117563544,
+        "start_time": "2013-10-08T03:03:11.552456",
+        "end_time": "2013-10-08T03:07:32.861648",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 1,
+      "bucket": "1-10",
+      "query_id": "porto:stratified:1-10:17"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.666160510059258,
+        "max_lon": -8.536043346456669,
+        "min_lat": 41.18989995759201,
+        "max_lat": 41.26490846719698,
+        "start_time": "2014-05-13T12:07:00.970321",
+        "end_time": "2014-05-13T12:43:18.740594",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 2,
+      "bucket": "1-10",
+      "query_id": "porto:stratified:1-10:18"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.649941433891941,
+        "max_lon": -8.532776866468092,
+        "min_lat": 41.13984945336746,
+        "max_lat": 41.16593026324875,
+        "start_time": "2014-05-10T16:14:25.616568",
+        "end_time": "2014-05-10T16:19:41.542765",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 2,
+      "bucket": "1-10",
+      "query_id": "porto:stratified:1-10:19"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.585348592366497,
+        "max_lon": -8.57820517406918,
+        "min_lat": 40.93824842707259,
+        "max_lat": 41.184184141487876,
+        "start_time": "2013-09-24T09:47:31.832013",
+        "end_time": "2013-09-24T10:16:03.107492",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 3,
+      "bucket": "1-10",
+      "query_id": "porto:stratified:1-10:20"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.662849788137787,
+        "max_lon": -8.436522802101821,
+        "min_lat": 41.11193889245642,
+        "max_lat": 41.27549657769265,
+        "start_time": "2013-11-05T04:17:15.601725",
+        "end_time": "2013-11-05T05:20:12.568691",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 8,
+      "bucket": "1-10",
+      "query_id": "porto:stratified:1-10:21"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.726211383458546,
+        "max_lon": -8.481136949511814,
+        "min_lat": 41.15452735744173,
+        "max_lat": 41.29291719083351,
+        "start_time": "2013-08-18T20:37:15.235736",
+        "end_time": "2013-08-18T20:44:44.330261",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 1,
+      "bucket": "1-10",
+      "query_id": "porto:stratified:1-10:22"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.592941022358238,
+        "max_lon": -8.574916609244983,
+        "min_lat": 41.094479763572764,
+        "max_lat": 41.284709809640866,
+        "start_time": "2013-11-10T10:30:38.174543",
+        "end_time": "2013-11-10T10:43:28.051367",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 1,
+      "bucket": "1-10",
+      "query_id": "porto:stratified:1-10:23"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.672535172423423,
+        "max_lon": -8.50035589849978,
+        "min_lat": 41.04627611771668,
+        "max_lat": 41.266891640406044,
+        "start_time": "2013-10-03T17:16:58.326588",
+        "end_time": "2013-10-03T17:19:33.167395",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 3,
+      "bucket": "1-10",
+      "query_id": "porto:stratified:1-10:24"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.725517133806651,
+        "max_lon": -8.604505765821578,
+        "min_lat": 40.93919322398718,
+        "max_lat": 41.14624401744261,
+        "start_time": "2014-06-19T18:46:38.010830",
+        "end_time": "2014-06-19T19:01:35.732922",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 3,
+      "bucket": "1-10",
+      "query_id": "porto:stratified:1-10:25"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.696172847112669,
+        "max_lon": -8.523334607123221,
+        "min_lat": 41.13898063458218,
+        "max_lat": 41.18805388155545,
+        "start_time": "2014-05-28T23:42:57.049018",
+        "end_time": "2014-05-28T23:44:14.856734",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 1,
+      "bucket": "1-10",
+      "query_id": "porto:stratified:1-10:26"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.651374782955013,
+        "max_lon": -8.629437297480917,
+        "min_lat": 41.08159328962933,
+        "max_lat": 41.26777540194999,
+        "start_time": "2014-02-16T15:53:08.305120",
+        "end_time": "2014-02-16T15:55:38.016414",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 1,
+      "bucket": "1-10",
+      "query_id": "porto:stratified:1-10:27"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.600163357265902,
+        "max_lon": -8.520740423738516,
+        "min_lat": 41.04395258185434,
+        "max_lat": 41.20809530434166,
+        "start_time": "2014-04-29T03:49:28.508035",
+        "end_time": "2014-04-29T03:51:15.437379",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 1,
+      "bucket": "1-10",
+      "query_id": "porto:stratified:1-10:28"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.666844508938489,
+        "max_lon": -8.608226083119106,
+        "min_lat": 40.93752735143101,
+        "max_lat": 41.13468856332442,
+        "start_time": "2014-06-15T03:32:43.841935",
+        "end_time": "2014-06-15T04:48:36.418161",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 2,
+      "bucket": "1-10",
+      "query_id": "porto:stratified:1-10:29"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.719843739635808,
+        "max_lon": -8.637788929971437,
+        "min_lat": 40.99733029957322,
+        "max_lat": 41.296907403250046,
+        "start_time": "2014-05-04T11:26:01.017638",
+        "end_time": "2014-05-04T12:39:39.878634",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 5,
+      "bucket": "1-10",
+      "query_id": "porto:stratified:1-10:30"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.716443094202237,
+        "max_lon": -8.404425257118387,
+        "min_lat": 41.11634196595656,
+        "max_lat": 41.195086974168774,
+        "start_time": "2013-10-14T07:22:54.232233",
+        "end_time": "2013-10-14T07:37:15.972089",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 9,
+      "bucket": "1-10",
+      "query_id": "porto:stratified:1-10:31"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.689540475091407,
+        "max_lon": -8.640058775879858,
+        "min_lat": 41.02072836007075,
+        "max_lat": 41.24229056085061,
+        "start_time": "2013-08-02T04:45:10.595563",
+        "end_time": "2013-08-02T04:46:18.216716",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 1,
+      "bucket": "1-10",
+      "query_id": "porto:stratified:1-10:32"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.697744010250995,
+        "max_lon": -8.58590383436656,
+        "min_lat": 41.2049044851969,
+        "max_lat": 41.24689463457006,
+        "start_time": "2014-04-17T10:42:15.349371",
+        "end_time": "2014-04-17T12:37:53.586911",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 1,
+      "bucket": "1-10",
+      "query_id": "porto:stratified:1-10:33"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.704518125683473,
+        "max_lon": -8.530720698183917,
+        "min_lat": 40.9279854915192,
+        "max_lat": 41.14648777161037,
+        "start_time": "2013-07-04T12:28:05.135996",
+        "end_time": "2013-07-04T12:31:28.838394",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 1,
+      "bucket": "1-10",
+      "query_id": "porto:stratified:1-10:34"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.69138342381976,
+        "max_lon": -8.402415320406734,
+        "min_lat": 40.90313151416649,
+        "max_lat": 41.251126217754894,
+        "start_time": "2014-06-28T22:45:00.207637",
+        "end_time": "2014-06-28T23:33:02.739511",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 9,
+      "bucket": "1-10",
+      "query_id": "porto:stratified:1-10:35"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.639898012664302,
+        "max_lon": -8.410396611767059,
+        "min_lat": 40.91611761072703,
+        "max_lat": 41.191061995876,
+        "start_time": "2014-01-13T01:35:03.043506",
+        "end_time": "2014-01-13T01:42:35.021749",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 1,
+      "bucket": "1-10",
+      "query_id": "porto:stratified:1-10:36"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.619713917109188,
+        "max_lon": -8.532873958762803,
+        "min_lat": 40.99507688885012,
+        "max_lat": 41.21111390946827,
+        "start_time": "2013-07-07T10:25:46.873908",
+        "end_time": "2013-07-07T10:28:56.690799",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 1,
+      "bucket": "1-10",
+      "query_id": "porto:stratified:1-10:37"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.658033668765382,
+        "max_lon": -8.491402103575464,
+        "min_lat": 40.942367566474594,
+        "max_lat": 41.12415107000655,
+        "start_time": "2013-12-12T03:02:24.358283",
+        "end_time": "2013-12-12T04:10:38.566455",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 1,
+      "bucket": "1-10",
+      "query_id": "porto:stratified:1-10:38"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.718393631888855,
+        "max_lon": -8.506777574505579,
+        "min_lat": 41.21139004751766,
+        "max_lat": 41.24309708856074,
+        "start_time": "2014-04-03T17:33:18.391169",
+        "end_time": "2014-04-03T18:08:08.546646",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 1,
+      "bucket": "1-10",
+      "query_id": "porto:stratified:1-10:39"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.701590732166629,
+        "max_lon": -8.575743683698024,
+        "min_lat": 41.14940842761155,
+        "max_lat": 41.1722186391636,
+        "start_time": "2014-06-26T02:38:49.426526",
+        "end_time": "2014-06-26T04:12:01.157421",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 6,
+      "bucket": "1-10",
+      "query_id": "porto:stratified:1-10:40"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.622190092417343,
+        "max_lon": -8.552126351676412,
+        "min_lat": 41.042807884524294,
+        "max_lat": 41.25333082509389,
+        "start_time": "2014-03-08T09:28:02.219171",
+        "end_time": "2014-03-08T09:37:36.369991",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 3,
+      "bucket": "1-10",
+      "query_id": "porto:stratified:1-10:41"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.70428674670772,
+        "max_lon": -8.483035829442574,
+        "min_lat": 41.1284397790931,
+        "max_lat": 41.26228437806233,
+        "start_time": "2013-07-31T00:41:10.690274",
+        "end_time": "2013-07-31T01:33:19.600764",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 6,
+      "bucket": "1-10",
+      "query_id": "porto:stratified:1-10:42"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.72092391144642,
+        "max_lon": -8.581075805867878,
+        "min_lat": 40.93406232834915,
+        "max_lat": 41.152444932520176,
+        "start_time": "2013-11-01T18:56:22.904420",
+        "end_time": "2013-11-01T18:59:25.677592",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 1,
+      "bucket": "1-10",
+      "query_id": "porto:stratified:1-10:43"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.70487674479895,
+        "max_lon": -8.468048787062825,
+        "min_lat": 41.14804222191331,
+        "max_lat": 41.167124142109756,
+        "start_time": "2013-08-01T21:13:30.200244",
+        "end_time": "2013-08-01T21:15:01.492523",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 3,
+      "bucket": "1-10",
+      "query_id": "porto:stratified:1-10:44"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.57375387912339,
+        "max_lon": -8.465164437488975,
+        "min_lat": 40.98455118289391,
+        "max_lat": 41.12327823771855,
+        "start_time": "2013-08-13T10:57:38.467518",
+        "end_time": "2013-08-13T12:44:10.552943",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 1,
+      "bucket": "1-10",
+      "query_id": "porto:stratified:1-10:45"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.569538245899267,
+        "max_lon": -8.460014641038756,
+        "min_lat": 41.02461217913244,
+        "max_lat": 41.25169548031252,
+        "start_time": "2014-04-18T11:26:03.585881",
+        "end_time": "2014-04-18T11:46:22.076468",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 1,
+      "bucket": "1-10",
+      "query_id": "porto:stratified:1-10:46"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.61946798575002,
+        "max_lon": -8.541708229805852,
+        "min_lat": 40.92577567638688,
+        "max_lat": 41.23965509477351,
+        "start_time": "2014-05-31T05:07:33.532234",
+        "end_time": "2014-05-31T05:26:25.128247",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 4,
+      "bucket": "1-10",
+      "query_id": "porto:stratified:1-10:47"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.653846522927992,
+        "max_lon": -8.543679552077931,
+        "min_lat": 41.107283879169735,
+        "max_lat": 41.19757224046588,
+        "start_time": "2014-01-10T01:08:40.395170",
+        "end_time": "2014-01-10T01:19:14.743718",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 1,
+      "bucket": "1-10",
+      "query_id": "porto:stratified:1-10:48"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.532369530702372,
+        "max_lon": -8.452761074949786,
+        "min_lat": 41.00748617307467,
+        "max_lat": 41.2878274667746,
+        "start_time": "2013-10-04T13:58:28.830116",
+        "end_time": "2013-10-04T15:24:57.596074",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 1,
+      "bucket": "1-10",
+      "query_id": "porto:stratified:1-10:49"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.581611252187566,
+        "max_lon": -8.427637243360119,
+        "min_lat": 40.96756553264257,
+        "max_lat": 41.28318705513525,
+        "start_time": "2014-02-28T18:23:16.684441",
+        "end_time": "2014-02-28T18:46:49.530553",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 1,
+      "bucket": "1-10",
+      "query_id": "porto:stratified:1-10:50"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.595017937728434,
+        "max_lon": -8.423067591359873,
+        "min_lat": 41.08241171724355,
+        "max_lat": 41.24456196268037,
+        "start_time": "2013-12-17T14:59:22.364007",
+        "end_time": "2013-12-17T15:51:37.665222",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 3,
+      "bucket": "1-10",
+      "query_id": "porto:stratified:1-10:51"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.68757798116402,
+        "max_lon": -8.666237374121515,
+        "min_lat": 41.00841721025332,
+        "max_lat": 41.22732952916316,
+        "start_time": "2013-11-10T04:20:38.521556",
+        "end_time": "2013-11-10T04:35:53.249595",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 2,
+      "bucket": "1-10",
+      "query_id": "porto:stratified:1-10:52"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.607330172580097,
+        "max_lon": -8.514818682614798,
+        "min_lat": 40.939766851552875,
+        "max_lat": 41.226203596942554,
+        "start_time": "2013-10-06T22:30:54.709397",
+        "end_time": "2013-10-06T22:46:01.844617",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 2,
+      "bucket": "1-10",
+      "query_id": "porto:stratified:1-10:53"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.601933418220503,
+        "max_lon": -8.560238138781159,
+        "min_lat": 40.965042933744606,
+        "max_lat": 41.14341384684698,
+        "start_time": "2014-05-05T07:10:36.296118",
+        "end_time": "2014-05-05T08:03:13.352302",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 1,
+      "bucket": "1-10",
+      "query_id": "porto:stratified:1-10:54"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.654196486154202,
+        "max_lon": -8.42746817314123,
+        "min_lat": 41.01091171232565,
+        "max_lat": 41.2599609758509,
+        "start_time": "2013-11-24T19:35:17.372442",
+        "end_time": "2013-11-24T19:41:14.159169",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 3,
+      "bucket": "1-10",
+      "query_id": "porto:stratified:1-10:55"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.63973725562287,
+        "max_lon": -8.412961634811246,
+        "min_lat": 41.14937835202109,
+        "max_lat": 41.29513029506438,
+        "start_time": "2014-03-24T22:31:37.988183",
+        "end_time": "2014-03-25T00:29:53.786169",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 7,
+      "bucket": "1-10",
+      "query_id": "porto:stratified:1-10:56"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.677098498771908,
+        "max_lon": -8.508338176409056,
+        "min_lat": 40.97935714621805,
+        "max_lat": 41.221584024997235,
+        "start_time": "2014-04-26T01:46:07.054330",
+        "end_time": "2014-04-26T02:02:11.541639",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 2,
+      "bucket": "1-10",
+      "query_id": "porto:stratified:1-10:57"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.60737642334516,
+        "max_lon": -8.466915842344319,
+        "min_lat": 41.18342198808689,
+        "max_lat": 41.2586058387254,
+        "start_time": "2014-06-17T10:54:25.297730",
+        "end_time": "2014-06-17T11:10:50.665001",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 1,
+      "bucket": "1-10",
+      "query_id": "porto:stratified:1-10:58"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.64779237482585,
+        "max_lon": -8.505518259328696,
+        "min_lat": 41.10284801604749,
+        "max_lat": 41.17286137257524,
+        "start_time": "2014-02-11T18:58:52.230218",
+        "end_time": "2014-02-11T19:49:35.011214",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 8,
+      "bucket": "1-10",
+      "query_id": "porto:stratified:1-10:59"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.660395388338628,
+        "max_lon": -8.46370276676806,
+        "min_lat": 41.11499615465219,
+        "max_lat": 41.15520995397411,
+        "start_time": "2014-04-25T00:07:54.898614",
+        "end_time": "2014-04-25T01:45:26.110393",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 21,
+      "bucket": "11-100",
+      "query_id": "porto:stratified:11-100:00"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.682210745671567,
+        "max_lon": -8.544020972290296,
+        "min_lat": 40.96051101460024,
+        "max_lat": 41.17801703045182,
+        "start_time": "2014-06-09T07:26:32.594402",
+        "end_time": "2014-06-09T07:40:11.838124",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 11,
+      "bucket": "11-100",
+      "query_id": "porto:stratified:11-100:01"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.649316210785985,
+        "max_lon": -8.420106916285642,
+        "min_lat": 41.05632291727091,
+        "max_lat": 41.2042702560334,
+        "start_time": "2013-07-03T11:12:22.310685",
+        "end_time": "2013-07-03T13:06:49.984655",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 34,
+      "bucket": "11-100",
+      "query_id": "porto:stratified:11-100:02"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.64356719790744,
+        "max_lon": -8.5368012726669,
+        "min_lat": 40.90293331516549,
+        "max_lat": 41.23229036670397,
+        "start_time": "2014-06-03T06:36:33.502707",
+        "end_time": "2014-06-03T08:24:08.860438",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 24,
+      "bucket": "11-100",
+      "query_id": "porto:stratified:11-100:03"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.70711769011899,
+        "max_lon": -8.440270175349216,
+        "min_lat": 41.08131865992463,
+        "max_lat": 41.16267694184594,
+        "start_time": "2014-03-29T00:38:18.964381",
+        "end_time": "2014-03-29T01:50:39.833666",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 16,
+      "bucket": "11-100",
+      "query_id": "porto:stratified:11-100:04"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.606532067098595,
+        "max_lon": -8.597339855214166,
+        "min_lat": 40.97069591796702,
+        "max_lat": 41.23924860583532,
+        "start_time": "2014-01-16T13:03:27.526235",
+        "end_time": "2014-01-16T14:36:57.088711",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 15,
+      "bucket": "11-100",
+      "query_id": "porto:stratified:11-100:05"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.722605787487904,
+        "max_lon": -8.50908526162231,
+        "min_lat": 41.060259998397385,
+        "max_lat": 41.261572823425674,
+        "start_time": "2014-01-08T18:27:07.160143",
+        "end_time": "2014-01-08T18:29:23.740532",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 12,
+      "bucket": "11-100",
+      "query_id": "porto:stratified:11-100:06"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.628831807047352,
+        "max_lon": -8.588730075924063,
+        "min_lat": 40.90471542507019,
+        "max_lat": 41.1696522808712,
+        "start_time": "2014-04-30T07:58:49.003233",
+        "end_time": "2014-04-30T09:06:37.446738",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 13,
+      "bucket": "11-100",
+      "query_id": "porto:stratified:11-100:07"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.665432649522574,
+        "max_lon": -8.546240986414306,
+        "min_lat": 41.05470973666529,
+        "max_lat": 41.196588900501226,
+        "start_time": "2014-05-14T06:30:36.947166",
+        "end_time": "2014-05-14T07:24:33.721787",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 11,
+      "bucket": "11-100",
+      "query_id": "porto:stratified:11-100:08"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.626067127355155,
+        "max_lon": -8.504229289573432,
+        "min_lat": 40.95477568085998,
+        "max_lat": 41.243147499721566,
+        "start_time": "2013-09-18T12:57:03.443154",
+        "end_time": "2013-09-18T14:01:12.998015",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 22,
+      "bucket": "11-100",
+      "query_id": "porto:stratified:11-100:09"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.64805885318007,
+        "max_lon": -8.628894873097316,
+        "min_lat": 41.04402490719945,
+        "max_lat": 41.18295419105743,
+        "start_time": "2013-07-09T13:58:23.342936",
+        "end_time": "2013-07-09T15:33:55.033988",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 15,
+      "bucket": "11-100",
+      "query_id": "porto:stratified:11-100:10"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.633557909420237,
+        "max_lon": -8.463481520247813,
+        "min_lat": 40.994310155931636,
+        "max_lat": 41.241069408143886,
+        "start_time": "2013-12-08T01:41:59.046925",
+        "end_time": "2013-12-08T02:30:15.859367",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 19,
+      "bucket": "11-100",
+      "query_id": "porto:stratified:11-100:11"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.624940355239067,
+        "max_lon": -8.424392908800646,
+        "min_lat": 41.08935608276356,
+        "max_lat": 41.15663277147413,
+        "start_time": "2014-05-08T02:47:17.659200",
+        "end_time": "2014-05-08T04:15:16.600114",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 16,
+      "bucket": "11-100",
+      "query_id": "porto:stratified:11-100:12"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.620413987028455,
+        "max_lon": -8.453600798672928,
+        "min_lat": 41.15096043560078,
+        "max_lat": 41.289333258742474,
+        "start_time": "2013-07-21T07:50:01.336026",
+        "end_time": "2013-07-21T09:19:12.790175",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 11,
+      "bucket": "11-100",
+      "query_id": "porto:stratified:11-100:13"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.711192197121779,
+        "max_lon": -8.532252866448877,
+        "min_lat": 41.0830976671725,
+        "max_lat": 41.24039536064361,
+        "start_time": "2013-12-21T03:54:26.186202",
+        "end_time": "2013-12-21T05:07:26.771945",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 32,
+      "bucket": "11-100",
+      "query_id": "porto:stratified:11-100:14"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.685262550831165,
+        "max_lon": -8.515063955356261,
+        "min_lat": 40.94985111735836,
+        "max_lat": 41.16199674690665,
+        "start_time": "2013-09-15T15:26:33.575114",
+        "end_time": "2013-09-15T17:07:16.870467",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 17,
+      "bucket": "11-100",
+      "query_id": "porto:stratified:11-100:15"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.671076625838726,
+        "max_lon": -8.58182223036006,
+        "min_lat": 41.12229142088038,
+        "max_lat": 41.25370531341179,
+        "start_time": "2014-01-12T04:33:26.933865",
+        "end_time": "2014-01-12T05:16:36.339016",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 14,
+      "bucket": "11-100",
+      "query_id": "porto:stratified:11-100:16"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.701328424302178,
+        "max_lon": -8.639967794694128,
+        "min_lat": 41.065754851843195,
+        "max_lat": 41.26195499230408,
+        "start_time": "2014-05-10T04:26:25.528630",
+        "end_time": "2014-05-10T05:06:58.240741",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 21,
+      "bucket": "11-100",
+      "query_id": "porto:stratified:11-100:17"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.65322932255409,
+        "max_lon": -8.509584401350754,
+        "min_lat": 40.953089684983475,
+        "max_lat": 41.23823725916599,
+        "start_time": "2013-11-07T16:59:36.687609",
+        "end_time": "2013-11-07T17:42:29.101996",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 23,
+      "bucket": "11-100",
+      "query_id": "porto:stratified:11-100:18"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.665495293537925,
+        "max_lon": -8.5678179876383,
+        "min_lat": 41.04521007359388,
+        "max_lat": 41.18876383525817,
+        "start_time": "2013-11-29T16:24:41.186725",
+        "end_time": "2013-11-29T17:03:48.578636",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 17,
+      "bucket": "11-100",
+      "query_id": "porto:stratified:11-100:19"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.623017765582631,
+        "max_lon": -8.532580842031916,
+        "min_lat": 40.94806850287677,
+        "max_lat": 41.17072699973692,
+        "start_time": "2014-05-24T20:37:34.326155",
+        "end_time": "2014-05-24T21:23:13.805590",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 14,
+      "bucket": "11-100",
+      "query_id": "porto:stratified:11-100:20"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.727348916617672,
+        "max_lon": -8.478988889064475,
+        "min_lat": 40.94788670549816,
+        "max_lat": 41.280759909036426,
+        "start_time": "2014-06-16T09:57:49.108784",
+        "end_time": "2014-06-16T10:54:58.662951",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 15,
+      "bucket": "11-100",
+      "query_id": "porto:stratified:11-100:21"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.696346883732792,
+        "max_lon": -8.562546609328361,
+        "min_lat": 40.93724710292968,
+        "max_lat": 41.23066316925673,
+        "start_time": "2013-07-09T10:11:07.456112",
+        "end_time": "2013-07-09T11:44:04.834266",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 37,
+      "bucket": "11-100",
+      "query_id": "porto:stratified:11-100:22"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.71953949334431,
+        "max_lon": -8.470068604951804,
+        "min_lat": 41.15489395330066,
+        "max_lat": 41.28293223917521,
+        "start_time": "2013-12-10T15:39:03.414638",
+        "end_time": "2013-12-10T17:33:17.972335",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 23,
+      "bucket": "11-100",
+      "query_id": "porto:stratified:11-100:23"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.6515483195673,
+        "max_lon": -8.418573127242475,
+        "min_lat": 41.06929812941295,
+        "max_lat": 41.18359225452824,
+        "start_time": "2013-07-04T17:41:07.999574",
+        "end_time": "2013-07-04T19:08:28.924973",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 22,
+      "bucket": "11-100",
+      "query_id": "porto:stratified:11-100:24"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.720044384692164,
+        "max_lon": -8.470079268448883,
+        "min_lat": 41.00345899567956,
+        "max_lat": 41.29874036264646,
+        "start_time": "2013-10-03T13:54:27.710307",
+        "end_time": "2013-10-03T14:50:08.346260",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 21,
+      "bucket": "11-100",
+      "query_id": "porto:stratified:11-100:25"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.629442881976507,
+        "max_lon": -8.403126182493308,
+        "min_lat": 41.01975628810687,
+        "max_lat": 41.2896748009647,
+        "start_time": "2014-05-02T23:46:48.030653",
+        "end_time": "2014-05-03T00:51:36.654197",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 17,
+      "bucket": "11-100",
+      "query_id": "porto:stratified:11-100:26"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.635152871617278,
+        "max_lon": -8.489226830255582,
+        "min_lat": 41.018183997027855,
+        "max_lat": 41.18596767761107,
+        "start_time": "2014-01-02T20:38:05.429798",
+        "end_time": "2014-01-02T21:46:30.059361",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 14,
+      "bucket": "11-100",
+      "query_id": "porto:stratified:11-100:27"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.668617318732986,
+        "max_lon": -8.47240161440115,
+        "min_lat": 40.99577312779934,
+        "max_lat": 41.20327760446452,
+        "start_time": "2014-01-01T12:32:57.399045",
+        "end_time": "2014-01-01T14:15:16.499466",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 22,
+      "bucket": "11-100",
+      "query_id": "porto:stratified:11-100:28"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.69877385768212,
+        "max_lon": -8.60778697467658,
+        "min_lat": 41.05474300602902,
+        "max_lat": 41.213624609951566,
+        "start_time": "2014-01-02T10:22:38.698236",
+        "end_time": "2014-01-02T11:14:26.423998",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 11,
+      "bucket": "11-100",
+      "query_id": "porto:stratified:11-100:29"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.596532510471052,
+        "max_lon": -8.581645780623079,
+        "min_lat": 41.1350096508,
+        "max_lat": 41.268634077436694,
+        "start_time": "2013-11-26T17:54:01.677296",
+        "end_time": "2013-11-26T18:25:25.229752",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 11,
+      "bucket": "11-100",
+      "query_id": "porto:stratified:11-100:30"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.647715997482655,
+        "max_lon": -8.625330817707319,
+        "min_lat": 41.008256483539704,
+        "max_lat": 41.29481212706138,
+        "start_time": "2014-05-09T13:43:21.426423",
+        "end_time": "2014-05-09T15:24:43.071298",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 18,
+      "bucket": "11-100",
+      "query_id": "porto:stratified:11-100:31"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.682047807207402,
+        "max_lon": -8.416985003612348,
+        "min_lat": 40.911374705747214,
+        "max_lat": 41.16819289929664,
+        "start_time": "2014-06-20T18:06:39.843762",
+        "end_time": "2014-06-20T19:59:27.712603",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 39,
+      "bucket": "11-100",
+      "query_id": "porto:stratified:11-100:32"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.68631617872388,
+        "max_lon": -8.433539096887506,
+        "min_lat": 41.01334387141195,
+        "max_lat": 41.26602285992528,
+        "start_time": "2014-03-31T16:18:46.094492",
+        "end_time": "2014-03-31T17:44:17.300816",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 23,
+      "bucket": "11-100",
+      "query_id": "porto:stratified:11-100:33"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.63330740247664,
+        "max_lon": -8.591961865845525,
+        "min_lat": 40.97081828532028,
+        "max_lat": 41.26565753094512,
+        "start_time": "2014-01-10T16:52:38.940996",
+        "end_time": "2014-01-10T17:09:48.615779",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 11,
+      "bucket": "11-100",
+      "query_id": "porto:stratified:11-100:34"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.705517921690868,
+        "max_lon": -8.447382991271255,
+        "min_lat": 41.063932295774656,
+        "max_lat": 41.1831817888401,
+        "start_time": "2013-11-27T17:07:37.473912",
+        "end_time": "2013-11-27T18:08:33.479826",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 28,
+      "bucket": "11-100",
+      "query_id": "porto:stratified:11-100:35"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.691156947484371,
+        "max_lon": -8.590759954489494,
+        "min_lat": 41.102853938911714,
+        "max_lat": 41.21918621151251,
+        "start_time": "2013-09-25T18:11:31.647916",
+        "end_time": "2013-09-25T18:36:41.412092",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 11,
+      "bucket": "11-100",
+      "query_id": "porto:stratified:11-100:36"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.677180416352936,
+        "max_lon": -8.580281461284882,
+        "min_lat": 41.11749598580554,
+        "max_lat": 41.20467583527284,
+        "start_time": "2014-01-24T19:02:10.707134",
+        "end_time": "2014-01-24T19:54:46.290811",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 11,
+      "bucket": "11-100",
+      "query_id": "porto:stratified:11-100:37"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.628564454751778,
+        "max_lon": -8.479947285897067,
+        "min_lat": 41.01115668846595,
+        "max_lat": 41.17312978904307,
+        "start_time": "2014-03-30T03:21:30.165582",
+        "end_time": "2014-03-30T03:58:45.327565",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 17,
+      "bucket": "11-100",
+      "query_id": "porto:stratified:11-100:38"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.626459491175861,
+        "max_lon": -8.535467545805238,
+        "min_lat": 40.93807301986888,
+        "max_lat": 41.154348881885056,
+        "start_time": "2014-04-26T04:20:09.771625",
+        "end_time": "2014-04-26T06:13:21.601463",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 12,
+      "bucket": "11-100",
+      "query_id": "porto:stratified:11-100:39"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.656961225225421,
+        "max_lon": -8.483845990305262,
+        "min_lat": 40.990030909690645,
+        "max_lat": 41.19967354017333,
+        "start_time": "2013-10-11T03:50:20.929737",
+        "end_time": "2013-10-11T04:57:47.733281",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 16,
+      "bucket": "11-100",
+      "query_id": "porto:stratified:11-100:40"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.704105769886528,
+        "max_lon": -8.522379460615365,
+        "min_lat": 41.02890036443193,
+        "max_lat": 41.299151944522194,
+        "start_time": "2013-09-28T16:52:09.112225",
+        "end_time": "2013-09-28T18:20:08.441299",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 23,
+      "bucket": "11-100",
+      "query_id": "porto:stratified:11-100:41"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.677755979095213,
+        "max_lon": -8.427042699319252,
+        "min_lat": 40.96661757251985,
+        "max_lat": 41.22321967650209,
+        "start_time": "2013-11-11T12:53:55.509696",
+        "end_time": "2013-11-11T14:49:14.264469",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 31,
+      "bucket": "11-100",
+      "query_id": "porto:stratified:11-100:42"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.602666155381627,
+        "max_lon": -8.411815563448439,
+        "min_lat": 40.97321698001352,
+        "max_lat": 41.2953662249781,
+        "start_time": "2014-01-07T07:49:51.133206",
+        "end_time": "2014-01-07T09:20:54.709412",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 11,
+      "bucket": "11-100",
+      "query_id": "porto:stratified:11-100:43"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.674169343051084,
+        "max_lon": -8.62497724303592,
+        "min_lat": 41.039898936885784,
+        "max_lat": 41.22086578109668,
+        "start_time": "2013-07-16T09:17:51.756907",
+        "end_time": "2013-07-16T11:08:11.220363",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 23,
+      "bucket": "11-100",
+      "query_id": "porto:stratified:11-100:44"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.675819354220215,
+        "max_lon": -8.439841142862901,
+        "min_lat": 41.093293185022695,
+        "max_lat": 41.26226831908222,
+        "start_time": "2013-09-13T13:18:13.623115",
+        "end_time": "2013-09-13T15:04:14.954508",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 29,
+      "bucket": "11-100",
+      "query_id": "porto:stratified:11-100:45"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.666378584768658,
+        "max_lon": -8.47724322274615,
+        "min_lat": 40.97352448775549,
+        "max_lat": 41.154578135508665,
+        "start_time": "2013-07-09T11:24:06.233731",
+        "end_time": "2013-07-09T12:51:23.444965",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 22,
+      "bucket": "11-100",
+      "query_id": "porto:stratified:11-100:46"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.641889597307964,
+        "max_lon": -8.441275920408605,
+        "min_lat": 41.09772832044193,
+        "max_lat": 41.20236454900919,
+        "start_time": "2013-12-23T20:07:08.342077",
+        "end_time": "2013-12-23T20:52:55.202037",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 16,
+      "bucket": "11-100",
+      "query_id": "porto:stratified:11-100:47"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.668158470299396,
+        "max_lon": -8.580747040736707,
+        "min_lat": 41.021108331635546,
+        "max_lat": 41.214507429951574,
+        "start_time": "2013-10-25T13:37:53.854683",
+        "end_time": "2013-10-25T14:40:59.956963",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 27,
+      "bucket": "11-100",
+      "query_id": "porto:stratified:11-100:48"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.720532671521088,
+        "max_lon": -8.487895033856049,
+        "min_lat": 41.106757269655716,
+        "max_lat": 41.27240591238568,
+        "start_time": "2013-08-08T10:23:43.647822",
+        "end_time": "2013-08-08T11:47:44.890659",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 23,
+      "bucket": "11-100",
+      "query_id": "porto:stratified:11-100:49"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.648514072808206,
+        "max_lon": -8.444401633371843,
+        "min_lat": 40.99424987231584,
+        "max_lat": 41.24241091040865,
+        "start_time": "2013-11-03T03:26:17.470287",
+        "end_time": "2013-11-03T04:04:24.275605",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 14,
+      "bucket": "11-100",
+      "query_id": "porto:stratified:11-100:50"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.643834147917593,
+        "max_lon": -8.522817282215444,
+        "min_lat": 40.94461942157775,
+        "max_lat": 41.222884401360936,
+        "start_time": "2014-06-21T08:47:00.640751",
+        "end_time": "2014-06-21T09:36:31.541177",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 11,
+      "bucket": "11-100",
+      "query_id": "porto:stratified:11-100:51"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.611230188366575,
+        "max_lon": -8.4540577522133,
+        "min_lat": 41.04494667730185,
+        "max_lat": 41.20765312373855,
+        "start_time": "2014-05-01T04:22:51.633121",
+        "end_time": "2014-05-01T05:57:30.313879",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 28,
+      "bucket": "11-100",
+      "query_id": "porto:stratified:11-100:52"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.705136625545574,
+        "max_lon": -8.452611848305228,
+        "min_lat": 40.9565883029752,
+        "max_lat": 41.21109557662414,
+        "start_time": "2013-12-05T08:25:11.988744",
+        "end_time": "2013-12-05T09:19:33.174791",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 22,
+      "bucket": "11-100",
+      "query_id": "porto:stratified:11-100:53"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.64551449833827,
+        "max_lon": -8.561432064341965,
+        "min_lat": 40.996751931707,
+        "max_lat": 41.15005514887404,
+        "start_time": "2014-03-27T12:20:42.688895",
+        "end_time": "2014-03-27T13:29:20.264886",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 15,
+      "bucket": "11-100",
+      "query_id": "porto:stratified:11-100:54"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.62436137284605,
+        "max_lon": -8.433922430440875,
+        "min_lat": 41.08946830433483,
+        "max_lat": 41.27761408316502,
+        "start_time": "2014-04-19T02:23:53.961400",
+        "end_time": "2014-04-19T04:16:23.794608",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 21,
+      "bucket": "11-100",
+      "query_id": "porto:stratified:11-100:55"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.673789446002612,
+        "max_lon": -8.45198446694724,
+        "min_lat": 41.049777133216026,
+        "max_lat": 41.15815940639937,
+        "start_time": "2013-08-04T00:56:41.487581",
+        "end_time": "2013-08-04T02:18:01.136038",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 19,
+      "bucket": "11-100",
+      "query_id": "porto:stratified:11-100:56"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.610726535430928,
+        "max_lon": -8.50232553238206,
+        "min_lat": 41.01839034090608,
+        "max_lat": 41.25014041675224,
+        "start_time": "2013-12-12T12:08:44.459621",
+        "end_time": "2013-12-12T13:24:44.172122",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 18,
+      "bucket": "11-100",
+      "query_id": "porto:stratified:11-100:57"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.722190085891858,
+        "max_lon": -8.58971379511785,
+        "min_lat": 41.098069663130175,
+        "max_lat": 41.266369032245,
+        "start_time": "2014-06-04T16:00:40.533260",
+        "end_time": "2014-06-04T17:09:40.393041",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 24,
+      "bucket": "11-100",
+      "query_id": "porto:stratified:11-100:58"
+    },
+    {
+      "predicate": {
+        "min_lon": -8.681754767716374,
+        "max_lon": -8.407439786281167,
+        "min_lat": 41.014351813625716,
+        "max_lat": 41.19063914455045,
+        "start_time": "2013-09-27T09:02:53.904236",
+        "end_time": "2013-09-27T10:21:39.625364",
+        "k": null,
+        "knn_center": null
+      },
+      "true_cardinality": 33,
+      "bucket": "11-100",
+      "query_id": "porto:stratified:11-100:59"
+    }
+  ]
+}
